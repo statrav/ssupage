@@ -1,0 +1,86 @@
+---
+title: "플랫폼 통합 웹툰 정보 검색봇"
+subtitle: "Knowledge-based Question Answering Chatbot for Webtoons"
+description: "저장된 정보들을 기반으로 웹툰에 대한 정보 검색 및 제안을 수행하는 챗봇입니다."
+image: ../images/2_wakebot/thumbnail.png
+author: "Hyesu Hwang"
+date: "2023-09-01"
+categories: [Python, Text, DB, LLM, RAG, Prompt-Engineering]
+open-graph:
+  description: "Knowledge-based Question Answering Chatbot for Webtoons"
+  image: ../images/2_wakebot/thumbnail.png
+twitter-card:
+  description: "Knowledge-based Question Answering Chatbot for Webtoons"
+  image: ../images/2_wakebot/thumbnail.png
+---
+
+## ⭐ 프로젝트 소개
+
+- 주관: 개인 프로젝트 (참여인원 4명)
+- 기간: 2023. 09 - 2023. 12
+- 프로젝트명: 플랫폼 통합 웹툰 정보 검색봇 개발
+- 한 줄 소개: 크롤링을 통해 저장한 정보들을 기반으로 사용자 질의에 대한 웹툰 정보를 제공하는 RAG 기반의 검색 챗봇입니다.
+
+![](../images/2_wakebot/info.png)
+
+## 💎 왜 이 프로젝트가 중요한가?
+
+#### 문제 제기
+- 스포츠 웹툰 팬으로서 유사한 웹툰을 찾고자 했으나, 인터넷 검색에서는 사람들의 포스팅에 의존하여 정보가 충분하지 않은 경우가 많았습니다.
+- 특히 마이너한 장르의 웹툰은 포스팅 수가 적어 검색 결과의 신뢰도가 낮았고, 유료 웹툰이 무료로 잘못 소개되거나 존재하지 않는 웹툰 정보가 제공되는 경우도 있었습니다.
+
+#### 목표
+- 거짓 정보 없이 신뢰할 수 있는 웹툰 정보를 제공하는 검색 서비스를 구축하는 것입니다.
+
+## 🔎 핵심 기술은 무엇인가?
+
+#### 사용 기술
+- ElasticSearch
+- GPT-3.5-turbo API
+- text-embedding-ada-002
+- Streamlit
+
+#### 검색 방식
+- VectorDB 기반 검색을 통해 자연어 질의응답 및 유사어 검색이 가능합니다.
+
+#### LLM 한국어 대응
+- LLM을 활용하여 한국어 질의응답에 맞춘 instruction prompting을 수행하였으며, 한국인 역할(role)을 부여해 한국어 이해도를 높였습니다.
+
+## 💡 어떠한 사고방식/생각을 거쳤는가?
+
+#### 문제 정의
+- 거짓 정보로 인해 답답했던 개인 경험에서 출발하여, 유사한 웹툰 정보 제공을 목표로 프로젝트를 기획했습니다.
+
+#### 중요 정보 선정
+- 사람들이 주로 찾는 웹툰 정보의 요소(예: 제목, 작가, 평점, 장르, 연재 요일, 유/무료 여부 등)를 파악하고, 이를 중심으로 데이터를 크롤링하였습니다.
+
+#### 네이밍 아이디어
+- 친숙하고 직관적인 네이밍을 고민하여, 웹툰 정보 + 정보를 서핑하는 느낌을 반영한 "Wakebot"으로 명명하였습니다.
+- 의미: **W**ebtoon Retriev**A**l with **K**nowledge **E**ngine chat**bot**
+
+## 🌄 어떠한 시행착오를 겪었는가?
+
+#### 문제 발견
+- 초기에는 웹툰의 정보를 VectorDB에 카테고리별로 저장했으나(예: 제목, 작가, 평점 등), 질의 시 카테고리 정보가 제대로 연결되지 않아 잘못된 정보가 반환되는 문제가 발생했습니다.
+
+#### 해결 방법
+- 정보가 개별적으로 저장되는 문제를 해결하기 위해, 한 웹툰에 대한 정보 전체를 통합한 Description으로 저장했습니다.
+- 이를 위해 각 정보를 이어붙이고, 한국어 형태소 분석기 Nori를 사용해 불용어를 제거하는 전처리 과정을 거쳤습니다.
+
+#### 아쉬운 점
+- 성능을 평가할 수 있는 Metric이 부재했습니다.
+  - 질문과 답변 쌍을 임의로 작성한 후, LLM을 통해 Data Augmentation을 진행하여 GroudTruth(정답) dataset을 생성할 수 있을 것이라고 생각합니다.
+
+## 🧶 부록
+
+- 사용 코드: [github](https://github.com/statrav/WAKEbot_surfer)
+
+#### 파이프라인
+
+![](../images/2_wakebot/pipeline.png)
+
+#### 결과
+
+![](../images/2_wakebot/result1.png)
+![](../images/2_wakebot/result2.png)
+![](../images/2_wakebot/result3.png)

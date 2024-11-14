@@ -1,0 +1,1 @@
+{"entries":[],"headings":["introduction","load-libraries","download-image-files","load-image-files","data-augmentation","cropping","squishingstretching","padding","training-the-model","visualizing-mistakes","data-cleaning","saving-the-model","loading-the-model-for-inference","why-cnns-work-so-well","conclusion"]}

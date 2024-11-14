@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>SSUpage /Hyesu</title>
+<link>https://statrav.github.io/engineer/</link>
+<atom:link href="https://statrav.github.io/engineer/index.xml" rel="self" type="application/rss+xml"/>
+<description>모델과, 사람과 대화를 즐기는 황혜수의 페이지입니다. 반갑습니다!</description>
+<image>
+<url>https://statrav.github.io/images/profile_ssu.png</url>
+<title>SSUpage /Hyesu</title>
+<link>https://statrav.github.io/engineer/</link>
+</image>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Wed, 31 Jul 2024 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>시각장애인을 위한 TTS 앱</title>
+  <dc:creator>Hyesu Hwang</dc:creator>
+  <link>https://statrav.github.io/engineer/posts/3_holos.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="프로젝트-소개" class="level2">
+<h2 class="anchored" data-anchor-id="프로젝트-소개">프로젝트 소개</h2>
+<ul>
+<li>주관: 스마일게이트 + 개인 프로젝트 (참여인원 6명)</li>
+<li>기간: 2024. 07 - 2024. 12</li>
+<li>프로젝트명:</li>
+<li>한 줄 소개: 시각장애인을 위해 사진 속 문자 정보를 요약하여 음성으로 제공하고, 대화를 나눕니다.</li>
+</ul>
+</section>
+<section id="왜-이-프로젝트가-중요한가" class="level2">
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">왜 이 프로젝트가 중요한가?</h2>
+<ul>
+<li></li>
+</ul>
+</section>
+<section id="핵심-기술은-무엇인가" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">핵심 기술은 무엇인가?</h2>
+<ul>
+<li>VectorDB를 기반으로</li>
+<li></li>
+</ul>
+</section>
+<section id="어떠한-시행착오를-겪었는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">어떠한 시행착오를 겪었는가?</h2>
+<ul>
+<li>Image Crawling</li>
+</ul>
+</section>
+<section id="부록" class="level2">
+<h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
+<ul>
+<li>사용 코드: <a href="">github</a></li>
+</ul>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>There is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.</strong></p>
+<p>Comparing grizzly bears to black bears means, “How many grizzly bears were misclassified as black bears?”</p>
+<p>Comparing black bears to grizzly bears means, “How many black bears were misclassified as grizzly bears?”</p>
+</div>
+</div>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
+  <category>OCR</category>
+  <category>sLM</category>
+  <category>OpenSource</category>
+  <category>TTS</category>
+  <category>Summarization</category>
+  <guid>https://statrav.github.io/engineer/posts/3_holos.html</guid>
+  <pubDate>Wed, 31 Jul 2024 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>관계기반형 질의를 통한 장면 검색</title>
+  <dc:creator>Hyesu Hwang</dc:creator>
+  <link>https://statrav.github.io/engineer/posts/1_sese.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="프로젝트-소개" class="level2">
+
+<ul>
+<li>주관: 한국전자통신연구원(ETRI) 시각지능연구실</li>
+<li>기간: 2023. 03 - 2023. 11</li>
+<li>프로젝트명: 관계 정보의 장기 시각 기억 저장 및 관리 기술 개발</li>
+<li>한 줄 소개: 사용자의 검색 의도에 부합하는 장면을 찾기 위해, 질문의 관계정보를 파악하고 유사어를 확인합니다.</li>
+</ul>
+</section>
+<section id="왜-이-프로젝트가-중요한가" class="level2">
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎왜 이 프로젝트가 중요한가?</h2>
+<ul>
+<li></li>
+</ul>
+</section>
+<section id="핵심-기술은-무엇인가" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎핵심 기술은 무엇인가?</h2>
+<ul>
+<li>Python 모듈로 배포하였습니다.</li>
+<li><h2 id="어떠한-사고방식생각을-거쳤는가" class="anchored">💡어떠한 사고방식/생각을 거쳤는가?</h2>
+<h2 id="어떠한-시행착오를-겪었는가" class="anchored">🌄어떠한 시행착오를 겪었는가?</h2></li>
+</ul>
+</section>
+<section id="부록" class="level2">
+<h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
+<ul>
+<li>사용 코드: <a href="">github</a></li>
+</ul>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
+  <category>Text</category>
+  <category>Video</category>
+  <category>DB</category>
+  <category>Fine-tuning</category>
+  <guid>https://statrav.github.io/engineer/posts/1_sese.html</guid>
+  <pubDate>Sat, 30 Dec 2023 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>플랫폼 통합 웹툰 정보 검색봇</title>
+  <dc:creator>Hyesu Hwang</dc:creator>
+  <link>https://statrav.github.io/engineer/posts/2_wakebot.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="프로젝트-소개" class="level2">
+<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐프로젝트 소개</h2>
+<ul>
+<li>주관: 개인 프로젝트 (참여인원 4명)</li>
+<li>기간: 2023. 09 - 2023. 12</li>
+<li>프로젝트명: 플랫폼 통합 웹툰 정보 검색봇 개발</li>
+<li>한 줄 소개: 크롤링을 통해 저장한 정보들을 기반으로 사용자 질의에 대한 웹툰 정보를 제공하는 RAG 기반의 검색 챗봇입니다.</li>
+</ul>
+<p><img src="https://statrav.github.io/engineer/images/2_wakebot/info.png" class="img-fluid"></p>
+</section>
+<section id="왜-이-프로젝트가-중요한가" class="level2">
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎왜 이 프로젝트가 중요한가?</h2>
+<section id="문제-제기" class="level4">
+<h4 class="anchored" data-anchor-id="문제-제기">문제 제기</h4>
+<ul>
+<li>스포츠 웹툰 팬으로서 유사한 웹툰을 찾고자 했으나, 인터넷 검색에서는 사람들의 포스팅에 의존하여 정보가 충분하지 않은 경우가 많았습니다.</li>
+<li>특히 마이너한 장르의 웹툰은 포스팅 수가 적어 검색 결과의 신뢰도가 낮았고, 유료 웹툰이 무료로 잘못 소개되거나 존재하지 않는 웹툰 정보가 제공되는 경우도 있었습니다.</li>
+</ul>
+</section>
+<section id="목표" class="level4">
+<h4 class="anchored" data-anchor-id="목표">목표</h4>
+<ul>
+<li>거짓 정보 없이 신뢰할 수 있는 웹툰 정보를 제공하는 검색 서비스를 구축하는 것입니다.</li>
+</ul>
+</section>
+</section>
+<section id="핵심-기술은-무엇인가" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎핵심 기술은 무엇인가?</h2>
+<section id="사용-기술" class="level4">
+<h4 class="anchored" data-anchor-id="사용-기술">사용 기술</h4>
+<ul>
+<li>ElasticSearch</li>
+<li>GPT-3.5-turbo API</li>
+<li>text-embedding-ada-002</li>
+<li>Streamlit</li>
+</ul>
+</section>
+<section id="검색-방식" class="level4">
+<h4 class="anchored" data-anchor-id="검색-방식">검색 방식</h4>
+<ul>
+<li>VectorDB 기반 검색을 통해 자연어 질의응답 및 유사어 검색이 가능합니다.</li>
+</ul>
+</section>
+<section id="llm-한국어-대응" class="level4">
+<h4 class="anchored" data-anchor-id="llm-한국어-대응">LLM 한국어 대응</h4>
+<ul>
+<li>LLM을 활용하여 한국어 질의응답에 맞춘 instruction prompting을 수행하였으며, 한국인 역할(role)을 부여해 한국어 이해도를 높였습니다.</li>
+</ul>
+</section>
+</section>
+<section id="어떠한-사고방식생각을-거쳤는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-사고방식생각을-거쳤는가">💡어떠한 사고방식/생각을 거쳤는가?</h2>
+<section id="문제-정의" class="level4">
+<h4 class="anchored" data-anchor-id="문제-정의">문제 정의</h4>
+<ul>
+<li>거짓 정보로 인해 답답했던 개인 경험에서 출발하여, 유사한 웹툰 정보 제공을 목표로 프로젝트를 기획했습니다.</li>
+</ul>
+</section>
+<section id="중요-정보-선정" class="level4">
+<h4 class="anchored" data-anchor-id="중요-정보-선정">중요 정보 선정</h4>
+<ul>
+<li>사람들이 주로 찾는 웹툰 정보의 요소(예: 제목, 작가, 평점, 장르, 연재 요일, 유/무료 여부 등)를 파악하고, 이를 중심으로 데이터를 크롤링하였습니다.</li>
+</ul>
+</section>
+<section id="네이밍-아이디어" class="level4">
+<h4 class="anchored" data-anchor-id="네이밍-아이디어">네이밍 아이디어</h4>
+<ul>
+<li>친숙하고 직관적인 네이밍을 고민하여, 웹툰 정보 + 정보를 서핑하는 느낌을 반영한 “Wakebot”으로 명명하였습니다.</li>
+<li>의미: <strong>W</strong>ebtoon Retriev<strong>A</strong>l with <strong>K</strong>nowledge <strong>E</strong>ngine chat<strong>bot</strong></li>
+</ul>
+</section>
+</section>
+<section id="어떠한-시행착오를-겪었는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄어떠한 시행착오를 겪었는가?</h2>
+<section id="문제-발견" class="level4">
+<h4 class="anchored" data-anchor-id="문제-발견">문제 발견</h4>
+<ul>
+<li>초기에는 웹툰의 정보를 VectorDB에 카테고리별로 저장했으나(예: 제목, 작가, 평점 등), 질의 시 카테고리 정보가 제대로 연결되지 않아 잘못된 정보가 반환되는 문제가 발생했습니다.</li>
+</ul>
+</section>
+<section id="해결-방법" class="level4">
+<h4 class="anchored" data-anchor-id="해결-방법">해결 방법</h4>
+<ul>
+<li>정보가 개별적으로 저장되는 문제를 해결하기 위해, 한 웹툰에 대한 정보 전체를 통합한 Description으로 저장했습니다.</li>
+<li>이를 위해 각 정보를 이어붙이고, 한국어 형태소 분석기 Nori를 사용해 불용어를 제거하는 전처리 과정을 거쳤습니다.</li>
+</ul>
+</section>
+<section id="아쉬운-점" class="level4">
+<h4 class="anchored" data-anchor-id="아쉬운-점">아쉬운 점</h4>
+<ul>
+<li>성능을 평가할 수 있는 Metric이 부재했습니다.
+<ul>
+<li>질문과 답변 쌍을 임의로 작성한 후, LLM을 통해 Data Augmentation을 진행하여 GroudTruth(정답) dataset을 생성할 수 있을 것이라고 생각합니다.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="부록" class="level2">
+<h2 class="anchored" data-anchor-id="부록">🧶부록</h2>
+<p><a href="https://github.com/statrav/WAKEbot_surfer">github</a></p>
+<section id="파이프라인" class="level4">
+<h4 class="anchored" data-anchor-id="파이프라인">파이프라인</h4>
+<p><img src="https://statrav.github.io/engineer/images/2_wakebot/pipeline.png" class="img-fluid"></p>
+</section>
+<section id="결과" class="level4">
+<h4 class="anchored" data-anchor-id="결과">결과</h4>
+<p><img src="https://statrav.github.io/engineer/images/2_wakebot/result1.png" class="img-fluid"> <img src="https://statrav.github.io/engineer/images/2_wakebot/result2.png" class="img-fluid"> <img src="https://statrav.github.io/engineer/images/2_wakebot/result3.png" class="img-fluid"></p>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
+  <category>Text</category>
+  <category>DB</category>
+  <category>LLM</category>
+  <category>RAG</category>
+  <category>Prompt-Engineering</category>
+  <guid>https://statrav.github.io/engineer/posts/2_wakebot.html</guid>
+  <pubDate>Thu, 31 Aug 2023 15:00:00 GMT</pubDate>
+  <media:content url="https://statrav.github.io/engineer/images/2_wakebot/thumbnail.png" medium="image" type="image/png" height="115" width="144"/>
+</item>
+</channel>
+</rss>

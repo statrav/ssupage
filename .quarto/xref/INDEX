@@ -1,0 +1,422 @@
+{
+  "404.qmd": {
+    "404.html": "edcd2122"
+  },
+  "about.qmd": {
+    "about.html": "a355aa51"
+  },
+  "dictionary/index.qmd": {
+    "index.html": "b62a2097"
+  },
+  "dictionary/terms/accuracy.qmd": {
+    "accuracy.html": "9c66267e"
+  },
+  "dictionary/terms/activation_function.qmd": {
+    "activation_function.html": "98a6f218"
+  },
+  "dictionary/terms/architecture.qmd": {
+    "architecture.html": "c73f3d95"
+  },
+  "dictionary/terms/backpropagation.qmd": {
+    "backpropagation.html": "c78f897d"
+  },
+  "dictionary/terms/backward_pass.qmd": {
+    "backward_pass.html": "87e59aab"
+  },
+  "dictionary/terms/bagging.qmd": {
+    "bagging.html": "c0f0c2f9"
+  },
+  "dictionary/terms/batch.qmd": {
+    "batch.html": "37170985"
+  },
+  "dictionary/terms/cross_entropy_loss.qmd": {
+    "cross_entropy_loss.html": "d54982fd"
+  },
+  "dictionary/terms/dataloader.qmd": {
+    "dataloader.html": "a5936369"
+  },
+  "dictionary/terms/dataset.qmd": {
+    "dataset.html": "80f8e033"
+  },
+  "dictionary/terms/decision_tree.qmd": {
+    "decision_tree.html": "38c7334f"
+  },
+  "dictionary/terms/decoder.qmd": {
+    "decoder.html": "c0ff0019"
+  },
+  "dictionary/terms/document.qmd": {
+    "document.html": "c146935e"
+  },
+  "dictionary/terms/dot_product.qmd": {
+    "dot_product.html": "f9678229"
+  },
+  "dictionary/terms/embedding.qmd": {
+    "embedding.html": "e3a885a7"
+  },
+  "dictionary/terms/encoder.qmd": {
+    "encoder.html": "b0f08004"
+  },
+  "dictionary/terms/ensemble.qmd": {
+    "ensemble.html": "037c4e01"
+  },
+  "dictionary/terms/error_rate.qmd": {
+    "error_rate.html": "79ffc91f"
+  },
+  "dictionary/terms/forward_pass.qmd": {
+    "forward_pass.html": "c11c5291"
+  },
+  "dictionary/terms/gradient.qmd": {
+    "gradient.html": "f39f5e88"
+  },
+  "dictionary/terms/gradient_accumulation.qmd": {
+    "gradient_accumulation.html": "2ec98270"
+  },
+  "dictionary/terms/gradient_boosting_machine_gbm.qmd": {
+    "gradient_boosting_machine_gbm.html": "499791c0"
+  },
+  "dictionary/terms/inference.qmd": {
+    "inference.html": "24fd9191"
+  },
+  "dictionary/terms/k_fold_cross_validation.qmd": {
+    "k_fold_cross_validation.html": "dc9fbe07"
+  },
+  "dictionary/terms/latent.qmd": {
+    "latent.html": "e9ac95c5"
+  },
+  "dictionary/terms/learning_rate.qmd": {
+    "learning_rate.html": "11172a25"
+  },
+  "dictionary/terms/linear_combination.qmd": {
+    "linear_combination.html": "5d399019"
+  },
+  "dictionary/terms/loss.qmd": {
+    "loss.html": "67dc7a79"
+  },
+  "dictionary/terms/matrix.qmd": {
+    "matrix.html": "08674d76"
+  },
+  "dictionary/terms/mean_absolute_error_mae.qmd": {
+    "mean_absolute_error_mae.html": "25da16f8"
+  },
+  "dictionary/terms/mean_columnwise_root_mean_square_error_mcrmse.qmd": {
+    "mean_columnwise_root_mean_square_error_mcrmse.html": "ab72e814"
+  },
+  "dictionary/terms/mean_squared_error_mse.qmd": {
+    "mean_squared_error_mse.html": "10f46823"
+  },
+  "dictionary/terms/metric.qmd": {
+    "metric.html": "dfe9bd90"
+  },
+  "dictionary/terms/model.qmd": {
+    "model.html": "487dd199"
+  },
+  "dictionary/terms/named_entity_recognition.qmd": {
+    "named_entity_recognition.html": "680df6de"
+  },
+  "dictionary/terms/neuron.qmd": {
+    "neuron.html": "4cbc0d05"
+  },
+  "dictionary/terms/numericalization.qmd": {
+    "numericalization.html": "48a6c397"
+  },
+  "dictionary/terms/oner_classifier.qmd": {
+    "oner_classifier.html": "43337d57"
+  },
+  "dictionary/terms/one_hot_encoding.qmd": {
+    "one_hot_encoding.html": "6f1b30f0"
+  },
+  "dictionary/terms/oobe_out_of_bag_error.qmd": {
+    "oobe_out_of_bag_error.html": "05f72d55"
+  },
+  "dictionary/terms/optimizer.qmd": {
+    "optimizer.html": "4ce60a1f"
+  },
+  "dictionary/terms/random_forest.qmd": {
+    "random_forest.html": "27a5ee19"
+  },
+  "dictionary/terms/rectified_linear_unit.qmd": {
+    "rectified_linear_unit.html": "2d7d99b2"
+  },
+  "dictionary/terms/root_mean_squared_error_rmse.qmd": {
+    "root_mean_squared_error_rmse.html": "2d4d5d00"
+  },
+  "dictionary/terms/root_mean_squared_logarithmic_error_rmsle.qmd": {
+    "root_mean_squared_logarithmic_error_rmsle.html": "2a7d5f43"
+  },
+  "dictionary/terms/sample.qmd": {
+    "sample.html": "160210f8"
+  },
+  "dictionary/terms/sampler.qmd": {
+    "sampler.html": "eb999db5"
+  },
+  "dictionary/terms/sequence.qmd": {
+    "sequence.html": "c15ff727"
+  },
+  "dictionary/terms/softmax.qmd": {
+    "softmax.html": "209b13b2"
+  },
+  "dictionary/terms/tabular_data.qmd": {
+    "tabular_data.html": "3ca71f90"
+  },
+  "dictionary/terms/tabular_model.qmd": {
+    "tabular_model.html": "48d0f05e"
+  },
+  "dictionary/terms/tokenization.qmd": {
+    "tokenization.html": "8e41ff47"
+  },
+  "dictionary/terms/transformer.qmd": {
+    "transformer.html": "efe6b9d3"
+  },
+  "dictionary/terms/vector.qmd": {
+    "vector.html": "f964d8a4"
+  },
+  "dictionary/terms/weight_decay.qmd": {
+    "weight_decay.html": "c3a3b780"
+  },
+  "dictionary/terms/zero_shot.qmd": {
+    "zero_shot.html": "ae2ace44"
+  },
+  "feedback.qmd": {
+    "feedback.html": "c6a66b2d"
+  },
+  "forblog/index.qmd": {
+    "index.html": "4e49ef9a"
+  },
+  "forblog/posts/10_how_to_convert_audio_to_spectrogram_images.ipynb": {
+    "10_how_to_convert_audio_to_spectrogram_images.html": "09ae14e6"
+  },
+  "forblog/posts/11_musings_through_stable_diffusion.qmd": {
+    "11_musings_through_stable_diffusion.html": "1cbe100a"
+  },
+  "forblog/posts/12_stable_diffusion_summarized.qmd": {
+    "12_stable_diffusion_summarized.html": "a16e1277"
+  },
+  "forblog/posts/13_implementing_stable_diffusion_from_its_components.ipynb": {
+    "13_implementing_stable_diffusion_from_its_components.html": "1d3ad73e"
+  },
+  "forblog/posts/14_iterators_and_generators.ipynb": {
+    "14_iterators_and_generators.html": "6c3c782c"
+  },
+  "forblog/posts/15_un_successfully_implementing_diffedit.ipynb": {
+    "15_un_successfully_implementing_diffedit.html": "af038fbd"
+  },
+  "forblog/posts/16_einstein_summation_notation.qmd": {
+    "16_einstein_summation_notation.html": "b0c42b33"
+  },
+  "forblog/posts/17_meanshift_clustering.ipynb": {
+    "17_meanshift_clustering.html": "c20f3276"
+  },
+  "forblog/posts/18_backprop_from_scratch.qmd": {
+    "18_backprop_from_scratch.html": "bef87847"
+  },
+  "forblog/posts/19_tokenizers.ipynb": {
+    "19_tokenizers.html": "5aa7fa14"
+  },
+  "forblog/posts/1_how_to_approach_creating_ai_models.qmd": {
+    "1_how_to_approach_creating_ai_models.html": "9f1a02c8"
+  },
+  "forblog/posts/20_models_from_scratch.ipynb": {
+    "20_models_from_scratch.html": "444cd234"
+  },
+  "forblog/posts/21_reflecting_on_my_internships.qmd": {
+    "21_reflecting_on_my_internships.html": "eccd1a7b"
+  },
+  "forblog/posts/2_bear_classifier_model.ipynb": {
+    "2_bear_classifier_model.html": "f8bd987c"
+  },
+  "forblog/posts/3_the_confusion_matrix.qmd": {
+    "3_the_confusion_matrix.html": "35eb333c"
+  },
+  "forblog/posts/4_data_quality_is_important.qmd": {
+    "4_data_quality_is_important.html": "9afa183b"
+  },
+  "forblog/posts/5_detecting_floods_for_disaster_relief.ipynb": {
+    "5_detecting_floods_for_disaster_relief.html": "d2c0b1c3"
+  },
+  "forblog/posts/6_ai_in_a_nutshell.ipynb": {
+    "6_ai_in_a_nutshell.html": "ad80d4b0"
+  },
+  "forblog/posts/7_blog_subscriptions.qmd": {
+    "7_blog_subscriptions.html": "37dbdd92"
+  },
+  "forblog/posts/8_how_to_use_apple_gpu_with_pytorch.qmd": {
+    "8_how_to_use_apple_gpu_with_pytorch.html": "ea797f01"
+  },
+  "forblog/posts/9_transformers_explained.qmd": {
+    "9_transformers_explained.html": "bb07fff8"
+  },
+  "index.qmd": {
+    "index.html": "37fe520e"
+  },
+  "misc/matrix_calculus_practice.qmd": {
+    "matrix_calculus_practice.typ": "7c68b8c9"
+  },
+  "patch_notes.qmd": {
+    "patch_notes.html": "5803ea48"
+  },
+  "testing_page.qmd": {
+    "testing_page.html": "9dc9658b"
+  },
+  "unsubscribe.qmd": {
+    "unsubscribe.html": "edc32291"
+  },
+  "web_apps/apps/bear_detector.qmd": {
+    "bear_detector.html": "0f16207e"
+  },
+  "web_apps/apps/coming_soon.qmd": {
+    "coming_soon.html": "3edd7a5b"
+  },
+  "web_apps/apps/flood_detector.qmd": {
+    "flood_detector.html": "84a1ceca"
+  },
+  "web_apps/index.qmd": {
+    "index.html": "7fa3e89c"
+  },
+  "exclude/404.qmd": {
+    "404.html": "f93ae2b4"
+  },
+  "exclude/feedback.qmd": {
+    "feedback.html": "c907d2bb"
+  },
+  "exclude/misc/matrix_calculus_practice.qmd": {
+    "matrix_calculus_practice.typ": "49d98868"
+  },
+  "exclude/patch_notes.qmd": {
+    "patch_notes.html": "5397ac05"
+  },
+  "exclude/testing_page.qmd": {
+    "testing_page.html": "c55da33c"
+  },
+  "exclude/unsubscribe.qmd": {
+    "unsubscribe.html": "4ff80e83"
+  },
+  "exclude/web_apps/apps/bear_detector.qmd": {
+    "bear_detector.html": "dbaa576d"
+  },
+  "exclude/web_apps/apps/coming_soon.qmd": {
+    "coming_soon.html": "6a1a2ce5"
+  },
+  "exclude/web_apps/apps/flood_detector.qmd": {
+    "flood_detector.html": "c03b7045"
+  },
+  "exclude/web_apps/index.qmd": {
+    "index.html": "bbc6f669"
+  },
+  "llm/index.qmd": {
+    "index.html": "cb9b4594"
+  },
+  "llm/posts/10_how_to_convert_audio_to_spectrogram_images.ipynb": {
+    "10_how_to_convert_audio_to_spectrogram_images.html": "29c5b1ed"
+  },
+  "llm/posts/11_musings_through_stable_diffusion.qmd": {
+    "11_musings_through_stable_diffusion.html": "62a2d640"
+  },
+  "llm/posts/12_stable_diffusion_summarized.qmd": {
+    "12_stable_diffusion_summarized.html": "3b4daf12"
+  },
+  "llm/posts/13_implementing_stable_diffusion_from_its_components.ipynb": {
+    "13_implementing_stable_diffusion_from_its_components.html": "4e0e097b"
+  },
+  "llm/posts/14_iterators_and_generators.ipynb": {
+    "14_iterators_and_generators.html": "fe641d2e"
+  },
+  "llm/posts/15_un_successfully_implementing_diffedit.ipynb": {
+    "15_un_successfully_implementing_diffedit.html": "1e508e56"
+  },
+  "llm/posts/16_einstein_summation_notation.qmd": {
+    "16_einstein_summation_notation.html": "84b3da55"
+  },
+  "llm/posts/17_meanshift_clustering.ipynb": {
+    "17_meanshift_clustering.html": "7c83acfa"
+  },
+  "llm/posts/18_backprop_from_scratch.qmd": {
+    "18_backprop_from_scratch.html": "d3145611"
+  },
+  "llm/posts/19_tokenizers.ipynb": {
+    "19_tokenizers.html": "7d85e410"
+  },
+  "llm/posts/1_how_to_approach_creating_ai_models.qmd": {
+    "1_how_to_approach_creating_ai_models.html": "2134cb07"
+  },
+  "llm/posts/20_models_from_scratch.ipynb": {
+    "20_models_from_scratch.html": "cb25326a"
+  },
+  "llm/posts/21_reflecting_on_my_internships.qmd": {
+    "21_reflecting_on_my_internships.html": "e52b39f2"
+  },
+  "llm/posts/2_bear_classifier_model.ipynb": {
+    "2_bear_classifier_model.html": "6b01c3b6"
+  },
+  "llm/posts/3_the_confusion_matrix.qmd": {
+    "3_the_confusion_matrix.html": "20ed88da"
+  },
+  "llm/posts/4_data_quality_is_important.qmd": {
+    "4_data_quality_is_important.html": "4f1cb6d7"
+  },
+  "llm/posts/5_detecting_floods_for_disaster_relief.ipynb": {
+    "5_detecting_floods_for_disaster_relief.html": "f7b152aa"
+  },
+  "llm/posts/6_ai_in_a_nutshell.ipynb": {
+    "6_ai_in_a_nutshell.html": "e16391f0"
+  },
+  "llm/posts/7_blog_subscriptions.qmd": {
+    "7_blog_subscriptions.html": "6d251bc2"
+  },
+  "rag/index.qmd": {
+    "index.html": "e7dbc970"
+  },
+  "aso/index.qmd": {
+    "index.html": "4f54b202"
+  },
+  "rag/posts/1_how_to_approach_creating_ai_models.qmd": {
+    "1_how_to_approach_creating_ai_models.html": "f9d5c2ec"
+  },
+  "rag/posts/2_bear_classifier_model.ipynb": {
+    "2_bear_classifier_model.html": "87c707f6"
+  },
+  "rag/posts/3_the_confusion_matrix.qmd": {
+    "3_the_confusion_matrix.html": "b9bf8d91"
+  },
+  "rag/posts/4_data_quality_is_important.qmd": {
+    "4_data_quality_is_important.html": "00c7b818"
+  },
+  "rag/posts/5_detecting_floods_for_disaster_relief.ipynb": {
+    "5_detecting_floods_for_disaster_relief.html": "9951f653"
+  },
+  "rag/posts/6_ai_in_a_nutshell.ipynb": {
+    "6_ai_in_a_nutshell.html": "50eb1106"
+  },
+  "aso/posts/1_sl.qmd": {
+    "1_sl.html": "392d342f"
+  },
+  "engineer/index.qmd": {
+    "index.html": "05d5a27b"
+  },
+  "engineer/posts/1_sese.qmd": {
+    "1_sese.html": "dfda0599"
+  },
+  "engineer/posts/2_wakebot.qmd": {
+    "2_wakebot.html": "7489df90"
+  },
+  "engineer/posts/3_holos.qmd": {
+    "3_holos.html": "6356ad64"
+  },
+  "research/index.qmd": {
+    "index.html": "f2683a20"
+  },
+  "research/posts/1_genco.qmd": {
+    "1_genco.html": "37eecb88"
+  },
+  "research/posts/2_ambig.qmd": {
+    "2_ambig.html": "f69b520b"
+  },
+  "research/posts/3_compress.qmd": {
+    "3_compress.html": "dd6b069e"
+  },
+  "research/posts/4_kto.qmd": {
+    "4_kto.html": "1636aaab"
+  },
+  "research/posts/3_kto.qmd": {
+    "3_kto.html": "e7abf2e0"
+  }
+}
