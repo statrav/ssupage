@@ -1,0 +1,30 @@
+[33mcommit 69fae3ac199e10fb4c8b5666feb7be043a4b8236[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: statrav <statrav@github.com>
+Date:   Fri Nov 15 17:12:06 2024 +0900
+
+    241115_site_mp4remove
+
+[33mcommit b13b0fbbfe1cd27a6c50fd74047ed56905b48c87[m
+Author: statrav <statrav@github.com>
+Date:   Fri Nov 15 17:10:36 2024 +0900
+
+    241115_site
+
+[33mcommit 89e077ce00ea4f9fd94d19b8ba4b4a437bd90c07[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: d3646bd 3f0b7ae
+Author: statrav <statrav@github.com>
+Date:   Thu Nov 14 20:18:43 2024 +0900
+
+    Merge branch 'main' of https://github.com/statrav/ssupage
+
+[33mcommit d3646bd37526d8f1b52dfe8abfbdd91c517ad9f5[m
+Author: statrav <statrav@github.com>
+Date:   Thu Nov 14 20:13:48 2024 +0900
+
+    241114_init
+
+[33mcommit 3f0b7aefb648cd55faef27a093c0b6a203b00ae7[m
+Author: statrav <109338312+statrav@users.noreply.github.com>
+Date:   Thu Nov 14 20:12:47 2024 +0900
+
+    Initial commit
