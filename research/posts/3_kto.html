@@ -74,10 +74,8 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 <meta property="og:title" content="지자체간 유입인구 데이터 분석을 통한 네트워크망 구축 – SSUpage /Hyesu">
 <meta property="og:description" content="Analyzing POI data across local governments to build the network">
-<meta property="og:image" content="https://statrav.github.io/ssupage/research/images/3_kto/thumbnail.png">
+<meta property="og:image" content="https://statrav.github.io/research/images/3_kto/thumbnail.png">
 <meta property="og:site_name" content="SSUpage /Hyesu">
-<meta property="og:image:height" content="227">
-<meta property="og:image:width" content="474">
 </head>
 
 <body class="nav-fixed">
@@ -115,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../../aso/index.html"> <i class="bi bi-book" role="img">
 </i> 
-<span class="menu-text">EXPERIENCES</span></a>
+<span class="menu-text">And So On</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> <i class="bi bi-person-vcard" role="img">
@@ -125,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/ssupage/statrav.github.io/ssupage/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-code-slash"></i></a>
+    <a href="https://github.com/ssupage/statrav.github.io" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-code-slash"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -139,19 +137,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#프로젝트-소개" id="toc-프로젝트-소개" class="nav-link active" data-scroll-target="#프로젝트-소개">⭐ 프로젝트 소개</a></li>
-  <li><a href="#어떠한-데이터를-활용하였는가" id="toc-어떠한-데이터를-활용하였는가" class="nav-link" data-scroll-target="#어떠한-데이터를-활용하였는가">🔎 어떠한 데이터를 활용하였는가?</a></li>
-  <li><a href="#어떠한-분석을-시행하였는가" id="toc-어떠한-분석을-시행하였는가" class="nav-link" data-scroll-target="#어떠한-분석을-시행하였는가">💡 어떠한 분석을 시행하였는가?</a>
-  <ul>
-  <li><a href="#기초-정보-분석" id="toc-기초-정보-분석" class="nav-link" data-scroll-target="#기초-정보-분석">기초 정보 분석</a></li>
-  <li><a href="#카테고리별-대시보드-제작" id="toc-카테고리별-대시보드-제작" class="nav-link" data-scroll-target="#카테고리별-대시보드-제작">카테고리별 대시보드 제작</a></li>
-  <li><a href="#poi-분석" id="toc-poi-분석" class="nav-link" data-scroll-target="#poi-분석">POI 분석</a></li>
-  </ul></li>
-  <li><a href="#어떠한-시행착오를-겪었는가" id="toc-어떠한-시행착오를-겪었는가" class="nav-link" data-scroll-target="#어떠한-시행착오를-겪었는가">🌄 어떠한 시행착오를 겪었는가?</a>
-  <ul>
-  <li><a href="#데이터-전처리" id="toc-데이터-전처리" class="nav-link" data-scroll-target="#데이터-전처리">데이터 전처리</a></li>
-  <li><a href="#등급-배분-문제" id="toc-등급-배분-문제" class="nav-link" data-scroll-target="#등급-배분-문제">등급 배분 문제</a></li>
-  </ul></li>
+  <li><a href="#프로젝트-소개" id="toc-프로젝트-소개" class="nav-link active" data-scroll-target="#프로젝트-소개">프로젝트 소개</a></li>
+  <li><a href="#왜-이-프로젝트가-중요한가" id="toc-왜-이-프로젝트가-중요한가" class="nav-link" data-scroll-target="#왜-이-프로젝트가-중요한가">왜 이 프로젝트가 중요한가?</a></li>
   </ul>
 </nav>
     </div>
@@ -202,114 +189,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="프로젝트-소개" class="level2">
-<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐ 프로젝트 소개</h2>
+<h2 class="anchored" data-anchor-id="프로젝트-소개">프로젝트 소개</h2>
 <ul>
 <li>기간: 2024.06 - 2024.10</li>
 <li>한 줄 소개: 지자체(시군구)별 유입인구의 방문횟수와 소비지출 데이터를 통해 POI를 분석하고 관계 네트워크망을 파악합니다.</li>
 </ul>
 </section>
-<section id="어떠한-데이터를-활용하였는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-데이터를-활용하였는가">🔎 어떠한 데이터를 활용하였는가?</h2>
-<ol type="1">
-<li><strong>카드사 소비액 데이터:</strong></li>
-</ol>
-<ul>
-<li>신한카드, BC카드 데이터를 통해 지자체별 소비 패턴 및 금액 분석.</li>
-</ul>
-<ol start="2" type="1">
-<li><strong>이동거리 데이터:</strong></li>
-</ol>
-<ul>
-<li>지자체 간 절대적 거리 데이터를 활용하여 이동 흐름 파악.</li>
-</ul>
-<ol start="3" type="1">
-<li><strong>통신 방문 데이터:</strong></li>
-</ol>
-<ul>
-<li>KT 데이터를 활용하여 실제 방문 행태 및 관광 목적지 분석.</li>
-</ul>
-</section>
-<section id="어떠한-분석을-시행하였는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-분석을-시행하였는가">💡 어떠한 분석을 시행하였는가?</h2>
-<section id="기초-정보-분석" class="level4">
-<h4 class="anchored" data-anchor-id="기초-정보-분석">기초 정보 분석</h4>
-<ul>
-<li>목적: 데이터의 전반적인 이해와 기준점 마련.</li>
-<li>주요 작업: 기초 통계 분석, 데이터 등급 배부 및 네트워크망 구축.</li>
-</ul>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<p><img src="../images/3_kto/basic1.png" class="img-fluid"> <img src="../images/3_kto/basic2.png" class="img-fluid"> <img src="../images/3_kto/basic3.png" class="img-fluid"> <img src="../images/3_kto/basic4.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="카테고리별-대시보드-제작" class="level4">
-<h4 class="anchored" data-anchor-id="카테고리별-대시보드-제작">카테고리별 대시보드 제작</h4>
-<ul>
-<li>목적: 카테고리별 주 관광도시 및 소비 패턴 파악.</li>
-<li>KT 관광 목적지 대분류: 6개 분류 기준으로 관광 목적지 빈도 분석 및 시각화.</li>
-<li>카드 소비 데이터: 6개 대분류로 소비 금액 총합 분석 및 비교.</li>
-</ul>
-<p><img src="../images/3_kto/dashboard.png" class="img-fluid"></p>
-</section>
-<section id="poi-분석" class="level4">
-<h4 class="anchored" data-anchor-id="poi-분석">POI 분석</h4>
-<ul>
-<li>목적: 각 지자체의 주요 관광지 및 영향도 산출.</li>
-<li>주요 작업: POI 데이터를 활용하여 유의미한 관광 목적지 산출.
-<ul>
-<li>POI 10순위 우선 선정.</li>
-<li>지자체별 관광 빈도에 따라 등급 부여 및 시각화.</li>
-</ul></li>
-</ul>
-<p><img src="../images/3_kto/poi.png" class="img-fluid"></p>
-</section>
-</section>
-<section id="어떠한-시행착오를-겪었는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄 어떠한 시행착오를 겪었는가?</h2>
-<section id="데이터-전처리" class="level4">
-<h4 class="anchored" data-anchor-id="데이터-전처리">데이터 전처리</h4>
-<ol type="1">
-<li><strong>용어 통일 문제</strong></li>
-</ol>
-<ul>
-<li>문제: 데이터 내 용어의 불일치로 인한 오류가 발생하였습니다.</li>
-<li>해결:
-<ul>
-<li>사전화 치환 함수를 제작해 용어를 통일했습니다.</li>
-<li>용어 통일 후, 수정된 데이터 위치 변경 및 군집화 작업을 추가로 수행하였습니다.</li>
-</ul></li>
-</ul>
-<ol start="2" type="1">
-<li><strong>기준 시군구 개수 불일치 문제</strong></li>
-</ol>
-<ul>
-<li>문제: 일부 데이터는 경기도 부천시를 “부천시”로 통합되어 있었고, 일부는 “소사구”, “오정구”, “원미구”로 세분화 되어 있었습니다.</li>
-<li>해결:
-<ul>
-<li>전체 작업은, sum 값을 사용해 “부천시”로 통일하였습니다.</li>
-<li>분석 니즈에 따라 세분화가 필요한 경우, 이동거리 데이터는 기존 “부천시”의 데이터를 복사하여 사용하였고, 방문 및 소비 데이터는 평균 값을 활용하였습니다.</li>
-</ul></li>
-</ul>
-</section>
-<section id="등급-배분-문제" class="level4">
-<h4 class="anchored" data-anchor-id="등급-배분-문제">등급 배분 문제</h4>
-<ul>
-<li>문제: 등급 배분 과정에서 군집 간 유의미한 차이를 확인하기 어려운 경우가 발생하였습니다.</li>
-<li>해결:
-<ul>
-<li>ANOVA 분석을 통해 등급 간 유의미한 차이를 p-value를 확인하여 검증하였습니다.</li>
-<li>유의미하지 않을 경우, 등급 개수를 하나씩 줄여가며 재분석하여 최적의 등급 체계를 도출하였습니다.</li>
-</ul></li>
-</ul>
+<section id="왜-이-프로젝트가-중요한가" class="level2">
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">왜 이 프로젝트가 중요한가?</h2>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -405,7 +294,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/statrav\.github\.io\/ssupage\/");
+      var filterRegex = new RegExp("https:\/\/statrav\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -733,7 +622,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="https://statrav.github.io/ssupage/" data-repo-id="R_kgDOICXnAA" data-category="Giscus Comments" data-category-id="DIC_kwDOICXnAM4CR8YX" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+<script src="https://giscus.app/client.js" data-repo="ssupage/statrav.github.io" data-repo-id="R_kgDOICXnAA" data-category="Giscus Comments" data-category-id="DIC_kwDOICXnAM4CR8YX" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
 </script>
 <input type="hidden" id="giscus-base-theme" value="light">
 <input type="hidden" id="giscus-alt-theme" value="light">
@@ -741,7 +630,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://statrav.github.io/ssupage/">SSUpage</a> © 2024 by <a href="https://statrav.github.io/ssupage/about.html">Hyesu Hwang</a></p>
+<p><a href="https://statrav.github.io/">SSUpage</a> © 2024 by <a href="https://statrav.github.io/about.html">Hyesu Hwang</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">

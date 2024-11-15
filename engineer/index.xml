@@ -6,129 +6,75 @@
       version="2.0">
 <channel>
 <title>SSUpage /Hyesu</title>
-<link>https://statrav.github.io/ssupage/engineer/</link>
-<atom:link href="https://statrav.github.io/ssupage/engineer/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://statrav.github.io/engineer/</link>
+<atom:link href="https://statrav.github.io/engineer/index.xml" rel="self" type="application/rss+xml"/>
 <description>모델과, 사람과 대화를 즐기는 황혜수의 페이지입니다. 반갑습니다!</description>
 <image>
-<url>https://statrav.github.io/ssupage/images/profile_ssu.png</url>
+<url>https://statrav.github.io/images/profile_ssu.png</url>
 <title>SSUpage /Hyesu</title>
-<link>https://statrav.github.io/ssupage/engineer/</link>
+<link>https://statrav.github.io/engineer/</link>
 </image>
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Wed, 31 Jul 2024 15:00:00 GMT</lastBuildDate>
 <item>
   <title>시각장애인을 위한 TTS 앱</title>
   <dc:creator>Hyesu Hwang</dc:creator>
-  <link>https://statrav.github.io/ssupage/engineer/posts/3_holos.html</link>
+  <link>https://statrav.github.io/engineer/posts/3_holos.html</link>
   <description><![CDATA[ 
 
 
 
 
 <section id="프로젝트-소개" class="level2">
-<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐ 프로젝트 소개</h2>
+<h2 class="anchored" data-anchor-id="프로젝트-소개">프로젝트 소개</h2>
 <ul>
 <li>주관: 스마일게이트 + 개인 프로젝트 (참여인원 6명)</li>
 <li>기간: 2024. 07 - 2024. 12</li>
+<li>프로젝트명:</li>
 <li>한 줄 소개: 시각장애인을 위해 사진 속 문자 정보를 요약하여 음성으로 제공하고, 대화를 나눕니다.</li>
 </ul>
 </section>
 <section id="왜-이-프로젝트가-중요한가" class="level2">
-<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎 왜 이 프로젝트가 중요한가?</h2>
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">왜 이 프로젝트가 중요한가?</h2>
 <ul>
-<li>시력 저하 문제를 겪는 고령자나 시각장애인을 위한 TTS(Text-to-Speech) 서비스가 존재하지만, 대부분의 서비스는 온라인 환경에서만 작동하여 오프라인 환경에서는 사용이 불가능합니다.</li>
-<li>특히 긴 텍스트가 포함된 이미지를 확인할 때, 정보를 파악하는 데 어려움을 겪는 경우가 많습니다.</li>
-<li>이러한 문제를 해결하기 위해, 이미지 속 텍스트를 인식하고 핵심 정보를 요약하여 음성으로 제공하는 오프라인 어플리케이션이 필요합니다.</li>
+<li></li>
 </ul>
 </section>
 <section id="핵심-기술은-무엇인가" class="level2">
-<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎 핵심 기술은 무엇인가?</h2>
-<section id="장애인의-정보-접근성-개선" class="level4">
-<h4 class="anchored" data-anchor-id="장애인의-정보-접근성-개선">장애인의 정보 접근성 개선</h4>
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">핵심 기술은 무엇인가?</h2>
 <ul>
-<li>AI 기술을 활용하여 이미지나 작게 표시된 텍스트를 요약하고 음성으로 변환함으로써, 시각장애인과 저시력자의 정보 접근성을 향상시킵니다.</li>
+<li>VectorDB를 기반으로</li>
+<li></li>
 </ul>
-</section>
-<section id="ai-기반-요약-및-음성-변환-기술" class="level4">
-<h4 class="anchored" data-anchor-id="ai-기반-요약-및-음성-변환-기술">AI 기반 요약 및 음성 변환 기술</h4>
-<ul>
-<li>이미지를 통해 추출된 텍스트를 요약하고, 이를 음성으로 변환하여 보다 쉽게 정보를 이해할 수 있도록 돕습니다.</li>
-</ul>
-</section>
-<section id="사용-기술" class="level4">
-<h4 class="anchored" data-anchor-id="사용-기술">사용 기술</h4>
-<ul>
-<li>OCR (Optical Character Recognition): <code>react-native-ml-kit/text-recognition</code>
-<ul>
-<li>이미지를 분석하여 텍스트를 추출하는 기술을 적용하였습니다.</li>
-</ul></li>
-<li>Summarization (요약): T5 Finetuning 모델(<code>t5-small-korean-summarization</code>)
-<ul>
-<li>긴 텍스트를 핵심만 간추리는 요약 기술을 적용하였습니다.</li>
-</ul></li>
-<li>TTS (Text-to-Speech): <code>react-native-tts</code>
-<ul>
-<li>텍스트를 음성으로 변환하여 사용자에게 제공합니다.</li>
-</ul></li>
-<li>AWS EC2
-<ul>
-<li>애플리케이션의 서버 환경과 모델 호스팅에 활용하였습니다.</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="어떠한-사고방식생각을-거쳤는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-사고방식생각을-거쳤는가">💡 어떠한 사고방식/생각을 거쳤는가?</h2>
-<section id="사용자-니즈-파악" class="level4">
-<h4 class="anchored" data-anchor-id="사용자-니즈-파악">사용자 니즈 파악</h4>
-<ul>
-<li><p>사용 대상자 인터뷰를 통해 핵심적인 요구 사항을 도출하였습니다.</p></li>
-<li><p>대상자: 시각장애인 관련 산업 종사자, 시각장애인 및 저시력자 총 6명.</p></li>
-<li><p>결과:</p>
-<ol type="1">
-<li><p>작은 글씨를 읽기 어려워 다양한 보조도구(대필 도우미, 스마트폰 카메라, 확대기 등)를 사용 중.</p></li>
-<li><p>디지털 디스플레이의 해상도가 높아지면서 아이콘 및 글꼴 크기 축소로 불편함이 증가.</p></li>
-<li><p>이미지에 대한 OCR 설명이 단순해, 의미 있는 정보를 얻기 어려움.</p></li>
-</ol>
-<p><em>→ 해당 기능을 추가하기 위해 검색 연계형 챗봇 서비스를 개발 중입니다.</em></p>
-<ol start="4" type="1">
-<li>긴 텍스트는 복기와 핵심 파악이 어려워 이를 요약하여 제공하는 것이 필요.</li>
-</ol></li>
-</ul>
-</section>
 </section>
 <section id="어떠한-시행착오를-겪었는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄 어떠한 시행착오를 겪었는가?</h2>
-<section id="모델-저장-및-호환성-문제" class="level4">
-<h4 class="anchored" data-anchor-id="모델-저장-및-호환성-문제">모델 저장 및 호환성 문제</h4>
+<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">어떠한 시행착오를 겪었는가?</h2>
 <ul>
-<li>프론트엔드 개발자와 협업 중, 모델 파일을 .pth 형식으로 저장하여 제공했으나, AWS 클라우드 업로드 시 용량 문제가 발생했습니다.</li>
+<li>Image Crawling</li>
 </ul>
-</section>
-<section id="해결-방안" class="level4">
-<h4 class="anchored" data-anchor-id="해결-방안">해결 방안</h4>
-<ul>
-<li>모델 경량화: 양자화(Quantization)를 통해 모델 파라미터를 32비트에서 8비트로 줄여 모델 크기를 대폭 감소시켰습니다.</li>
-<li>파일 형식 변경: PyTorch 모델을 ONNX 형식으로 변환하여, 경량화된 모델을 <code>.onnx</code> 파일로 제공했습니다.</li>
-</ul>
-</section>
 </section>
 <section id="부록" class="level2">
 <h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
 <ul>
 <li>사용 코드: <a href="">github</a></li>
 </ul>
-<section id="파이프라인" class="level4">
-<h4 class="anchored" data-anchor-id="파이프라인">파이프라인</h4>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/3_holos/FlowChart.png" class="img-fluid"> <img src="https://statrav.github.io/ssupage/engineer/images/3_holos/ServiceArchitecture.png" class="img-fluid"></p>
-</section>
-<section id="시연" class="level4">
-<h4 class="anchored" data-anchor-id="시연">시연</h4>
-<p><a href="https://www.youtube.com/shorts/JHF1tnKubQU">데모 영상</a></p>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/3_holos/demo.png" class="img-fluid"></p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>There is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.</strong></p>
+<p>Comparing grizzly bears to black bears means, “How many grizzly bears were misclassified as black bears?”</p>
+<p>Comparing black bears to grizzly bears means, “How many black bears were misclassified as grizzly bears?”</p>
+</div>
+</div>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -138,31 +84,80 @@
   <category>OpenSource</category>
   <category>TTS</category>
   <category>Summarization</category>
-  <guid>https://statrav.github.io/ssupage/engineer/posts/3_holos.html</guid>
+  <guid>https://statrav.github.io/engineer/posts/3_holos.html</guid>
   <pubDate>Wed, 31 Jul 2024 15:00:00 GMT</pubDate>
-  <media:content url="https://statrav.github.io/ssupage/engineer/images/3_holos/main2.png" medium="image" type="image/png" height="127" width="144"/>
 </item>
 <item>
-  <title>플랫폼 통합 웹툰 정보 검색봇</title>
+  <title>관계기반형 질의를 통한 장면 검색</title>
   <dc:creator>Hyesu Hwang</dc:creator>
-  <link>https://statrav.github.io/ssupage/engineer/posts/2_wakebot.html</link>
+  <link>https://statrav.github.io/engineer/posts/1_sese.html</link>
   <description><![CDATA[ 
 
 
 
 
 <section id="프로젝트-소개" class="level2">
-<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐ 프로젝트 소개</h2>
+
+<ul>
+<li>주관: 한국전자통신연구원(ETRI) 시각지능연구실</li>
+<li>기간: 2023. 03 - 2023. 11</li>
+<li>프로젝트명: 관계 정보의 장기 시각 기억 저장 및 관리 기술 개발</li>
+<li>한 줄 소개: 사용자의 검색 의도에 부합하는 장면을 찾기 위해, 질문의 관계정보를 파악하고 유사어를 확인합니다.</li>
+</ul>
+</section>
+<section id="왜-이-프로젝트가-중요한가" class="level2">
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎왜 이 프로젝트가 중요한가?</h2>
+<ul>
+<li></li>
+</ul>
+</section>
+<section id="핵심-기술은-무엇인가" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎핵심 기술은 무엇인가?</h2>
+<ul>
+<li>Python 모듈로 배포하였습니다.</li>
+<li><h2 id="어떠한-사고방식생각을-거쳤는가" class="anchored">💡어떠한 사고방식/생각을 거쳤는가?</h2>
+<h2 id="어떠한-시행착오를-겪었는가" class="anchored">🌄어떠한 시행착오를 겪었는가?</h2></li>
+</ul>
+</section>
+<section id="부록" class="level2">
+<h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
+<ul>
+<li>사용 코드: <a href="">github</a></li>
+</ul>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
+  <category>Text</category>
+  <category>Video</category>
+  <category>DB</category>
+  <category>Fine-tuning</category>
+  <guid>https://statrav.github.io/engineer/posts/1_sese.html</guid>
+  <pubDate>Sat, 30 Dec 2023 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>플랫폼 통합 웹툰 정보 검색봇</title>
+  <dc:creator>Hyesu Hwang</dc:creator>
+  <link>https://statrav.github.io/engineer/posts/2_wakebot.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="프로젝트-소개" class="level2">
+<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐프로젝트 소개</h2>
 <ul>
 <li>주관: 개인 프로젝트 (참여인원 4명)</li>
 <li>기간: 2023. 09 - 2023. 12</li>
 <li>프로젝트명: 플랫폼 통합 웹툰 정보 검색봇 개발</li>
 <li>한 줄 소개: 크롤링을 통해 저장한 정보들을 기반으로 사용자 질의에 대한 웹툰 정보를 제공하는 RAG 기반의 검색 챗봇입니다.</li>
 </ul>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/2_wakebot/info.png" class="img-fluid"></p>
+<p><img src="https://statrav.github.io/engineer/images/2_wakebot/info.png" class="img-fluid"></p>
 </section>
 <section id="왜-이-프로젝트가-중요한가" class="level2">
-<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎 왜 이 프로젝트가 중요한가?</h2>
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎왜 이 프로젝트가 중요한가?</h2>
 <section id="문제-제기" class="level4">
 <h4 class="anchored" data-anchor-id="문제-제기">문제 제기</h4>
 <ul>
@@ -178,7 +173,7 @@
 </section>
 </section>
 <section id="핵심-기술은-무엇인가" class="level2">
-<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎 핵심 기술은 무엇인가?</h2>
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎핵심 기술은 무엇인가?</h2>
 <section id="사용-기술" class="level4">
 <h4 class="anchored" data-anchor-id="사용-기술">사용 기술</h4>
 <ul>
@@ -202,7 +197,7 @@
 </section>
 </section>
 <section id="어떠한-사고방식생각을-거쳤는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-사고방식생각을-거쳤는가">💡 어떠한 사고방식/생각을 거쳤는가?</h2>
+<h2 class="anchored" data-anchor-id="어떠한-사고방식생각을-거쳤는가">💡어떠한 사고방식/생각을 거쳤는가?</h2>
 <section id="문제-정의" class="level4">
 <h4 class="anchored" data-anchor-id="문제-정의">문제 정의</h4>
 <ul>
@@ -224,7 +219,7 @@
 </section>
 </section>
 <section id="어떠한-시행착오를-겪었는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄 어떠한 시행착오를 겪었는가?</h2>
+<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄어떠한 시행착오를 겪었는가?</h2>
 <section id="문제-발견" class="level4">
 <h4 class="anchored" data-anchor-id="문제-발견">문제 발견</h4>
 <ul>
@@ -249,17 +244,15 @@
 </section>
 </section>
 <section id="부록" class="level2">
-<h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
-<ul>
-<li>사용 코드: <a href="https://github.com/statrav/WAKEbot_surfer">github</a></li>
-</ul>
+<h2 class="anchored" data-anchor-id="부록">🧶부록</h2>
+<p><a href="https://github.com/statrav/WAKEbot_surfer">github</a></p>
 <section id="파이프라인" class="level4">
 <h4 class="anchored" data-anchor-id="파이프라인">파이프라인</h4>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/2_wakebot/pipeline.png" class="img-fluid"></p>
+<p><img src="https://statrav.github.io/engineer/images/2_wakebot/pipeline.png" class="img-fluid"></p>
 </section>
 <section id="결과" class="level4">
 <h4 class="anchored" data-anchor-id="결과">결과</h4>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/2_wakebot/result1.png" class="img-fluid"> <img src="https://statrav.github.io/ssupage/engineer/images/2_wakebot/result2.png" class="img-fluid"> <img src="https://statrav.github.io/ssupage/engineer/images/2_wakebot/result3.png" class="img-fluid"></p>
+<p><img src="https://statrav.github.io/engineer/images/2_wakebot/result1.png" class="img-fluid"> <img src="https://statrav.github.io/engineer/images/2_wakebot/result2.png" class="img-fluid"> <img src="https://statrav.github.io/engineer/images/2_wakebot/result3.png" class="img-fluid"></p>
 
 
 </section>
@@ -272,658 +265,9 @@
   <category>LLM</category>
   <category>RAG</category>
   <category>Prompt-Engineering</category>
-  <guid>https://statrav.github.io/ssupage/engineer/posts/2_wakebot.html</guid>
-  <pubDate>Thu, 30 Nov 2023 15:00:00 GMT</pubDate>
-  <media:content url="https://statrav.github.io/ssupage/engineer/images/2_wakebot/thumbnail.png" medium="image" type="image/png" height="115" width="144"/>
-</item>
-<item>
-  <title>관계기반형 질의를 통한 장면 검색</title>
-  <dc:creator>Hyesu Hwang</dc:creator>
-  <link>https://statrav.github.io/ssupage/engineer/posts/1_sese.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="프로젝트-소개" class="level2">
-<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐프로젝트 소개</h2>
-<ul>
-<li>주관: 한국전자통신연구원(ETRI) 시각지능연구실</li>
-<li>기간: 2023. 03 - 2023. 11</li>
-<li>프로젝트명: 관계 정보의 장기 시각 기억 저장 및 관리 기술 개발</li>
-<li>한 줄 소개: 사용자의 검색 의도에 부합하는 장면을 찾기 위해, 질문의 관계정보를 파악하고 유사어를 확인합니다.</li>
-</ul>
-</section>
-<section id="왜-이-프로젝트가-중요한가" class="level2">
-<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎왜 이 프로젝트가 중요한가?</h2>
-<section id="비디오-데이터의-관계-정보" class="level4">
-<h4 class="anchored" data-anchor-id="비디오-데이터의-관계-정보">비디오 데이터의 관계 정보</h4>
-<ul>
-<li>비디오는 수많은 객체 간 상호작용(관계 정보)을 포함하고 있으며, 이러한 관계 정보는 장면의 의미를 해석하는 데에 매우 중요합니다.</li>
-<li>예를 들어, 고양이를 쫓는 쥐와 쥐를 쫓는 고양이는 매우 다른 장면을 표현합니다.</li>
-<li>이러한 관계 정보를 유실하지 않고 장면의 의미를 보존하기 위해 graph 데이터를 활용할 필요가 있습니다.</li>
-</ul>
-</section>
-<section id="목표" class="level4">
-<h4 class="anchored" data-anchor-id="목표">목표</h4>
-<ul>
-<li>본 프로젝트는 관계 정보를 Graph 데이터로 변환하여 GraphDB에 저장함으로써 장면 의미 보존과 검색의 용이성을 확보하는 것을 목표로 합니다.</li>
-</ul>
-</section>
-</section>
-<section id="핵심-기술은-무엇인가" class="level2">
-<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎핵심 기술은 무엇인가?</h2>
-<section id="scene-graph-parsing-model" class="level4">
-<h4 class="anchored" data-anchor-id="scene-graph-parsing-model">Scene graph parsing model</h4>
-<ul>
-<li>이미지 캡션을 scene graph로 변환하기 위해 두 가지 주요 과정을 사용하였습니다.</li>
-</ul>
-<ol type="1">
-<li>Split and Rephrase: t5 기반 fine-tuned 모델을 사용해 캡션을 의미 단위로 분해</li>
-</ol>
-<ul>
-<li>사용 모델: <code>unikei/t5-base-split-and-rephrase</code></li>
-</ul>
-<ol start="2" type="1">
-<li>Scene Graph Parsing: 각 문장을 scene graph로 변환하기 위해 <code>Vicuna-7b</code> 모델을 FACTUAL dataset으로 LoRA instruction fine-tuning하여 사용</li>
-</ol>
-<ul>
-<li><code>Vicuna-7b</code> 모델: 오픈소스 언어 모델로, MMLU 평가에서 뛰어난 성능을 보입니다.
-<ul>
-<li>MMLU: 모델이 사전 학습 동안 습득한 지식을 평가하는 지표</li>
-</ul></li>
-<li>FACTUAL Dataset: Visual Genome dataset을 가공하여 만든 scene graph parsing benchmark dataset</li>
-</ul>
-<p><strong>Scene graph parsing 결과 예제</strong> <img src="https://statrav.github.io/ssupage/engineer/images/1_sese/scenegraph.png" class="img-fluid"></p>
-</section>
-</section>
-<section id="어떠한-사고방식생각을-거쳤는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-사고방식생각을-거쳤는가">💡어떠한 사고방식/생각을 거쳤는가?</h2>
-<section id="문제-인식" class="level4">
-<h4 class="anchored" data-anchor-id="문제-인식">문제 인식</h4>
-<ul>
-<li>관계 기반 데이터를 효과적으로 저장하고 검색하기 위해 GraphDB를 사용해야 했지만, GraphDB는 유사어 검색이 되지 않으므로 단어 일치가 정확히 이루어져야 합니다.</li>
-<li>예를 들어, ’샐러드’와 ’야채’처럼 의미론적으로 유사한 단어라도 정확히 일치하지 않으면 검색에서 누락될 수 있습니다.</li>
-</ul>
-</section>
-<section id="해결-아이디어" class="level4">
-<h4 class="anchored" data-anchor-id="해결-아이디어">해결 아이디어</h4>
-<ul>
-<li>유사어 확장을 위해 자연어 임베딩 모델을 활용해 corpus 기반의 유사어 사전을 구축했습니다.</li>
-<li>임베딩 모델 활용: Word2Vec 모델을 사용해 dataset corpus를 학습하여, 의미적으로 유사한 단어들을 그룹화하고 유사어 확장 기능을 구현했습니다.</li>
-<li>임베딩 모델의 장점: 단어들을 한 공간에 Mapping하여 의미론적 유사성을 비교할 수 있습니다.</li>
-</ul>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/1_sese/expansion.png" class="img-fluid"></p>
-</section>
-</section>
-<section id="어떠한-시행착오를-겪었는가" class="level2">
-<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄어떠한 시행착오를 겪었는가?</h2>
-<section id="문제-발견" class="level4">
-<h4 class="anchored" data-anchor-id="문제-발견">문제 발견</h4>
-<ul>
-<li>처음에는 대규모 외부 코퍼스를 활용해 Word2Vec 모델을 학습했으나, 결과적으로 비디오 데이터베이스에 없는 단어들까지 확장되는 문제가 발생했습니다.</li>
-<li>이로 인해 검색 속도가 느려지고, 반복 검색이 발생하였습니다.</li>
-</ul>
-</section>
-<section id="해결-방법" class="level4">
-<h4 class="anchored" data-anchor-id="해결-방법">해결 방법</h4>
-<ul>
-<li>검색에 최적화하기 위해, 현재 비디오 데이터베이스의 dataset만 사용하여 Word2Vec 모델을 학습함으로써 검색의 정확도와 효율성을 높였습니다.</li>
-</ul>
-</section>
-</section>
-<section id="부록" class="level2">
-<h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
-<ul>
-<li>사용 코드: <a href="https://github.com/statrav/DILAB_SESE_ScEneSEarch.git">github</a></li>
-</ul>
-<section id="파이프라인" class="level4">
-<h4 class="anchored" data-anchor-id="파이프라인">파이프라인</h4>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/1_sese/pipeline.png" class="img-fluid"></p>
-
-
-</section>
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Python</category>
-  <category>Text</category>
-  <category>Video</category>
-  <category>DB</category>
-  <category>Fine-tuning</category>
-  <guid>https://statrav.github.io/ssupage/engineer/posts/1_sese.html</guid>
-  <pubDate>Tue, 31 Oct 2023 15:00:00 GMT</pubDate>
-  <media:content url="https://statrav.github.io/ssupage/engineer/images/1_sese/thumbnail.png" medium="image" type="image/png" height="134" width="144"/>
-</item>
-<item>
-  <title>관계기반형 질의를 통한 장면 검색 (SESE Module)</title>
-  <dc:creator>Hyesu Hwang</dc:creator>
-  <link>https://statrav.github.io/ssupage/engineer/posts/1_sese_시연.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="sese-module" class="level1">
-
-<section id="sese-연결" class="level3">
-
-<ul>
-<li>Neo4J의 본인 접속 계정 정보 입력</li>
-<li>MariaDB의 본인 접속 계정 정보 입력 및 저장하고자 하는 database 선택
-<ul>
-<li>존재하지 않는 database일시 자동 생성됨</li>
-</ul></li>
-</ul>
-<div id="e2a9201e" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">from</span> SESE <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> SESE <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> db</span>
-<span id="cb1-2"></span>
-<span id="cb1-3">neo4j_uri <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"neo4j://localhost:7687"</span></span>
-<span id="cb1-4">neo4j_user <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"neo4j"</span></span>
-<span id="cb1-5">neo4j_password <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"testtest"</span></span>
-<span id="cb1-6">mariadb_user <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'dilab'</span></span>
-<span id="cb1-7">mariadb_password <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'1111'</span></span>
-<span id="cb1-8">mariadb_host<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'127.0.0.1'</span></span>
-<span id="cb1-9">mariadb_database<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'mydb'</span></span></code></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>C:\Users\SSU\anaconda3\lib\site-packages\scipy\__init__.py:146: UserWarning: A NumPy version &gt;=1.16.5 and &lt;1.23.0 is required for this version of SciPy (detected version 1.25.2
-  warnings.warn(f"A NumPy version &gt;={np_minversion} and &lt;{np_maxversion}"</code></pre>
-</div>
-</div>
-<div id="bb28711a" class="cell" data-scrolled="true" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">sese <span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span> db(neo4j_uri, neo4j_user, neo4j_password, mariadb_user, mariadb_password, mariadb_host, mariadb_database)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>---------------- Initializing NeoInterface -------------------
-Connection to neo4j://localhost:7687 established
--- Successfully connected! --
-connection neo4j, mariadb user name : neo4j, dilab
-current neo4j version  4.4.0</code></pre>
-</div>
-</div>
-</section>
-<section id="db-create-및-upload-과정-neo4j-mariadb" class="level3">
-
-<ul>
-<li>Activitynet Caption Dataset 사용을 원할 시, 기존 csv 파일 사용</li>
-<li>본인 Dataset 사용을 원할 시, github의 Scene Garph Parser를 사용하여 csv 파일 생성</li>
-</ul>
-<div id="f26d6dfc" class="cell" data-scrolled="true" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#Neo4j, MariaDB 동시 Upload</span></span>
-<span id="cb5-2"></span>
-<span id="cb5-3">sese.add_db(mariadb_database, <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'./data/activitynet_10_sg.csv'</span>)</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>MariaDB Load Successfully!
-total time elapsed:  4.705881595611572
-
-Load the 11265 objects successfully.
-total time elapsed:  118.05208230018616
-
-Load the 3755 spos successfully.</code></pre>
-</div>
-</div>
-</section>
-<section id="searching" class="level3">
-
-<ul>
-<li>get_spo() : subject, predicate, object 관계를 명확히 하여 장면을 찾고 싶을 때 사용
-<ul>
-<li>동영상 지정 및 미지정 선택 가능 : 미지정을 원할 시 공란으로 PASS</li>
-</ul></li>
-<li>get_keyword() : 단순 keyword들의 조합으로 장면을 찾고 싶을 때 사용</li>
-<li>get_keyword_with_video() : keyword함수를 사용하여 장면을 찾을 때, 특정 동영상을 지정을 지정하고 싶은 경우 사용</li>
-</ul>
-<div id="9d90a353" class="cell" data-scrolled="true" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># 누군가가 '부엌에서' 무언가를 하고 있는 모든 장면을 검색</span></span>
-<span id="cb7-2"></span>
-<span id="cb7-3">sese.get_spo()</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Enter the 'subject' you want to search for. Separate multiple entries with a comma(,).: 
-Enter the 'object' you want to search for. Separate multiple entries with a comma(,).: kitchen
-Enter the 'predicate' you want to search for. Separate multiple entries with a comma(,).: 
-+---------------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------------------------------+------------------------------------------------------------------+
-| video_path                                  | captions                                                                                                             | spo                                 | frame                                                            |
-|---------------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------------------------------+------------------------------------------------------------------|
-| https://www.youtube.com/watch?v=nwznKOuZM7w | Two people are seen moving around a kitchen quickly performing various tasks and sitting down.                       | [['people', 'seen', 'kitchen']]     | [[0.0, 15.51]]                                                   |
-| https://www.youtube.com/watch?v=p1JSdZmztGk | Several shots are shown of a kitchen as well as people riding on the boat and still continue to speak to the camera. | [['shots', 'shown', 'kitchen']]     | [[163.62, 219.66]]                                               |
-| https://www.youtube.com/watch?v=lfGmSfTjnA8 | A woman is standing in a messy kitchen in front of the sink preparing to cut something.                              | [['woman', 'standing', 'kitchen']]  | [[0.0, 37.72], [0.0, 37.72]]                                     |
-| https://www.youtube.com/watch?v=lfGmSfTjnA8 | As she continues cutting,two young girls walk in the kitchen and begin watching her and grabbing dishes.             | [['she', 'walk', 'kitchen']]        | [[87.47, 160.5], [87.47, 160.5]]                                 |
-| https://www.youtube.com/watch?v=deuSw3RnNLU | A woman enters a kitchen, talks to the camera and begins to cut and juice lemons.                                    | [['woman', 'enters', 'kitchen']]    | [[1.06, 113.31], [1.06, 113.31], [1.06, 113.31], [1.06, 113.31]] |
-| https://www.youtube.com/watch?v=-zp0Sban5Wk | A woman is standing in her kitchen in front of a counter.                                                            | [['woman', 'standing', 'kitchen']]  | [[0.0, 27.98]]                                                   |
-| https://www.youtube.com/watch?v=SdbxPbXeQJ0 | Someone is walking into a kitchen.                                                                                   | [['Someone', 'walking', 'kitchen']] | [[45.42, 65.98]]                                                 |
-| https://www.youtube.com/watch?v=M_CU9guT3C0 | A woman talks in a kitchen, then she shows a brush.                                                                  | [['woman', 'shows', 'kitchen']]     | [[0.0, 34.88], [0.0, 34.88]]                                     |
-+---------------------------------------------+----------------------------------------------------------------------------------------------------------------------+-------------------------------------+------------------------------------------------------------------+</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="3">
-
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/nwznKOuZM7w" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-</div>
-<div id="322239eb" class="cell" data-execution_count="4">
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># '여자'가 '낙타'를 '타는' 장면을 검색</span></span>
-<span id="cb9-2"></span>
-<span id="cb9-3">sese.get_spo()</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Enter the 'subject' you want to search for. Separate multiple entries with a comma(,).: woman
-Enter the 'object' you want to search for. Separate multiple entries with a comma(,).: camel
-Enter the 'predicate' you want to search for. Separate multiple entries with a comma(,).: rides
-How to link subjects and and objects?
-If you use AND, the spo satisfying both subject and object is searched. If you use OR, the spo satisfying either the subject or the object is searched.
-so_link : and
-How to link subjects and and predicates?
-If you use AND, the spo satisfying both subject and predicates is searched. If you use OR, the spo satisfying either the subject or the predicates is searched.
-sp_link : and
-How to link predicates and and objects?
-If you use AND, the spo satisfying both predicates and objects is searched. If you use OR, the spo satisfying either the predicates or the objects is searched.
-po_link : and
-+---------------------------------------------+---------------------------------------------------------------------------------------+-------------------------------+------------------------------+
-| video_path                                  | captions                                                                              | spo                           | frame                        |
-|---------------------------------------------+---------------------------------------------------------------------------------------+-------------------------------+------------------------------|
-| https://www.youtube.com/watch?v=bEniqIC5Ric | A woman rides a camel holding a rode with her right hand while a man pulls the camel. | [['woman', 'rides', 'camel']] | [[0.0, 38.38], [0.0, 38.38]] |
-+---------------------------------------------+---------------------------------------------------------------------------------------+-------------------------------+------------------------------+</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="4">
-
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/bEniqIC5Ric" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-</div>
-<div id="e71bb2b7" class="cell" data-execution_count="5">
-<div class="sourceCode cell-code" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># '관중'이 '사람들'을 '보는' 장면 검색</span></span>
-<span id="cb11-2"></span>
-<span id="cb11-3">sese.get_spo()</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Enter the 'subject' you want to search for. Separate multiple entries with a comma(,).: crowd
-Enter the 'object' you want to search for. Separate multiple entries with a comma(,).: people
-Enter the 'predicate' you want to search for. Separate multiple entries with a comma(,).: watch
-How to link subjects and and objects?
-If you use AND, the spo satisfying both subject and object is searched. If you use OR, the spo satisfying either the subject or the object is searched.
-so_link : and
-How to link subjects and and predicates?
-If you use AND, the spo satisfying both subject and predicates is searched. If you use OR, the spo satisfying either the subject or the predicates is searched.
-sp_link : and
-How to link predicates and and objects?
-If you use AND, the spo satisfying both predicates and objects is searched. If you use OR, the spo satisfying either the predicates or the objects is searched.
-po_link : and
-+---------------------------------------------+-------------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------------------------+
-| video_path                                  | captions                                                                | spo                            | frame                                                                                |
-|---------------------------------------------+-------------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------------------------|
-| https://www.youtube.com/watch?v=V_Nj_BhesEY | A crowd of people watch him.                                            | [['crowd', 'watch', 'people']] | [[0.0, 83.15], [0.0, 83.15]]                                                         |
-| https://www.youtube.com/watch?v=xr0tV2KNqgI | A crowd of people watch as two bulls fight each other in a competition. | [['crowd', 'watch', 'people']] | [[0.0, 98.29], [0.0, 98.29], [0.0, 98.29], [0.0, 98.29], [0.0, 98.29], [0.0, 98.29]] |
-+---------------------------------------------+-------------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------------------------+</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="5">
-
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/V_Nj_BhesEY" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-</div>
-<div id="be63d37e" class="cell" data-execution_count="6">
-<div class="sourceCode cell-code" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># '관중'이 '사람들'을 '보는' 장면 검색 _version2</span></span>
-<span id="cb13-2"></span>
-<span id="cb13-3">sese.get_spo()</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Enter the 'subject' you want to search for. Separate multiple entries with a comma(,).: audience
-Enter the 'object' you want to search for. Separate multiple entries with a comma(,).: people
-Enter the 'predicate' you want to search for. Separate multiple entries with a comma(,).: watch
-How to link subjects and and objects?
-If you use AND, the spo satisfying both subject and object is searched. If you use OR, the spo satisfying either the subject or the object is searched.
-so_link : and
-How to link subjects and and predicates?
-If you use AND, the spo satisfying both subject and predicates is searched. If you use OR, the spo satisfying either the subject or the predicates is searched.
-sp_link : and
-How to link predicates and and objects?
-If you use AND, the spo satisfying both predicates and objects is searched. If you use OR, the spo satisfying either the predicates or the objects is searched.
-po_link : and
-
-
-There are no scenes searched by the keyword you entered.
-We will proceed with the search including similar words.
-Subject - Search &amp; Extension Keywords : ['audience', 'crowd']
-Object - Search &amp; Extension Keywords : ['people', 'kids']
-Predicate - Search &amp; Extension Keywords : ['watch', 'cheer']
-
-+---------------------------------------------+-------------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------------------------+
-| video_path                                  | captions                                                                | spo                            | frame                                                                                |
-|---------------------------------------------+-------------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------------------------|
-| https://www.youtube.com/watch?v=V_Nj_BhesEY | A crowd of people watch him.                                            | [['crowd', 'watch', 'people']] | [[0.0, 83.15], [0.0, 83.15]]                                                         |
-| https://www.youtube.com/watch?v=xr0tV2KNqgI | A crowd of people watch as two bulls fight each other in a competition. | [['crowd', 'watch', 'people']] | [[0.0, 98.29], [0.0, 98.29], [0.0, 98.29], [0.0, 98.29], [0.0, 98.29], [0.0, 98.29]] |
-+---------------------------------------------+-------------------------------------------------------------------------+--------------------------------+--------------------------------------------------------------------------------------+</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="6">
-
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/V_Nj_BhesEY" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-</div>
-<div id="2d6c4433" class="cell" data-execution_count="7">
-<div class="sourceCode cell-code" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># 행동의 주체나 객체는 상관없이 '눈'이 포함된 모든 장면을 검색</span></span>
-<span id="cb15-2"></span>
-<span id="cb15-3">sese.get_keyword()</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Enter the keyword you want to search for. Separate multiple entries with a comma(,). : snow
-Search Keywords : ['snow']
-The time required : 0.01402 sec
-Number of result values :  71
-+---------------------------------------------+----------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| video                                       |   starts |   ends | captions                                                                                                                                                                                                              |   count |
-|---------------------------------------------+----------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------|
-| https://www.youtube.com/watch?v=_yWADgOFxP0 |     0    |  75.09 | A camera pans over a snowy area and leads into a man standing on a snowboard and riding down a mountain.                                                                                                              |       2 |
-| https://www.youtube.com/watch?v=gnVupEzu59g |     0    | 193.38 | People are snowboarding down a hill of snow.                                                                                                                                                                          |       2 |
-| https://www.youtube.com/watch?v=jCNaa108OhI |     6.19 |  61.19 | People shovels the snow using a wheeled snow shovel.                                                                                                                                                                  |       2 |
-| https://www.youtube.com/watch?v=Tix8XrlBZxg |     0    |  53.07 | It's snowing outside of a home with a gray parked van and the man is holding tools, puts the camera down and then begins to clean the snow off of the van.                                                            |       2 |
-| https://www.youtube.com/watch?v=wdb4-V33wIo |     4.51 |  31.03 | A camera pans around a snowy roof and leads into a man pushing snow off of a roof and onto the ground below.                                                                                                          |       2 |
-| https://www.youtube.com/watch?v=kH8YpzoflKg |     0    |  73.13 | A camera pans around a shirtless man sitting in the snow followed by the man snowboarding and men riding up a hill.                                                                                                   |       2 |
-| https://www.youtube.com/watch?v=XGwP_Y-x-dI |     0    |  67.02 | In a sped up special effect, there are 3 people who are shoveling a driveway and removing snow from a car on the right side of their driveway while neighbors and other snow plows are also moving about behind them. |       2 |
-| https://www.youtube.com/watch?v=KOiRoi5_SnQ |    16.86 | 112.63 | He then skis quickly down a snowy embankment, accidentally hitting a skier in his path and sending her careening to the right.                                                                                        |       1 |
-| https://www.youtube.com/watch?v=XGwP_Y-x-dI |    67.02 |  93.09 | A black car pulls int o the newly shoveled driveway and the people continue to shovel snow onto the road outside of their driveway.                                                                                   |       1 |
-| https://www.youtube.com/watch?v=XGwP_Y-x-dI |    48.41 |  50.73 | A person drops their shovel in the driveway, then runs to the end of the driveway to play in the snow, then goes back and picks the shovel back up to shovel again.                                                   |       1 |
-| https://www.youtube.com/watch?v=09Kr5TQ9DHQ |    67.85 | 122.25 | More people riding down are shown and leads into several shots of people performing ski and snowboarding tricks down a mountain.                                                                                      |       1 |
-| https://www.youtube.com/watch?v=fJ45W32t6h0 |     6.68 |  18.22 | A person kicks off a tubing participant to ride down the snow slide.                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=09Kr5TQ9DHQ |     0    |  25.06 | A person is shown drawing several lines on a piece of paper that leads into several fast motion clips of snowy areas.                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=RDC4sqe8xVk |     0    |  20.22 | A man is getting dressed to ski in the falling snow.                                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=Tix8XrlBZxg |   186.23 | 200.25 | A woman shows up and she touches the van with her hands and starts to wipe off the snow with just her hands.                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=Tix8XrlBZxg |   118.15 | 146.18 | The man walks back to the camera and moves it once more so it can capture a different view and he continues to wipe the snow off of the side and top of the van.                                                      |       1 |
-| https://www.youtube.com/watch?v=Tix8XrlBZxg |    53.07 | 118.15 | The man moves the camera and adjusts the position and then walks back to the van begins cleaning the snow off of the entire top of the van.                                                                           |       1 |
-| https://www.youtube.com/watch?v=aH7puGPu39Y |   112.09 | 189.99 | A man bend his legs on the snow, then continue skiing with other men.                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=2xQVZorob1Q |     0    | 101.34 | An individual shovels snow, but only the lower legs and shovel are visible on camera.                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=BvACPvbUq1k |    10.02 |  27.74 | He shows several shots of him shoveling up the snow, a close up of his face, and panning around the area.                                                                                                             |       1 |
-| https://www.youtube.com/watch?v=BvACPvbUq1k |     1.45 |  13.07 | A person is seen shoveling up some snow with the camera laid on his head.                                                                                                                                             |       1 |
-| https://www.youtube.com/watch?v=aH7puGPu39Y |     0    |  38    | Three men wearing snowboards get out a ski lift, and a man tie his shoe.                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=jCNaa108OhI |    61.88 | 134.76 | Then, a man demonstrates how to shovel the snow, the he uses a bag.                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=J65l9OEP3pI |    16.22 |  21.03 | A man is cleaning snow that has fallen on his car.                                                                                                                                                                    |       1 |
-| https://www.youtube.com/watch?v=J65l9OEP3pI |    34.25 |  57.08 | He clears off snow from the top of his car by scraping it.                                                                                                                                                            |       1 |
-| https://www.youtube.com/watch?v=mb5CLhyHMvU |     0    |  21.12 | People are skiing down a snowy slope very slowly and gracefully.                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=0_9_HIvxNMw |    40.68 | 198.42 | They are seen going down hills, skiing and throwing snow into the air.                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=gnVupEzu59g |    45.44 |  48.34 | A man in red goggles is standing in the snow.                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=bOULU-0Nloc |     0    |   4.41 | In a sped up mode an elderly man walks to the front of a house and grabs a blue snow plow.                                                                                                                            |       1 |
-| https://www.youtube.com/watch?v=bOULU-0Nloc |     4.41 |  18.51 | Continuing in the sped up mode, the man begins to plow snow to make a path.                                                                                                                                           |       1 |
-| https://www.youtube.com/watch?v=bOULU-0Nloc |    18.51 |  88.15 | The man then moves the camera view and plows the snow in a different area that is fenced in.                                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=NcEWimHnC54 |     5.19 |  13.35 | We see snow covered ski slope and a title screen.                                                                                                                                                                     |       1 |
-| https://www.youtube.com/watch?v=NcEWimHnC54 |    13.35 | 135.02 | We see people skiing and snowboarding down the hill.                                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=NcEWimHnC54 |   105.35 | 106.83 | We see a person in dense woods riding a snowboard.                                                                                                                                                                    |       1 |
-| https://www.youtube.com/watch?v=6TgVNz6PATk |     2.8  |  14.71 | Two people are sliding down the lane covered in snow.                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=aH7puGPu39Y |    38.95 | 112.09 | Then, the men ski down a hill covered with snow.                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=KTIzccovgeg |    28.06 |  36.54 | A man uses a snow blower on a sidewalk area.                                                                                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=KTIzccovgeg |    36.87 |  39.15 | People use snow shovels to clear the sidewalk.                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=ffyPN2-EDg4 |   107.62 | 108.16 | The man stops scooping the snow.                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=jlqC3lFqxhQ |     0    |   5.04 | The video begins with a backdrop of a snowy area and introduces the names of the people in the video and that it's the "Wisp Snowboard Trip 2014.                                                                     |       1 |
-| https://www.youtube.com/watch?v=sgwg1C3i-Vw |    11.24 |  33.13 | Several people are shown preparing to get their canoes into the water on a snowy day.                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=VJyNbaAz6Xs |     0.84 |  19.26 | A man in a red coat is outside on a snowboard.                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=9V7cMp_w1_0 |    75.06 |  94.49 | A man cleans snow off a car.                                                                                                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=9V7cMp_w1_0 |   120.98 | 136.87 | Scenes of people cleaning snow off their vehicles are shown.                                                                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=9V7cMp_w1_0 |     0    |  37.97 | Winter scenes with vehicles and heavy snow are shown.                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=ffyPN2-EDg4 |     3.79 | 107.08 | The man shovels the snow on a roof while the cameraman talks.                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=zihMznAYlV0 |     6.19 |  72.8  | Two men in yellow padded sumo costumes do jumps on their snowboard on a downhill course.                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=ffyPN2-EDg4 |     0    |   3.79 | A man walks up to a snow scoop.                                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=-ibmoYKRxQk |     0    |  45.1  | A camera pans around a snowy area and transitions into several people in tubes down a hill.                                                                                                                           |       1 |
-| https://www.youtube.com/watch?v=kH8YpzoflKg |    58.16 | 115.17 | Several shots are shown of people riding down the snowy hill and doing tricks in front of the camera.                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=N9LTq3gYmsI |    13.51 |  28.62 | The person holding the camera starts his journey and he is off down the slopes of snow.                                                                                                                               |       1 |
-| https://www.youtube.com/watch?v=N9LTq3gYmsI |     0    |  14.04 | A group of people are sitting down at the top of a snow slide in a tube.                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=Y_dtU10XIsg |     6.94 |  42.61 | A woman is outside, shoveling snow.                                                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=jlqC3lFqxhQ |     5.04 | 194.67 | The video then goes into numerous various different segments of a bunch of different people snowboarding while doing tricks either in the daytime or nighttime and at various different locations.                    |       1 |
-| https://www.youtube.com/watch?v=o9gsbkp135s |     0    |  13.55 | A person is shown outside brushing snow off of a car with lights on.                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=o9gsbkp135s |    13.55 |  26.97 | The man walks around the car pushing more of the snow off and shutting the door.                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=aOzMA2rpWEw |     0    |  42.95 | A man and a woman are standing outside in the snow talking.                                                                                                                                                           |       1 |
-| https://www.youtube.com/watch?v=aOzMA2rpWEw |    42.95 | 171.8  | The man is cleaning the snow off of the car.                                                                                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=aOzMA2rpWEw |   193.27 | 222.8  | The man continues brushing the snow off of the car.                                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=jUPbimyUndA |     0    |   4.88 | woman is walking wearing a bikini and eating a chocolate is snowy day.                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=KwhqAV_0o40 |     0    |  61.17 | A man dressed in snow gear is standing on a frozen body of water and bending over as he looks into a fish hole that his fishing pole is in.                                                                           |       1 |
-| https://www.youtube.com/watch?v=_-zOtZZ_fwI |    12.8  |  29.27 | One of the men motions the the camera person to follow him as he grabs a broom and walks down a hall and out a door to a snow covered parking lot.                                                                    |       1 |
-| https://www.youtube.com/watch?v=_-zOtZZ_fwI |    60.37 | 182.93 | The man with the broom brushes snow off of an SUV as another man does the same at a car next to him.                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=EOradtej9GU |     0    |  27.26 | A mountain full of snow appears and a man begins skiing down the slopes.                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=EOradtej9GU |   101.76 | 121.14 | Eventually,he goes to fast and ends up flipping over into a pile of snow.                                                                                                                                             |       1 |
-| https://www.youtube.com/watch?v=eRQAjBwhDXk |     0    |  34.05 | A person skis quickly down a snow covered hill.                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=eRQAjBwhDXk |    35.67 |  81.06 | People are on intertubes, sledding along the snow.                                                                                                                                                                    |       1 |
-| https://www.youtube.com/watch?v=wdb4-V33wIo |    36.68 |  91.97 | The man continues speaking to the camera while pushing off snow and leading into an empty roof.                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=wdb4-V33wIo |    89.15 | 110.03 | Another man is seen shoveling off snow and ends with pictures of the men working.                                                                                                                                     |       1 |
-| https://www.youtube.com/watch?v=H-fl49tiqGE |     0    |  36.91 | women are in rubbers sliding down a snowy hill.                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=6rG5dBgwBDc |     0    |   9.24 | Snowflakes are shown falling down the screen before we see a christmas tree.                                                                                                                                          |       0 |
-+---------------------------------------------+----------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="7">
-
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/_yWADgOFxP0" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-</div>
-<div id="ffe98e91" class="cell" data-execution_count="8">
-<div class="sourceCode cell-code" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># 행동의 주체나 객체는 상관없이 '바텐더'와 '카드', 그리고 '술'이 등장하는 장면을 검색</span></span>
-<span id="cb17-2"></span>
-<span id="cb17-3">sese.get_keyword()</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Enter the keyword you want to search for. Separate multiple entries with a comma(,). : bartender,card,alchol
-Search Keywords : ['bartender', 'card', 'alchol']
-The time required : 0.01100 sec
-Number of result values :  21
-+---------------------------------------------+----------+--------+------------------------------------------------------------------------------------------------------------------+---------+
-| video                                       |   starts |   ends | captions                                                                                                         |   count |
-|---------------------------------------------+----------+--------+------------------------------------------------------------------------------------------------------------------+---------|
-| https://www.youtube.com/watch?v=LB1A7BobPwg |    74.28 |  83.02 | The bartender puts two cards on the bar.                                                                         |       2 |
-| https://www.youtube.com/watch?v=LB1A7BobPwg |   109.24 | 155.12 | They push their cards and drink beer, then pull cards and drink beer.                                            |       2 |
-| https://www.youtube.com/watch?v=dAjhBWalWRM |     0.8  |  30.81 | The blackjack attendant places cards on the table.                                                               |       1 |
-| https://www.youtube.com/watch?v=LB1A7BobPwg |   210.83 | 216.29 | The bartender looks at the camera and speaks.                                                                    |       1 |
-| https://www.youtube.com/watch?v=vfLKyUMzFHg |    44.78 | 114.81 | He then performs a game of black jack while moving the cards and dice around while still speaking to the camera. |       1 |
-| https://www.youtube.com/watch?v=vfLKyUMzFHg |     0    |  63.72 | A man is seen speaking to the camera and pointing to a table and laying out cards.                               |       1 |
-| https://www.youtube.com/watch?v=2-xPjKzp-Kk |   207.55 | 220.8  | Next the woman pick up the cards.                                                                                |       1 |
-| https://www.youtube.com/watch?v=2-xPjKzp-Kk |   122.54 | 184.37 | Then people start to gamble, while the woman distribute the cards and pick up tokens.                            |       1 |
-| https://www.youtube.com/watch?v=2-xPjKzp-Kk |   112.61 | 122.54 | Then, the person stacks all the cards and puts the tokens inside the squares.                                    |       1 |
-| https://www.youtube.com/watch?v=2-xPjKzp-Kk |     0    | 111.5  | A person moves poker cards and tokens on the table in a casino on front people.                                  |       1 |
-| https://www.youtube.com/watch?v=rMes9poepAI |     0    |   3.29 | We see the title card for the product.                                                                           |       1 |
-| https://www.youtube.com/watch?v=LB1A7BobPwg |   159.49 | 163.86 | The bartender spits the beer back in the glass.                                                                  |       1 |
-| https://www.youtube.com/watch?v=huFuRGoZt9I |     0    |  13.2  | A dealer is shown laying out cards on a table while other people's hands are shown on the side.                  |       1 |
-| https://www.youtube.com/watch?v=LB1A7BobPwg |     4.37 | 206.46 | We then see a bartender talking to two people in a bar.                                                          |       1 |
-| https://www.youtube.com/watch?v=JnYteBN2LDI |     0    |   5.19 | A male bartender stands behind a bar in front of drinks and mixing cups.                                         |       1 |
-| https://www.youtube.com/watch?v=5IkU9svJFRI |    35.15 |  69.6  | We see 2 title cards about starting fires for survival and the website is show before the end screens.           |       1 |
-| https://www.youtube.com/watch?v=mAWuiYWXmb8 |     0.59 |  23    | A man sits next a woman performing cardio workouts.                                                              |       1 |
-| https://www.youtube.com/watch?v=mAWuiYWXmb8 |     0.24 |  23.59 | A woman works out sitting on a cardio machine.                                                                   |       1 |
-| https://www.youtube.com/watch?v=mAWuiYWXmb8 |     0    |   1.65 | A woman and a man exercise sitting on a cardio machine.                                                          |       1 |
-| https://www.youtube.com/watch?v=huFuRGoZt9I |    13.78 |  23.36 | The person then lays out cards while another person lays out their chips.                                        |       1 |
-| https://www.youtube.com/watch?v=D5vmWDHQ86I |    30    |  35.58 | The ID card of the person being interviewed is also shown.                                                       |       1 |
-+---------------------------------------------+----------+--------+------------------------------------------------------------------------------------------------------------------+---------+</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="8">
-
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/LB1A7BobPwg" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-</div>
-<div id="83a0c6cf" class="cell" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;"># 행동의 주체나 객체는 상관없이 '심판'과 '관중', '선수들', 그리고 '팀'이 등장하는 장면을 검색</span></span>
-<span id="cb19-2"></span>
-<span id="cb19-3">sese.get_keyword()</span></code></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Enter the keyword you want to search for. Separate multiple entries with a comma(,). : referee,audience,players,team
-Search Keywords : ['referee', 'audience', 'players', 'team']
-The time required : 0.01101 sec
-Number of result values :  108
-+---------------------------------------------+----------+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| video                                       |   starts |   ends | captions                                                                                                                                                                                                                                                                         |   count |
-|---------------------------------------------+----------+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------|
-| https://www.youtube.com/watch?v=Hc7A90HiA28 |     8.1  | 147.19 | The referee gave a go signal for the team to start pulling, the players are pulling the rope with all of their might until the blue team won, on the other side of the lane another team are playing tug of war, and the camera pans to the audiences who are watching the game. |       6 |
-| https://www.youtube.com/watch?v=3gsF785TAmg |    21.64 |  44.35 | A player on the yellow team falls and the players on each team assist her.                                                                                                                                                                                                       |       3 |
-| https://www.youtube.com/watch?v=cCISvaObBxI |   120.44 | 137.92 | Two team of girls compete, a girl with red uniform scores and the team wins.                                                                                                                                                                                                     |       2 |
-| https://www.youtube.com/watch?v=3gsF785TAmg |    11.9  |  21.64 | The yellow team servies the ball and it is hit continually back and forth until the yellow team scores a point.                                                                                                                                                                  |       2 |
-| https://www.youtube.com/watch?v=c6ie4KwFnAs |    26.96 |  71.18 | There is a team of boys dressed in blue uniforms playing soccer against another team of boys dressed in blue striped uniforms in an indoor gym.                                                                                                                                  |       2 |
-| https://www.youtube.com/watch?v=c6ie4KwFnAs |   136.96 | 198.44 | There is also another game of soccer between a team dressed in red and a team dressed inn blue.                                                                                                                                                                                  |       2 |
-| https://www.youtube.com/watch?v=Hc7A90HiA28 |     0    |  22.08 | Two teams are playing a tug of war, while the referee is at the center and on the side are people taking pictures.                                                                                                                                                               |       2 |
-| https://www.youtube.com/watch?v=PLgcXxX3A2A |     0    |  85.39 | A boy on a team throws a basketball at other team members.                                                                                                                                                                                                                       |       2 |
-| https://www.youtube.com/watch?v=y0VZOcxbjRM |     3.81 |  33.88 | A lady from the green team begins to aim the stick to hit the puck while another team member helps her rearrange the pucks.                                                                                                                                                      |       2 |
-| https://www.youtube.com/watch?v=N3WVKg7Q2io |     9.26 |  68.41 | There is a large swimming team swimming and throwing the ball around to their team mates, scoring.                                                                                                                                                                               |       2 |
-| https://www.youtube.com/watch?v=cCISvaObBxI |    12.63 |  64.11 | Two teams play soccer in an indoor soccer court, the team wearing white t-shirt wins the competition.                                                                                                                                                                            |       2 |
-| https://www.youtube.com/watch?v=x0HMqVvqHJE |     7.35 | 170.88 | Two referees runs about and down the field with the players.                                                                                                                                                                                                                     |       2 |
-| https://www.youtube.com/watch?v=1wqSUOGmpBs |    44.12 | 109.65 | The referee lets them know when to start and the sumos wrestle while the referee walks around the ring and monitors them.                                                                                                                                                        |       2 |
-| https://www.youtube.com/watch?v=yEFS8M4pgMU |   148.79 | 155.26 | The opposing team pulls harder and the team in the white ends up falling down and losing.                                                                                                                                                                                        |       2 |
-| https://www.youtube.com/watch?v=lxtG6PbeaqY |    12.04 |  45.49 | The game begins with a team of men against a team of women each taking turns throwing dodge balls at each other violently.                                                                                                                                                       |       2 |
-| https://www.youtube.com/watch?v=k3nRbFeancA |     0    |  66.97 | The video shows various clips of sumo wrestlers fighting in a ring while a referee and audience looks on.                                                                                                                                                                        |       2 |
-| https://www.youtube.com/watch?v=c6ie4KwFnAs |   198.44 | 215.69 | The first set of teams continue playing the game as the solid blue team scores a goal.                                                                                                                                                                                           |       2 |
-| https://www.youtube.com/watch?v=c6ie4KwFnAs |    71.18 | 112.16 | There are several spectators seated on the side watching the players play soccer.                                                                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=yEFS8M4pgMU |    31.54 |  77.63 | There two teams of men playing the game of tug of war in a gym.                                                                                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=yEFS8M4pgMU |   110.78 | 148.79 | The referee is standing next to the contestants as they continue to pull the rope harder.                                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=fzp5ooc727c |   106.05 | 130.52 | There was a penalty and one players attempts to hit the ball into the goal from the side.                                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=gE1nShlv6mo |   110.75 | 136.05 | After, the woman shows a container, then gabs the steam machine and shows  while talking.                                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=4X8raZBOzvM |    91.94 |  97.29 | The crowd claps for the players.                                                                                                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=4X8raZBOzvM |    90.97 |  91.45 | The bagpipe players finish playing.                                                                                                                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=4X8raZBOzvM |     0    |  89.51 | Two old bagpipe players play towards each other.                                                                                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=VBY8feOQgy4 |    74.87 | 116.28 | There is a person dressed in black who is their referee.                                                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=x0HMqVvqHJE |    37.67 | 183.74 | Other players watch from the sideline near a fence.                                                                                                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=Alv7N6Ynm1Y |    33.62 | 112.73 | The audience claps for the performers.                                                                                                                                                                                                                                           |       1 |
-| https://www.youtube.com/watch?v=ffDlO-IrsxI |     0    |   9.93 | An assortment of teams male and female are lined up outside of a building then they are let in.                                                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=xfVx1-emCV8 |    46.64 |  51.62 | Other players are shown watching in anticipation.                                                                                                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=gE1nShlv6mo |     0    | 101.87 | A woman shows how to clean a shirt with a steam machine while talking.                                                                                                                                                                                                           |       1 |
-| https://www.youtube.com/watch?v=nvsZFU73npI |    59.95 | 110.33 | two women in bikini are standing with a dwarf  and he is winning the fight while the interviewer is talking to people in the audience.                                                                                                                                           |       1 |
-| https://www.youtube.com/watch?v=KB9sqtTJTZw |    19.85 | 172.04 | We see people in front of an audience dancing.                                                                                                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=V2MlQezL1IE |    44.91 | 177.75 | The video then comes back to the older man who is directing the players.                                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=GwJ9DmiW8dk |    82.5  |  97.06 | The woman goes to the furthest end of the balance beam, has a very concentrated look on her face and she quickly does a series of flips off of the balance beam, lands on her feet, throws her two arms in the air and waves to the audience who is cheering wildly.             |       1 |
-| https://www.youtube.com/watch?v=GwJ9DmiW8dk |     0    |   6.31 | A woman in a purple bodysuit and wearing a bib on her back approaches a wooden balance beam in front of a large audience who is cheering her on.                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=URzytLugoVw |    12.44 |  22.71 | The man with the ball's team runs over to him.                                                                                                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=FnrvqpjHe6I |    58.36 | 137.76 | Some of the players are avoiding the ball, so they continue to run around.                                                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=FnrvqpjHe6I |   138.72 | 191.33 | The players kicked the ball to the next person on the opposite side of the court.                                                                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=FnrvqpjHe6I |    85.14 | 137.76 | The female players walked as they kicked the ball from one side to the next.                                                                                                                                                                                                     |       1 |
-| https://www.youtube.com/watch?v=FnrvqpjHe6I |     0    |  67.92 | The young female players are running around the court throwing ball to on each other.                                                                                                                                                                                            |       1 |
-| https://www.youtube.com/watch?v=X74SOIQRD4M |     9.97 |  16.21 | The two players began walking.                                                                                                                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=X74SOIQRD4M |     0    |   2.76 | The players are running in the field with their bats.                                                                                                                                                                                                                            |       1 |
-| https://www.youtube.com/watch?v=ub0pmYL8i5s |    28.03 |  59.63 | Once completed,the person then takes a white rag and goes into the sink and washes away the moisture from the steam.                                                                                                                                                             |       1 |
-| https://www.youtube.com/watch?v=ub0pmYL8i5s |     0    |  28.03 | A silver sink is shown and a black hose with a scrubber on the bottom of it begins cleaning the sink with steam coming out of it.                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=N3WVKg7Q2io |    83.83 | 102.87 | They are running around trying to score for their team.                                                                                                                                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=N3WVKg7Q2io |    68.41 |  83.32 | Then, there is a team on the filed playing flag football.                                                                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=iNhoeDq_EBQ |    68.02 | 144.73 | The people do various flips and tricks around the mat and end with a pose and waving to the audience.                                                                                                                                                                            |       1 |
-| https://www.youtube.com/watch?v=bqv3vCT0T5s |    41.68 |  54.91 | She turns her back to the audience to show different angles of her moves.                                                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=LXHc1X1pKEM |    24.16 |  83.57 | She stands up and shows the cycling team printed on her tank top.                                                                                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=_AdJtwjeITM |    33.06 |  49    | A younger man and an older man work as a team to move the curl.                                                                                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=AZaSkc1gnhY |   112.97 | 145.25 | After, the man plays guitar indoor on front an audience.                                                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=lM3uGxHWZBA |    31.01 |  98.8  | The players cheer and speak to one another as well as showing more highlights of the game.                                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=aPXqTfbtgYI |    30.69 |  41.19 | Then the camera pans back out and the crowd begins clapping for the audience.                                                                                                                                                                                                    |       1 |
-| https://www.youtube.com/watch?v=4Gs7Xyn16QI |    67.35 |  87.47 | A few other teammates also perform the act, then we see the final scoreboard.                                                                                                                                                                                                    |       1 |
-| https://www.youtube.com/watch?v=MZz0OTfvjrY |    51.72 |  62.48 | The girl and boy arm wrestlers get into position again with the referee setting them up they begin wrestling.                                                                                                                                                                    |       1 |
-| https://www.youtube.com/watch?v=MZz0OTfvjrY |    17.41 |  51.72 | The girl and boy prepare to arm wrestle as a referee stands above the girl arm wrestler uses both arms and pushes in the wrong direction.                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=NbIxjYWSURI |     0    |  65.88 | A montage of athletes completing incredible stunts and races are shown as well as hundreds of people watching in the audience.                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=lxtG6PbeaqY |    48.83 | 105.03 | The teams then change sides on the gym floor with the women on the left and the men on the right.                                                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=zfqach0dDYo |     3.41 |   7.11 | referee is in the ring and counts the seconds of the wreslers on the floor.                                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=kkLRLb8TGwI |    70.42 | 111.01 | The match appears to be getting very tense as both teams are trying their best to score and both goalies put up great defense.                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=W3fKTlm1BPs |     5.92 | 114.78 | An intro leads into a camera following around a lacrosse match and pausing to show off players movements.                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=8eDJXDetgGE |   125.21 | 218.29 | Several clips are shown of people playing this game as well as celebrating with team mates.                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=ol4ScGsyhbI |   190.07 | 222.31 | In the final scenes, a vast audience talks as they watch him win yet again.                                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=1fF1OQtpctg |     0    |  54.52 | A cheer-leading team begins to hold up posters as their mascot runs behind them.                                                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=kMsWDe0V1Xg |   181.3  | 190.85 | We pan from the man out to the audience.                                                                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=3gsF785TAmg |     0    |  11.9  | A game of volleyball is being played between blue and yellow team.                                                                                                                                                                                                               |       1 |
-| https://www.youtube.com/watch?v=lroya8XhuPs |     0    |  49    | woman is standing talking to the camera holding a microphone and interviewing voleyball players.                                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=hR6VFvMXCN4 |    54.62 | 147.63 | More athletes continue jumping while the audience gets riled up and ends with soldiers raising flags up to the sky.                                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=hR6VFvMXCN4 |     0    |  28.79 | A close up of a flame is shown followed by audience members standing up and athletes standing ready.                                                                                                                                                                             |       1 |
-| https://www.youtube.com/watch?v=4d3RtnuVCV4 |    39.26 | 126.64 | The coach talks to the players and they have a practice.                                                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=4d3RtnuVCV4 |     0    | 126.64 | A video of the UConn women's field hockey team is shown.                                                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=EmlmKZ6Gi3Y |    11.29 |  20.52 | There's a large team of participants getting ready to do engage in a water tubing activity.                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=VgQ6a7oVx7g |     0    |  62.67 | People are performing gymnastic stunts in front of an audience.                                                                                                                                                                                                                  |       1 |
-| https://www.youtube.com/watch?v=Vcv9P-4Tty0 |     9.33 |  26.18 | The other person scores a goal and other players jump on him and congratulate him.                                                                                                                                                                                               |       1 |
-| https://www.youtube.com/watch?v=lQq_JPRFEMw |    39.52 |  43.82 | The teams line up and shake hands.                                                                                                                                                                                                                                               |       1 |
-| https://www.youtube.com/watch?v=O4P07fipvIA |    62.64 | 201.1  | The girls continue cheering around the stage while lifting one another up and performing tricks and pans to the audience in the end.                                                                                                                                             |       1 |
-| https://www.youtube.com/watch?v=SHS8pNOsZDU |    20.95 |  25.83 | A member on the team breaks away and rides toward the goal on his horse.                                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=QLJAQBUisuQ |   119.73 | 131.49 | He has a flag wrapped around him and waves at the audience.                                                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=bdC2YPVHGZM |   112.83 | 131.17 | The two teams shake hands after the game.                                                                                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=bdC2YPVHGZM |   102.25 | 107.19 | The man makes a successful shot on goal and high fives a teammate.                                                                                                                                                                                                               |       1 |
-| https://www.youtube.com/watch?v=DEmArEKL8gc |    79.77 | 143    | Once the stunts are done,half of the team begins doing cart wheels and they all meet back in the middle to do stunts in the air.                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=1VmqefkNV_8 |    12.03 | 171.86 | People in the audience watching him are dancing with him.                                                                                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=BsceC-igcTY |     0    |  17.46 | Hockey players walk out onto the ice, greeting each other.                                                                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=lxtG6PbeaqY |   111.72 | 121.08 | The game ends and both teams meet in the middle of the floor and give each other high fives.                                                                                                                                                                                     |       1 |
-| https://www.youtube.com/watch?v=0j9TxzwRr6E |     0    | 120.27 | Two men plays foosball in an arena with two referees standing near by watching the fame.                                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=bpg2PC2neQM |    88.57 | 218.7  | The video includes numerous clips of players in lacrosse games, hitting the ball toward opposing goals.                                                                                                                                                                          |       1 |
-| https://www.youtube.com/watch?v=lxtG6PbeaqY |     0.67 | 132.46 | Two dodgeball teams play against each other in an interior gym surrounded by onlookers in bleachers.                                                                                                                                                                             |       1 |
-| https://www.youtube.com/watch?v=R0dqEWnDC7k |    74.55 |  83.08 | The next scene shows a team of cricketers wearing white uniforms getting ready to play as they gather in a circle with their captain.                                                                                                                                            |       1 |
-| https://www.youtube.com/watch?v=qRuPuzY6yiE |    48.31 |  84.01 | One side pulls the others down and the rest of the team cheer while the camera pans around.                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=B2qCBkXrb8s |    29.62 |  47.54 | One pushes the other to the ground and the audience cheers.                                                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=B2qCBkXrb8s |    46.85 |  68.21 | The man pushes another out of the circle and the audience claps once again.                                                                                                                                                                                                      |       1 |
-| https://www.youtube.com/watch?v=y0VZOcxbjRM |    47.21 |  76.14 | Then another player from the green team comes forward to play.                                                                                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=y0VZOcxbjRM |    30.84 |  44.54 | A player from the cream team then hits the puck with her stick but is not very successful.                                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=U0IJmOHoa1M |   162.54 | 179.83 | The video shows different cricket matches taking place where Sri Lanka is playing against teams from different countries.                                                                                                                                                        |       1 |
-| https://www.youtube.com/watch?v=U0IJmOHoa1M |   103.75 | 142.94 | The Sri Lanka team is represented by the blue uniform.                                                                                                                                                                                                                           |       1 |
-| https://www.youtube.com/watch?v=U0IJmOHoa1M |    21.9  |  55.33 | The cricket team of Sri Lanka is playing against another country.                                                                                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=cCISvaObBxI |    43.71 |  48.56 | The player scores and celebrate with a teammate.                                                                                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=cCISvaObBxI |    92.27 | 110.73 | Two teams play soccer, and the player with the yellow uniform scores.                                                                                                                                                                                                            |       1 |
-| https://www.youtube.com/watch?v=cCISvaObBxI |    67.99 |  88.39 | Other teams plays soccer, a player with white uniform receives a ball and score.                                                                                                                                                                                                 |       1 |
-| https://www.youtube.com/watch?v=skSPijG9sgU |    78.11 | 220.03 | Several people are shown playing the game around them and panning to the audience reacting as well as people standing on the sides.                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=JDfFAljt4JM |    78.28 | 233.68 | The woman continue spinning with the man walking in and out of frame and ends with her bowing to the audience.                                                                                                                                                                   |       1 |
-| https://www.youtube.com/watch?v=1wqSUOGmpBs |     0    |  44.12 | Two very large sumos are in an elevated circle doing leg warm ups and squatting while another man in the middle dressed in Japanese garb referees.                                                                                                                               |       1 |
-| https://www.youtube.com/watch?v=hJn5L1nrkL4 |     5.3  |   6.37 | One of the players is wearing blue and the other player is in a red shirt.                                                                                                                                                                                                       |       1 |
-| https://www.youtube.com/watch?v=hJn5L1nrkL4 |     6.37 |  10.61 | There is a person dressed in a black shirt seated near the players.                                                                                                                                                                                                              |       1 |
-| https://www.youtube.com/watch?v=twGoVVPO08Q |    65.15 | 188.74 | Several people are shown running down the track while the audience claps and people speak to the camera.                                                                                                                                                                         |       1 |
-| https://www.youtube.com/watch?v=twGoVVPO08Q |     6.71 |  79.52 | An audience watching pans out into a large track and athletes running into a pit.                                                                                                                                                                                                |       1 |
-| https://www.youtube.com/watch?v=3XUxm78gjJE |   102.45 | 121.07 | The audience is dancing on the side of the field.                                                                                                                                                                                                                                |       1 |
-+---------------------------------------------+----------+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="9">
-
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/Hc7A90HiA28" frameborder="0" allowfullscreen=""></iframe>
-        
-</div>
-</div>
-
-
-</section>
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Python</category>
-  <category>Text</category>
-  <category>Video</category>
-  <category>DB</category>
-  <category>Fine-tuning</category>
-  <guid>https://statrav.github.io/ssupage/engineer/posts/1_sese_시연.html</guid>
-  <pubDate>Sat, 30 Sep 2023 15:00:00 GMT</pubDate>
-  <media:content url="https://statrav.github.io/ssupage/engineer/images/1_sese/thumbnail2.png" medium="image" type="image/png" height="106" width="144"/>
+  <guid>https://statrav.github.io/engineer/posts/2_wakebot.html</guid>
+  <pubDate>Thu, 31 Aug 2023 15:00:00 GMT</pubDate>
+  <media:content url="https://statrav.github.io/engineer/images/2_wakebot/thumbnail.png" medium="image" type="image/png" height="115" width="144"/>
 </item>
 </channel>
 </rss>

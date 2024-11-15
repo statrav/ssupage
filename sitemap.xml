@@ -1,51 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://statrav.github.io/ssupage/research/posts/3_kto.html</loc>
-    <lastmod>2024-11-15T07:55:30.068Z</lastmod>
+    <loc>https://statrav.github.io/research/posts/4_kto.html</loc>
+    <lastmod>2024-11-13T09:16:50.390Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/research/posts/1_genco.html</loc>
-    <lastmod>2024-11-15T01:49:52.054Z</lastmod>
+    <loc>https://statrav.github.io/research/posts/2_ambig.html</loc>
+    <lastmod>2024-11-14T10:46:41.114Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/index.html</loc>
-    <lastmod>2024-11-13T06:44:34.068Z</lastmod>
+    <loc>https://statrav.github.io/research/index.html</loc>
+    <lastmod>2024-11-13T06:55:56.367Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/engineer/posts/2_wakebot.html</loc>
-    <lastmod>2024-11-15T07:00:32.369Z</lastmod>
+    <loc>https://statrav.github.io/engineer/posts/3_holos.html</loc>
+    <lastmod>2024-11-14T11:08:13.812Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/engineer/posts/1_sese.html</loc>
-    <lastmod>2024-11-15T07:00:18.678Z</lastmod>
+    <loc>https://statrav.github.io/engineer/posts/1_sese.html</loc>
+    <lastmod>2024-11-14T11:08:05.036Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/aso/index.html</loc>
-    <lastmod>2024-11-15T08:03:49.695Z</lastmod>
+    <loc>https://statrav.github.io/aso/posts/1_sl.html</loc>
+    <lastmod>2024-11-13T08:56:47.299Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/about.html</loc>
+    <loc>https://statrav.github.io/about.html</loc>
     <lastmod>2024-11-14T10:52:55.920Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/engineer/index.html</loc>
+    <loc>https://statrav.github.io/aso/index.html</loc>
+    <lastmod>2024-11-14T10:57:43.906Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statrav.github.io/engineer/index.html</loc>
     <lastmod>2024-11-13T06:56:00.311Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/engineer/posts/1_sese_시연.html</loc>
-    <lastmod>2024-11-15T07:00:24.862Z</lastmod>
+    <loc>https://statrav.github.io/engineer/posts/2_wakebot.html</loc>
+    <lastmod>2024-11-14T11:07:53.128Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/engineer/posts/3_holos.html</loc>
-    <lastmod>2024-11-15T07:00:30.171Z</lastmod>
+    <loc>https://statrav.github.io/index.html</loc>
+    <lastmod>2024-11-13T06:44:34.068Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/research/index.html</loc>
-    <lastmod>2024-11-15T08:06:23.597Z</lastmod>
+    <loc>https://statrav.github.io/research/posts/1_genco.html</loc>
+    <lastmod>2024-11-14T11:03:04.681Z</lastmod>
   </url>
   <url>
-    <loc>https://statrav.github.io/ssupage/research/posts/2_ambig.html</loc>
-    <lastmod>2024-11-15T05:27:47.573Z</lastmod>
+    <loc>https://statrav.github.io/research/posts/3_compress.html</loc>
+    <lastmod>2024-11-13T09:11:30.296Z</lastmod>
+  </url>
+  <url>
+    <loc>https://statrav.github.io/research/posts/3_kto.html</loc>
+    <lastmod>2024-11-14T10:47:29.377Z</lastmod>
   </url>
 </urlset>
