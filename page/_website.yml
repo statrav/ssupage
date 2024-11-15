@@ -42,14 +42,14 @@ website:
   open-graph:
     description: "The world of Hyesu"
     image: cover.png
-  comments:
-    giscus:
-      repo: https://statrav.github.io/ssupage/
-      repo-id: R_kgDOICXnAA
-      category: Giscus Comments
-      category-id: DIC_kwDOICXnAM4CR8YX
-      mapping: title
-      reactions-enabled: true
-      loading: lazy
-      input-position: top
-      theme: light
+  # comments:
+  #   giscus:
+  #     repo: https://statrav.github.io/ssupage/
+  #     repo-id: R_kgDOICXnAA
+  #     category: Giscus Comments
+  #     category-id: DIC_kwDOICXnAM4CR8YX
+  #     mapping: title
+  #     reactions-enabled: true
+  #     loading: lazy
+  #     input-position: top
+  #     theme: light
