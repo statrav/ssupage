@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Hyesu Hwang">
+<meta name="description" content="모호한 질문을 처리할 때 발생하는 RAG의 문제를 발견하고, 해결하는 연구입니다.">
 
-<title>ambig – SSUpage /Hyesu</title>
+<title>Ambiguous Query에 대한 RAG의 성능 문제를 해결하기 위한 Query 분해 – SSUpage /Hyesu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,12 +72,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="– SSUpage /Hyesu">
-<meta property="og:description" content="모델과, 사람과 대화를 즐기는 황혜수의 페이지입니다. 반갑습니다!">
-<meta property="og:image" content="https://statrav.github.io/research/images/2_ambig/thumbnail.png">
+<meta property="og:title" content="Ambiguous Query에 대한 RAG의 성능 문제를 해결하기 위한 Query 분해 – SSUpage /Hyesu">
+<meta property="og:description" content="Handling Ambiguous Queries Through Query Decomposition in a RAG Setting">
+<meta property="og:image" content="https://statrav.github.io/ssupage/research/images/2_ambig/thumbnail.png">
 <meta property="og:site_name" content="SSUpage /Hyesu">
-<meta property="og:image:height" content="1382">
-<meta property="og:image:width" content="4105">
+<meta property="og:image:height" content="515">
+<meta property="og:image:width" content="598">
+<meta name="twitter:title" content="Ambiguous Query에 대한 RAG의 성능 문제를 해결하기 위한 Query 분해 – SSUpage /Hyesu">
+<meta name="twitter:description" content="Handling Ambiguous Queries Through Query Decomposition in a RAG Setting">
+<meta name="twitter:image" content="https://statrav.github.io/ssupage/research/images/2_ambig/thumbnail.png">
+<meta name="twitter:image-height" content="515">
+<meta name="twitter:image-width" content="598">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -114,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../../aso/index.html"> <i class="bi bi-book" role="img">
 </i> 
-<span class="menu-text">And So On</span></a>
+<span class="menu-text">EXPERIENCES</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html"> <i class="bi bi-person-vcard" role="img">
@@ -124,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/ssupage/statrav.github.io" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-code-slash"></i></a>
+    <a href="https://github.com/ssupage/statrav.github.io/ssupage/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-code-slash"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -133,14 +140,47 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#프로젝트-소개" id="toc-프로젝트-소개" class="nav-link active" data-scroll-target="#프로젝트-소개">⭐ 프로젝트 소개</a></li>
+  <li><a href="#왜-이-프로젝트가-중요한가" id="toc-왜-이-프로젝트가-중요한가" class="nav-link" data-scroll-target="#왜-이-프로젝트가-중요한가">💎 왜 이 프로젝트가 중요한가?</a>
+  <ul>
+  <li><a href="#문제-제기" id="toc-문제-제기" class="nav-link" data-scroll-target="#문제-제기">문제 제기</a></li>
+  <li><a href="#목표" id="toc-목표" class="nav-link" data-scroll-target="#목표">목표</a></li>
+  </ul></li>
+  <li><a href="#핵심-기술은-무엇인가" id="toc-핵심-기술은-무엇인가" class="nav-link" data-scroll-target="#핵심-기술은-무엇인가">🔎 핵심 기술은 무엇인가?</a>
+  <ul>
+  <li><a href="#사용-기술" id="toc-사용-기술" class="nav-link" data-scroll-target="#사용-기술">사용 기술</a></li>
+  <li><a href="#적용-방법" id="toc-적용-방법" class="nav-link" data-scroll-target="#적용-방법">적용 방법</a></li>
+  </ul></li>
+  <li><a href="#어떠한-사고방식생각을-거쳤는가" id="toc-어떠한-사고방식생각을-거쳤는가" class="nav-link" data-scroll-target="#어떠한-사고방식생각을-거쳤는가">💡 어떠한 사고방식/생각을 거쳤는가?</a>
+  <ul>
+  <li><a href="#문제-발견" id="toc-문제-발견" class="nav-link" data-scroll-target="#문제-발견">문제 발견</a></li>
+  <li><a href="#문제-증명" id="toc-문제-증명" class="nav-link" data-scroll-target="#문제-증명">문제 증명</a></li>
+  <li><a href="#방법-접근" id="toc-방법-접근" class="nav-link" data-scroll-target="#방법-접근">방법 접근</a></li>
+  </ul></li>
+  <li><a href="#어떠한-시행착오를-겪었는가" id="toc-어떠한-시행착오를-겪었는가" class="nav-link" data-scroll-target="#어떠한-시행착오를-겪었는가">🌄 어떠한 시행착오를 겪었는가?</a>
+  <ul>
+  <li><a href="#방법론-개발" id="toc-방법론-개발" class="nav-link" data-scroll-target="#방법론-개발">방법론 개발</a></li>
+  </ul></li>
+  <li><a href="#부록" id="toc-부록" class="nav-link" data-scroll-target="#부록">🧶 부록</a>
+  <ul>
+  <li><a href="#파이프라인" id="toc-파이프라인" class="nav-link" data-scroll-target="#파이프라인">파이프라인</a></li>
+  <li><a href="#메인-실험-결과" id="toc-메인-실험-결과" class="nav-link" data-scroll-target="#메인-실험-결과">메인 실험 결과</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
+<h1 class="title">Ambiguous Query에 대한 RAG의 성능 문제를 해결하기 위한 Query 분해</h1>
+<p class="subtitle lead">Handling Ambiguous Queries Through Query Decomposition in a RAG Setting</p>
   <div class="quarto-categories">
     <div class="quarto-category">Pytorch</div>
     <div class="quarto-category">Text</div>
@@ -149,6 +189,11 @@ ul.task-list li input[type="checkbox"] {
   </div>
   </div>
 
+<div>
+  <div class="description">
+    모호한 질문을 처리할 때 발생하는 RAG의 문제를 발견하고, 해결하는 연구입니다.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -175,8 +220,112 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="프로젝트-소개" class="level2">
+<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐ 프로젝트 소개</h2>
+<ul>
+<li>기간: 2024. 01 - 2024. 08</li>
+<li>논문: CKAIA2024 게재</li>
+<li>한 줄 소개: 잘못된 가정을 포함하고 있는 모호한 Query에 대한 RAG의 성능 문제를 발견하고, Query 분해를 통해 문제를 해결합니다.</li>
+</ul>
+<p><img src="../images/2_ambig/main2.png" class="img-fluid"></p>
+</section>
+<section id="왜-이-프로젝트가-중요한가" class="level2">
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎 왜 이 프로젝트가 중요한가?</h2>
+<section id="문제-제기" class="level4">
+<h4 class="anchored" data-anchor-id="문제-제기">문제 제기</h4>
+<ul>
+<li>사용자가 입력하는 질문이 항상 올바르지는 않습니다. 잘못된 가정이나 사실이 포함된 질의(Query)가 자주 발생할 수 있습니다.</li>
+<li>그렇다면 잘못된 가정을 포함한 Query에 대해서도 RAG(Retrieval-Augmented Generation)는 좋은 성능을 발휘할 수 있을까요?</li>
+</ul>
+</section>
+<section id="목표" class="level4">
+<h4 class="anchored" data-anchor-id="목표">목표</h4>
+<ul>
+<li>잘못된 가정을 포함한 모호한 질문에 대한 RAG의 성능을 분석함으로써, RAG의 안정성을 높이고 더 신뢰할 수 있는 답변을 생성하는 방법을 모색합니다.</li>
+</ul>
+</section>
+</section>
+<section id="핵심-기술은-무엇인가" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎 핵심 기술은 무엇인가?</h2>
+<section id="사용-기술" class="level4">
+<h4 class="anchored" data-anchor-id="사용-기술">사용 기술</h4>
+<ul>
+<li>Llama-2-7b-chat-hf</li>
+<li>ElasticSearch</li>
+<li>BM25</li>
+</ul>
+</section>
+<section id="적용-방법" class="level4">
+<h4 class="anchored" data-anchor-id="적용-방법">적용 방법</h4>
+<ul>
+<li>질문 분해(Query Decomposition): 사용자의 Query를 여러 하위 Query로 나누기 위해, LLM에 적절한 프롬프트를 제공합니다.</li>
+<li>답변 생성(Answer Generation): 검색된 하위 Query 기반의 추가 맥락 정보를 바탕으로, LLM이 최종 답변을 생성하도록 합니다.</li>
+</ul>
+</section>
+</section>
+<section id="어떠한-사고방식생각을-거쳤는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-사고방식생각을-거쳤는가">💡 어떠한 사고방식/생각을 거쳤는가?</h2>
+<section id="문제-발견" class="level4">
+<h4 class="anchored" data-anchor-id="문제-발견">문제 발견</h4>
+<ul>
+<li>사람들이 항상 올바르고 정확한 질문을 던지지는 않을 것이라고 생각했습니다.</li>
+<li>잘못된 질문이란 어떤 형태일까? 중의적이거나 사실과 다른 가정을 포함한 질문일 수 있습니다.</li>
+<li>그렇다면 이러한 질문에 대해 검색된 정보가 과연 정확할까? 잘못된 가정을 걸러낼 수 있을까?</li>
+<li>RAG는 검색된 정보를 바탕으로 답변을 생성하기 때문에, 잘못된 가정을 포함한 Query가 RAG의 성능에 부정적 영향을 미칠 가능성이 있다고 판단했습니다.</li>
+</ul>
+</section>
+<section id="문제-증명" class="level4">
+<h4 class="anchored" data-anchor-id="문제-증명">문제 증명</h4>
+<ul>
+<li>잘못된 가정을 담고 있는 dataset을 통해 RAG의 성능을 확인하고자 했습니다.
+<ul>
+<li>정량적, 정성적으로 성능을 확인</li>
+</ul></li>
+<li>결과적으로 검색된 정보가 부정확하거나 불필요한 잡음을 포함하여 LLM의 성능을 저하시킴을 확인했습니다.</li>
+</ul>
+</section>
+<section id="방법-접근" class="level4">
+<h4 class="anchored" data-anchor-id="방법-접근">방법 접근</h4>
+<ul>
+<li>잘못된 정보를 필터링하여 검색하기 위해 필요한 것은 무엇일까?
+<ul>
+<li>Query의 내재적 의미와 가정을 분해하고 검증하는 과정이 필요하다고 판단했습니다.</li>
+<li>이를 위해 Query를 의미론적으로 쪼개고, 각 하위 Query를 개별적으로 검증하는 방법을 모색했습니다.</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="어떠한-시행착오를-겪었는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄 어떠한 시행착오를 겪었는가?</h2>
+<section id="방법론-개발" class="level4">
+<h4 class="anchored" data-anchor-id="방법론-개발">방법론 개발</h4>
+<ul>
+<li>Query 분해 방법 연구:
+<ul>
+<li>NLTK 활용: 구문별로 Query를 분해</li>
+<li>t5 모델 활용: <code>unikei/t5-base-split-and-rephrase</code> 모델로 복잡한 문장을 의미를 보존하면서 짧은 문장으로 분해
+<ul>
+<li>(Narayan et al., 2017): Split-and-rephrase는 복잡한 문장을 의미가 유지된 상태로 짧은 문장으로 나누는 작업이다.</li>
+</ul></li>
+<li>LLM API 활용: gpt-3.5-turbo API와 프롬프트 엔지니어링을 통해 Query 분해 성능 개선</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="부록" class="level2">
+<h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
+<section id="파이프라인" class="level3">
+<h3 class="anchored" data-anchor-id="파이프라인">파이프라인</h3>
+<p><img src="../images/2_ambig/method.png" class="img-fluid"></p>
+</section>
+<section id="메인-실험-결과" class="level3">
+<h3 class="anchored" data-anchor-id="메인-실험-결과">메인 실험 결과</h3>
+<p><strong>정량적 결과</strong> <img src="../images/2_ambig/table.png" class="img-fluid"></p>
+<p><strong>정성적 결과</strong> <img src="../images/2_ambig/fig_ex.png" class="img-fluid"></p>
 
 
+</section>
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -271,7 +420,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/statrav\.github\.io\/");
+      var filterRegex = new RegExp("https:\/\/statrav\.github\.io\/ssupage\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -599,15 +748,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<script src="https://giscus.app/client.js" data-repo="ssupage/statrav.github.io" data-repo-id="R_kgDOICXnAA" data-category="Giscus Comments" data-category-id="DIC_kwDOICXnAM4CR8YX" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
-</script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="light">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><a href="https://statrav.github.io/">SSUpage</a> © 2024 by <a href="https://statrav.github.io/about.html">Hyesu Hwang</a></p>
+<p><a href="https://statrav.github.io/ssupage/">SSUpage</a> © 2024 by <a href="https://statrav.github.io/ssupage/about.html">Hyesu Hwang</a></p>
 </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
