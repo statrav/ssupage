@@ -1,0 +1,47 @@
+---
+title: "시각장애인을 위한 TTS 앱"
+subtitle: "TTS Application for the Visually Impaired"
+description: "사진 속 문자를 인식하여 음성으로 제공하는 앱입니다."
+author: "Hyesu Hwang"
+date: "2024-08-01"
+categories: [Python, OCR, sLM, OpenSource, TTS, Summarization]
+open-graph:
+  description: "TTS Application for the Visually Impaired"
+  image: ../images/3_holos/thumbnail.png
+---
+
+## 프로젝트 소개
+
+- 주관: 스마일게이트 + 개인 프로젝트 (참여인원 6명)
+- 기간: 2024. 07 - 2024. 12
+- 프로젝트명: 
+- 한 줄 소개: 시각장애인을 위해 사진 속 문자 정보를 요약하여 음성으로 제공하고, 대화를 나눕니다.
+
+## 왜 이 프로젝트가 중요한가?
+
+- 
+
+
+## 핵심 기술은 무엇인가?
+
+- VectorDB를 기반으로
+- 
+
+## 어떠한 시행착오를 겪었는가?
+
+- Image Crawling 
+
+
+## 🧶 부록
+
+- 사용 코드: [github]()
+
+::: {.callout-note appearance="simple"}
+## Note
+
+**There is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.**
+
+Comparing grizzly bears to black bears means, "How many grizzly bears were misclassified as black bears?"
+
+Comparing black bears to grizzly bears means, "How many black bears were misclassified as grizzly bears?"
+:::

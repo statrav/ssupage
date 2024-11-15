@@ -1,0 +1,338 @@
+[
+  {
+    "objectID": "research/posts/4_kto.html",
+    "href": "research/posts/4_kto.html",
+    "title": "SSUpage /Hyesu",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "research/posts/2_ambig.html",
+    "href": "research/posts/2_ambig.html",
+    "title": "SSUpage /Hyesu",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "research/index.html",
+    "href": "research/index.html",
+    "title": "Hello! Here is the page of SSU!",
+    "section": "",
+    "text": "이 페이지에서는 연구 및 분석 프로젝트 수행 내역들을 확인하실 수 있습니다.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목\n\n\nLeveraging LLMs to Address Part-of-Speech Imbalances in VLMs\n\n\nVLM의 문제를 발견하고, 이를 해결하기 위해 LLM을 활용한 연구입니다.\n\n\n\n\n\n28 October 2024\n\n\nHyesu Hwang\n\n\n3 min\n\n\n\n\n\n\n\n\n\n\n\n\n⭐프로젝트 소개\n\n\n\n\n\n\n\n\n\n\n\n15 August 2024\n\n\nHyesu Hwang\n\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\n\n지자체간 유입인구 데이터 분석을 통한 네트워크망 구축\n\n\nAnalyzing POI data across local governments to build the network\n\n\n지자체(시군구)별 유입인구에 대한 방문횟수와 소비지출 데이터를 통해 관계 네트워크망을 분석합니다.\n\n\n\n\n\n15 August 2024\n\n\nHyesu Hwang\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "engineer/posts/3_holos.html",
+    "href": "engineer/posts/3_holos.html",
+    "title": "시각장애인을 위한 TTS 앱",
+    "section": "",
+    "text": "주관: 스마일게이트 + 개인 프로젝트 (참여인원 6명)\n기간: 2024. 07 - 2024. 12\n프로젝트명:\n한 줄 소개: 시각장애인을 위해 사진 속 문자 정보를 요약하여 음성으로 제공하고, 대화를 나눕니다."
+  },
+  {
+    "objectID": "engineer/posts/3_holos.html#프로젝트-소개",
+    "href": "engineer/posts/3_holos.html#프로젝트-소개",
+    "title": "시각장애인을 위한 TTS 앱",
+    "section": "",
+    "text": "주관: 스마일게이트 + 개인 프로젝트 (참여인원 6명)\n기간: 2024. 07 - 2024. 12\n프로젝트명:\n한 줄 소개: 시각장애인을 위해 사진 속 문자 정보를 요약하여 음성으로 제공하고, 대화를 나눕니다."
+  },
+  {
+    "objectID": "engineer/posts/3_holos.html#왜-이-프로젝트가-중요한가",
+    "href": "engineer/posts/3_holos.html#왜-이-프로젝트가-중요한가",
+    "title": "시각장애인을 위한 TTS 앱",
+    "section": "왜 이 프로젝트가 중요한가?",
+    "text": "왜 이 프로젝트가 중요한가?"
+  },
+  {
+    "objectID": "engineer/posts/3_holos.html#핵심-기술은-무엇인가",
+    "href": "engineer/posts/3_holos.html#핵심-기술은-무엇인가",
+    "title": "시각장애인을 위한 TTS 앱",
+    "section": "핵심 기술은 무엇인가?",
+    "text": "핵심 기술은 무엇인가?\n\nVectorDB를 기반으로"
+  },
+  {
+    "objectID": "engineer/posts/3_holos.html#어떠한-시행착오를-겪었는가",
+    "href": "engineer/posts/3_holos.html#어떠한-시행착오를-겪었는가",
+    "title": "시각장애인을 위한 TTS 앱",
+    "section": "어떠한 시행착오를 겪었는가?",
+    "text": "어떠한 시행착오를 겪었는가?\n\nImage Crawling\n\n\n\n\n\n\n\nNote\n\n\n\nThere is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.\nComparing grizzly bears to black bears means, “How many grizzly bears were misclassified as black bears?”\nComparing black bears to grizzly bears means, “How many black bears were misclassified as grizzly bears?”"
+  },
+  {
+    "objectID": "engineer/posts/1_sese.html",
+    "href": "engineer/posts/1_sese.html",
+    "title": "관계기반형 질의를 통한 장면 검색",
+    "section": "",
+    "text": "주관: 한국전자통신연구원(ETRI) 시각지능연구실\n기간: 2023. 03 - 2023. 11\n프로젝트명: 관계 정보의 장기 시각 기억 저장 및 관리 기술 개발\n한 줄 소개: 사용자의 검색 의도에 부합하는 장면을 찾기 위해, 질문의 관계정보를 파악하고 유사어를 확인합니다."
+  },
+  {
+    "objectID": "engineer/posts/1_sese.html#프로젝트-소개",
+    "href": "engineer/posts/1_sese.html#프로젝트-소개",
+    "title": "관계기반형 질의를 통한 장면 검색",
+    "section": "",
+    "text": "주관: 한국전자통신연구원(ETRI) 시각지능연구실\n기간: 2023. 03 - 2023. 11\n프로젝트명: 관계 정보의 장기 시각 기억 저장 및 관리 기술 개발\n한 줄 소개: 사용자의 검색 의도에 부합하는 장면을 찾기 위해, 질문의 관계정보를 파악하고 유사어를 확인합니다."
+  },
+  {
+    "objectID": "engineer/posts/1_sese.html#왜-이-프로젝트가-중요한가",
+    "href": "engineer/posts/1_sese.html#왜-이-프로젝트가-중요한가",
+    "title": "관계기반형 질의를 통한 장면 검색",
+    "section": "💎왜 이 프로젝트가 중요한가?",
+    "text": "💎왜 이 프로젝트가 중요한가?"
+  },
+  {
+    "objectID": "engineer/posts/1_sese.html#핵심-기술은-무엇인가",
+    "href": "engineer/posts/1_sese.html#핵심-기술은-무엇인가",
+    "title": "관계기반형 질의를 통한 장면 검색",
+    "section": "🔎핵심 기술은 무엇인가?",
+    "text": "🔎핵심 기술은 무엇인가?\n\nPython 모듈로 배포하였습니다.\n💡어떠한 사고방식/생각을 거쳤는가?\n🌄어떠한 시행착오를 겪었는가?"
+  },
+  {
+    "objectID": "engineer/posts/1_sese.html#어떠한-시행착오를-겪었는가",
+    "href": "engineer/posts/1_sese.html#어떠한-시행착오를-겪었는가",
+    "title": "관계기반형 질의를 통한 장면 검색",
+    "section": "어떠한 시행착오를 겪었는가?",
+    "text": "어떠한 시행착오를 겪었는가?"
+  },
+  {
+    "objectID": "aso/posts/1_sl.html",
+    "href": "aso/posts/1_sl.html",
+    "title": "SSUpage /Hyesu",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "황혜수(Hyesu Hwang)",
+    "section": "",
+    "text": "반갑습니다! 모델과, 사람과 소통하는 황혜수입니다😊\nLLM 기반의 딥러닝 연구와 개발 프로젝트를 수행합니다.\n아래와 같이 저를 소개합니다!\n💡 놓치기 쉬운 문제를 발견하고 해결하기 위해 끊임없이 질문합니다.\n👭 팀원들과의 대화를 즐기며, 협업과 성장을 추구합니다.\n🌲 전체적인 계획을 우선적으로 세운 후, 접근합니다.\n\n\n\n경험경력논문자격/수료증\n\n\nNAVER Cloud | 학생연구원 | Oct. 2024 –\n검색 증강 생성형 언어모델 기술 개발\n\nRetrieval Augmented Generation (RAG)\n복잡한 질문 처리\n검색 효율성 개선\n\n한국전자통신연구원(ETRI) | 학생연구원 | Apr. 2023 – Oct. 2024\n관계 정보의 장기 시각 기억 저장 및 관리 기술 개발 (Apr. 2023 – Nov. 2023)\n\n비디오 장면 검색 파이썬 모듈\n장면 그래프 파싱 모델 파인 튜닝\nRDB & GraphDB 관리 및 효율성 분석\n관계 정보 기반의 질문 처리\n\n장기 기억 기반 효율적인 연관정보 선별 기술 연구 (Jun. 2024 – Oct. 2024)\n\nKnowledge-based Visual Question Answering (KB-VQA)\n이미지 정보 인덱싱 (VectorDB)\n임베딩 값 압축\n\n\n\n서울시립대 도시과학빅데이터∙AI연구원 | 연구원 | Oct. 2024 –\n빅데이터∙인공지능 연구 및 교육\n\n빅데이터와 인공지능 관련 세미나 및 교육\n서울시 및 대외 협력 기관과의 연계 연구 수행\n연구 자원 및 데이터 구축·처리·저장·관리\n\n지영리서치 | 연구원 | Sep. 2023 – Nov. 2024 (Freelancer)\n지자체 내 관광산업∙사업 관련 분석\n\n관광사업에 따른 지차체 간 유입/유출 데이터 분석\n지자체 간 관광 네트워크 형성 분석\n코로나 전후 관광산업 영향 조사\n\n에스엘 주식회사(SL) | 프로그램 매니저 | Mar. 2019 – Aug. 2022\n사내 원가관리 프로그램 (CIS/Cost Innovation System) 관리\n\nOne Click 원가 표준 시스템 개발 (CIS 4.0)\n프로그램 데이터베이스 관리\nSAP(ERP)과의 수익성 구조 비교\n원가 교육 담당\n\n사내∙외주 표준 제/개정\n\n대구/성산/북경 공장 표준(임율, 경비율, 제경비율, 관리비율) 제/개정\n중장기 경영계획 수립\n금형 개발비 납부 NPV 검증\n신차종 수익성 흐름 분석\n\n\n\nBridging the Lexical Gap: Generative Text-to-Image Retrieval for Parts-of-Speech Imbalance in Vision-Language Models | ACM MM MMGR24 | First Author\n\n전문은 링크에서 확인하실 수 있습니다.\nLarge Language Model (LLM) & Vision Language Model (VLM)\nLLM의 품사에 따른 정보 불균형 문제 분석\nPrompt Engineering with Chain-of-Thought (CoT)\n\nHandling Ambiguous Queries Through Query Decomposition in a RAG Setting | CKAIA2024\n\n질문 분해를 통한 모호한 질문의 명확화\n\nAdaptive Retrieval-Augmented Generation for Multi-hop Question Answering | JKAIA2024\n\n복잡한 질문을 다루기 위한 상황별 RAG 적용법\n\n\n\n스마일게이트(Smilegate) Weeklyton | Jul. 2024\n시각장애인을 위한 TTS(Text-to-Speech) 앱 개발\n\n자연어 기반의 챗봇 구현\n정보 요약\n\nSQLD (SQL 개발자) | 한국데이터산업진흥원 | Apr. 2023\n\n\n\n\n학력주요 수업\n\n\n석사 졸업 | 도시빅데이터융합학과 | 공과대학 | 서울시립대학교(University of Seoul) | Sep 2022 – Oct. 2024\n학사 졸업 | 경영학과 | 경영대학 | 서울시립대학교(University of Seoul) | Mar 2014 – Feb. 2019\n\n\n딥러닝 | A+ | 석사\nTensorflow, Transformer, GAN 등의 다양한 딥러닝 관련 응용 실습 수행\n데이터베이스 시스템 및 응용 | A+ | 석사\nSQL 기반의 데이터베이스 응용 프로젝트 수행\n고급 통계 프로그래밍 | A+ | 석사\n데이터베이스 관련 최신 AI 논문 팔로우업 및 토론\n자연어 처리 | A0 | 석사\n딥러닝 기반의 자연어 처리 프로젝트 수행 및 최신 NLP 논문 팔로우업\n\nRAG 기반의 플랫폼 통합 웹툰 QA 서비스 개발 및 배포\n\n경영통계학 | A+ | 학사\n경영경제 통계학 학습\n경영정보시스템 | A0 | 학사\nMIS의 IT Infrastructure 학습\n중급회계 | A0 | 학사\n국제회계 기준의 회계문제 분석 및 회계처리 학습\n마케팅 관리 | A+ | 학사\n실제 기업 대상의 마케팅 STP/SWOT 분석 및 방향성 제언\n\n소비자 분석을 통한 프리미엄 분유의 정기 배송 서비스 제안\n실제 기업의 마케팅 전략으로 이어짐\n\n마케팅 조사론 | A+ | 학사\n실제 소비자 조사 및 소비성향 분석 프로젝트 수행\n\n카셰어링 서비스에 대한 인터뷰 수행\n500여명의 인터뷰지 작성 및 온/오프라인 조사\n인사이트 분석을 통한 카셰어링 업체의 SWOT 분석\n\n마케팅 전략 | A0 | 학사\n실제 소상공인 가게에 대한 전략 프로젝트 수행\n\n빵집 시장 및 소비자 분석\n투트랙 전략 수행: 교환학생 타겟의 영문 서비스 제공 / Modoo 홈페이지 개설을 통한 프로모션 접근성 확보\n지난 분기 대비 매출 14% 상승\n\n\n\n\n\n \n\n\n Back to top"
+  },
+  {
+    "objectID": "aso/index.html",
+    "href": "aso/index.html",
+    "title": "Experiences",
+    "section": "",
+    "text": "연구/개발 이외의 경험들을 다룹니다.\n\n\n\nSLUBAIDILAB\n\n\nSL Corporation / 에스엘 주식회사 (글로벌 자동차 램프 및 전장 제조 회사)\nCIS 4.0 | Jan. 2021 - Jan. 2022\n\n문제 발견\n\n\n발단: 사내 원가 시스템인 CIS 사용에 대해 동료가 “원가 계산에 불필요한 시간이 너무 많이 걸린다”는 의견을 들었습니다.\n\n“너희 원가 시스템 쓸 때 쓸데없는 시간이 너무 오래 걸린다.”\n\n아이디어: 이 피드백을 바탕으로 CIS 개선을 기획 프로젝트로 제안했습니다.\n목표: CIS 사용자들이 원가 계산 시 소요되는 불필요한 시간을 줄이자!\n\n\n문제 분석\n\n\n인터뷰 진행: 문제의 원인을 파악하기 위해 유관 부서의 인원을 인터뷰했습니다.\n인터뷰 대상: 공장 6곳(대구, 성산, 천안, 안산, 진량, 성서(전자)) 및 회계팀, 영업팀, 생산팀\n인사이트: 인터뷰를 통해 제품군별로 입력해야 하는 부품 종류와 개수가 대부분 정해져 있다는 점을 확인했습니다.\n\n\n해결 방법\n\n\n템플릿 제작: 제품군별로 80% 이상 동일하게 분류되는 하위 카테고리를 집합화하여 템플릿을 제작했습니다.\n성과: 템플릿 적용 후 계산 소요 시간이 평균 2주일에서 1주일로 단축되었습니다.\n\n\n불량률 프로젝트 | Jul. 2019 - Dec. 2019\n\n문제 발견 및 분석\n\n\n목표: 성산 공장의 불량률 급증 구간을 파악하기 위해 공정 프로세스를 세분화했습니다.\n데이터 축적: 작업 인원이 배치된 단위로 공정을 최소화하여 데이터를 세분화했고, 3주간 데이터를 수집하였습니다.\n원인 분석: 수집된 데이터를 분석한 결과, 램프 표면 에어 스프레이 공정실에서 불량률이 급증하는 것을 발견했습니다.\n\n\n해결 방법\n\n\n작업 환경 개선: 에어 스프레이 공정실의 청결도를 높이기 위한 조치를 취했습니다.\n\n작업 인원의 위생 기준을 강화하고, 작업장 바닥에 끈끈이 매트를 부착하여 먼지 및 이물질 유입을 최소화했습니다.\n\n성과: 환경 개선 후 2주간의 데이터를 분석한 결과, 불량률이 기존 대비 7% 하락했습니다.\n\n\n원가 및 원가 시스템 교육 | Jan. 2020 - Aug. 2022\n\n과정운영서, 수강 인원 및 이수 관리\n원가 및 원가 시스템 교육 교재 작성\n\n\n사내 표준 제/개정 | Jan. 2020 - Aug. 2022\n\n메인 개정: 대구공장(스마트 공장 라인) 경비율 표준 개정\n담당: 대구공장(정), 성산공장(부), 북경공장(부)\n표준: 임율, 경비율, 제경비율, 관리비율\n\n\n신차종흐름분석 | Jan. 2020 - Aug. 2022\n\n매월 대구공장 신차종흐름분석 수행\nSAP(ERP)을 통해 설비라인 및 R&D, 본부비 산출\n보고장표 작성 (Excel, PPT)\n\n\n\nUrban Bigdata∙AI Institution / 서울시립대학교 도시과학빅데이터∙AI연구원\nUBAI User Guide Book | Oct. 2024 - Nov. 2024\n\nQuarto + Git 배포 작업 수행\nSLURM 사용 설명법 작성\n\nVisual Studio Code 활용법 (Extension)\n환경 설정 (Linux Module, Conda, Enroot, Docker)\n\nDeep Learning 실습 예제 제작\n\n\n\nData Intelligence Lab. / 서울시립대학교 통계대학원 자연어∙DB 연구실\nLab Leader | Dec. 2022 - Oct. 2024\n\nLinux(Ubuntu OS) 연구 환경 셋팅\n연구실 전체 업무 팔로우 업 및 미팅 리딩\n\n\nRAG Research | Mar. 2024 - Nov. 2024\n\nRAG 핵심 논문 ~ 최신 논문 데이터베이스화 (링크)\n연구 계획서 작성\n\n\n조교 | Sep. 2022 - Jun. 2024\n\n과목: 언어처리및학습, 데이터시각화, 데이터베이스\n수업 자료 제작\n\n\n\n\n\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "engineer/index.html",
+    "href": "engineer/index.html",
+    "title": "Hello! Here is the page of SSU!",
+    "section": "",
+    "text": "이 페이지에서는 개발 프로젝트 수행 내역들을 확인하실 수 있습니다.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n시각장애인을 위한 TTS 앱\n\n\nTTS Application for the Visually Impaired\n\n\n사진 속 문자를 인식하여 음성으로 제공하는 앱입니다.\n\n\n\n\n\n01 August 2024\n\n\nHyesu Hwang\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n관계기반형 질의를 통한 장면 검색\n\n\nScene Retrieval Using Relate-based Queries\n\n\n관계 정보가 포함된 질문을 통해 검색 의도에 맞는 장면을 찾는 모듈입니다.\n\n\n\n\n\n31 December 2023\n\n\nHyesu Hwang\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n플랫폼 통합 웹툰 정보 검색봇\n\n\nKnowledge-based Question Answering Chatbot for Webtoons\n\n\n저장된 정보들을 기반으로 웹툰에 대한 정보 검색 및 제안을 수행하는 챗봇입니다.\n\n\n\n\n\n01 September 2023\n\n\nHyesu Hwang\n\n\n2 min\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "engineer/posts/2_wakebot.html",
+    "href": "engineer/posts/2_wakebot.html",
+    "title": "플랫폼 통합 웹툰 정보 검색봇",
+    "section": "",
+    "text": "주관: 개인 프로젝트 (참여인원 4명)\n기간: 2023. 09 - 2023. 12\n프로젝트명: 플랫폼 통합 웹툰 정보 검색봇 개발\n한 줄 소개: 크롤링을 통해 저장한 정보들을 기반으로 사용자 질의에 대한 웹툰 정보를 제공하는 RAG 기반의 검색 챗봇입니다."
+  },
+  {
+    "objectID": "engineer/posts/2_wakebot.html#프로젝트-소개",
+    "href": "engineer/posts/2_wakebot.html#프로젝트-소개",
+    "title": "플랫폼 통합 웹툰 정보 검색봇",
+    "section": "",
+    "text": "주관: 개인 프로젝트 (참여인원 4명)\n기간: 2023. 09 - 2023. 12\n프로젝트명: 플랫폼 통합 웹툰 정보 검색봇 개발\n한 줄 소개: 크롤링을 통해 저장한 정보들을 기반으로 사용자 질의에 대한 웹툰 정보를 제공하는 RAG 기반의 검색 챗봇입니다."
+  },
+  {
+    "objectID": "engineer/posts/2_wakebot.html#왜-이-프로젝트가-중요한가",
+    "href": "engineer/posts/2_wakebot.html#왜-이-프로젝트가-중요한가",
+    "title": "플랫폼 통합 웹툰 정보 검색봇",
+    "section": "💎왜 이 프로젝트가 중요한가?",
+    "text": "💎왜 이 프로젝트가 중요한가?\n\n문제 제기\n\n스포츠 웹툰 팬으로서 유사한 웹툰을 찾고자 했으나, 인터넷 검색에서는 사람들의 포스팅에 의존하여 정보가 충분하지 않은 경우가 많았습니다.\n특히 마이너한 장르의 웹툰은 포스팅 수가 적어 검색 결과의 신뢰도가 낮았고, 유료 웹툰이 무료로 잘못 소개되거나 존재하지 않는 웹툰 정보가 제공되는 경우도 있었습니다.\n\n\n\n목표\n\n거짓 정보 없이 신뢰할 수 있는 웹툰 정보를 제공하는 검색 서비스를 구축하는 것입니다."
+  },
+  {
+    "objectID": "engineer/posts/2_wakebot.html#핵심-기술은-무엇인가",
+    "href": "engineer/posts/2_wakebot.html#핵심-기술은-무엇인가",
+    "title": "플랫폼 통합 웹툰 정보 검색봇",
+    "section": "🔎핵심 기술은 무엇인가?",
+    "text": "🔎핵심 기술은 무엇인가?\n\n사용 기술\n\nElasticSearch\nGPT-3.5-turbo API\ntext-embedding-ada-002\nStreamlit\n\n\n\n검색 방식\n\nVectorDB 기반 검색을 통해 자연어 질의응답 및 유사어 검색이 가능합니다.\n\n\n\nLLM 한국어 대응\n\nLLM을 활용하여 한국어 질의응답에 맞춘 instruction prompting을 수행하였으며, 한국인 역할(role)을 부여해 한국어 이해도를 높였습니다."
+  },
+  {
+    "objectID": "engineer/posts/2_wakebot.html#어떠한-시행착오를-겪었는가",
+    "href": "engineer/posts/2_wakebot.html#어떠한-시행착오를-겪었는가",
+    "title": "플랫폼 통합 웹툰 정보 검색봇",
+    "section": "🌄어떠한 시행착오를 겪었는가?",
+    "text": "🌄어떠한 시행착오를 겪었는가?\n\n문제 발견\n\n초기에는 웹툰의 정보를 VectorDB에 카테고리별로 저장했으나(예: 제목, 작가, 평점 등), 질의 시 카테고리 정보가 제대로 연결되지 않아 잘못된 정보가 반환되는 문제가 발생했습니다.\n\n\n\n해결 방법\n\n정보가 개별적으로 저장되는 문제를 해결하기 위해, 한 웹툰에 대한 정보 전체를 통합한 Description으로 저장했습니다.\n이를 위해 각 정보를 이어붙이고, 한국어 형태소 분석기 Nori를 사용해 불용어를 제거하는 전처리 과정을 거쳤습니다.\n\n\n\n아쉬운 점\n\n성능을 평가할 수 있는 Metric이 부재했습니다.\n\n질문과 답변 쌍을 임의로 작성한 후, LLM을 통해 Data Augmentation을 진행하여 GroudTruth(정답) dataset을 생성할 수 있을 것이라고 생각합니다."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "숨은 문제를 꿰뚫는 질문가, 황혜수입니다",
+    "section": "",
+    "text": "끈기와 성실함을 기반으로 성장합니다.\n저에 대한 자세한 사항은 여기를 참고해주세요.\n아래의 버튼을 통해 저와 연락하실 수 있습니다.\n\n \n  \n   \n  \n    \n     LinkedIn\n  \n  \n    \n     Email"
+  },
+  {
+    "objectID": "index.html#개발",
+    "href": "index.html#개발",
+    "title": "숨은 문제를 꿰뚫는 질문가, 황혜수입니다",
+    "section": "개발",
+    "text": "개발\n여기에서 개발 관련 프로젝트 이력을 확인하실 수 있습니다.\n\n\n\n\n\n\n\n\n\n\n시각장애인을 위한 TTS 앱\n\n\nTTS Application for the Visually Impaired\n\n\n사진 속 문자를 인식하여 음성으로 제공하는 앱입니다.\n\n\n\n\n\nAug 1, 2024\n\n\nHyesu Hwang\n\n\n\n\n\n\n\n\n\n\n\n\n관계기반형 질의를 통한 장면 검색\n\n\nScene Retrieval Using Relate-based Queries\n\n\n관계 정보가 포함된 질문을 통해 검색 의도에 맞는 장면을 찾는 모듈입니다.\n\n\n\n\n\nDec 31, 2023\n\n\nHyesu Hwang\n\n\n\n\n\n\n\n\n\n\n\n\n플랫폼 통합 웹툰 정보 검색봇\n\n\nKnowledge-based Question Answering Chatbot for Webtoons\n\n\n저장된 정보들을 기반으로 웹툰에 대한 정보 검색 및 제안을 수행하는 챗봇입니다.\n\n\n\n\n\nSep 1, 2023\n\n\nHyesu Hwang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#연구분석",
+    "href": "index.html#연구분석",
+    "title": "숨은 문제를 꿰뚫는 질문가, 황혜수입니다",
+    "section": "연구/분석",
+    "text": "연구/분석\n여기에서 연구/분석 관련 프로젝트 이력을 확인하실 수 있습니다.\n\n\n\n\n\n\n\n\n\n\nVLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목\n\n\nLeveraging LLMs to Address Part-of-Speech Imbalances in VLMs\n\n\nVLM의 문제를 발견하고, 이를 해결하기 위해 LLM을 활용한 연구입니다.\n\n\n\n\n\nOct 28, 2024\n\n\nHyesu Hwang\n\n\n\n\n\n\n\n\n\n\n\n\n⭐프로젝트 소개\n\n\n\n\n\n\n\n\n\n\n\nAug 15, 2024\n\n\nHyesu Hwang\n\n\n\n\n\n\n\n\n\n\n\n\n지자체간 유입인구 데이터 분석을 통한 네트워크망 구축\n\n\nAnalyzing POI data across local governments to build the network\n\n\n지자체(시군구)별 유입인구에 대한 방문횟수와 소비지출 데이터를 통해 관계 네트워크망을 분석합니다.\n\n\n\n\n\nAug 15, 2024\n\n\nHyesu Hwang\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/posts/1_genco.html",
+    "href": "research/posts/1_genco.html",
+    "title": "VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목",
+    "section": "",
+    "text": "기간: 2023. 03 - 2024. 08\n논문: 1저자(주저자)\n\n전문 링크 in ACM MM MMGR24\n\n한 줄 소개: VLM의 품사 불균형 문제를 찾아내고, LLM의 CoT Prompting을 통해 이를 보완합니다."
+  },
+  {
+    "objectID": "research/posts/1_genco.html#프로젝트-소개",
+    "href": "research/posts/1_genco.html#프로젝트-소개",
+    "title": "VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목",
+    "section": "",
+    "text": "기간: 2023. 03 - 2024. 08\n논문: 1저자(주저자)\n\n전문 링크 in ACM MM MMGR24\n\n한 줄 소개: VLM의 품사 불균형 문제를 찾아내고, LLM의 CoT Prompting을 통해 이를 보완합니다."
+  },
+  {
+    "objectID": "research/posts/1_genco.html#왜-이-프로젝트가-중요한가",
+    "href": "research/posts/1_genco.html#왜-이-프로젝트가-중요한가",
+    "title": "VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목",
+    "section": "💎왜 이 프로젝트가 중요한가?",
+    "text": "💎왜 이 프로젝트가 중요한가?\n\n문제 제기\n\n널리 사용되는 VLM(Vision-Language Model)에서 간과되고 있었던 한계, 명사 이외의 품사의 의미를 파악하기 어려워 한다는 문제점을 발견했습니다.\n\n\n\n목표\n\n사용자의 검색 의도를 명확히 반영하기 위해서는 동사, 형용사, 부사가 가지는 의미또한 반영될 필요가 있습니다.\n\n\n\n분석과 해결\n\nLLM(Large Language Model)은 VLM과 달리 명사 이외의 품사에 대한 충분한 학습이 이루어졌으며, 의미를 파악하고 있다는 사실을 비교하였습니다.\n추가적인 학습 없이, 간단한 CoT(Chain-of-thought) Prompt Engineering을 적용하여 LLM의 능력을 leveraging하였고, 이를 통해 VLM의 한계를 극복하였습니다.\n기존 대비 60.8%의 성능 향상을 이루어냈습니다."
+  },
+  {
+    "objectID": "research/posts/1_genco.html#핵심-기술은-무엇인가",
+    "href": "research/posts/1_genco.html#핵심-기술은-무엇인가",
+    "title": "VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목",
+    "section": "🔎핵심 기술은 무엇인가?",
+    "text": "🔎핵심 기술은 무엇인가?\n\nVLM이 검색해야 하는 Query를 LLM에게 전달하여 Prompt Engineering을 통해 ’명사’로 보완한 Query로 재작성하였습니다.\n’검증(Verification)’과정과 Feedback loop를 적용하여, 재작성된 Query가 사용자의 검색 의도를 유지하고 있는지 확인하였습니다.\nImage Captioning 모델을 도입하여, 처음 보는 Image에 대해서도 검증이 이루어질 수 있도록 하였습니다."
+  },
+  {
+    "objectID": "research/posts/1_genco.html#어떠한-시행착오를-겪었는가",
+    "href": "research/posts/1_genco.html#어떠한-시행착오를-겪었는가",
+    "title": "VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목",
+    "section": "🌄어떠한 시행착오를 겪었는가?",
+    "text": "🌄어떠한 시행착오를 겪었는가?\n\n문제 발견\n\nLLM을 통해 재작성된 Query가 사용자의 검색 의도와 벗어나는 문제를 발견했습니다.\n‘funny’ → ‘Comedian offers comic shows to the audience smile.’ → 관객들 앞에서 연설을 하고 있는 장면\nCosine similarity를 통해 Text와 가장 유사한 Image를 검색해오기 때문에 발생한 문제였습니다.\n이를 통해 검증 과정의 필요성을 확인하였습니다.\n\n\n\n해결 방법\n\nModal 간의 Mapping 시 유실될 수 있는 정보량을 고려하여, 검색된 Image 정보를 Text로 변환함으로써 Text 간의 의미론적 확인을 하고자 하였습니다.\nImage captioning 모델을 도입하여, 생성된 Caption 정보와 Query의 의미를 비교하였습니다.\n50% 대의 성능 향상을 60%로 끌어올렸습니다."
+  },
+  {
+    "objectID": "research/posts/3_compress.html",
+    "href": "research/posts/3_compress.html",
+    "title": "SSUpage /Hyesu",
+    "section": "",
+    "text": "주관: 한국전자통신연구원(ETRI) 시각지능연구실\n기간: 2024. 03 - 2024. 11\n프로젝트명: 장기 기억 기반 효율적인 연관정보 선별 기술 연구\n한 줄 소개: 이미지 관련 질의에 응답하기 위해 외부 정보를 압축 및 활용하는 방법입니다."
+  },
+  {
+    "objectID": "research/posts/3_compress.html#프로젝트-소개",
+    "href": "research/posts/3_compress.html#프로젝트-소개",
+    "title": "SSUpage /Hyesu",
+    "section": "",
+    "text": "주관: 한국전자통신연구원(ETRI) 시각지능연구실\n기간: 2024. 03 - 2024. 11\n프로젝트명: 장기 기억 기반 효율적인 연관정보 선별 기술 연구\n한 줄 소개: 이미지 관련 질의에 응답하기 위해 외부 정보를 압축 및 활용하는 방법입니다."
+  },
+  {
+    "objectID": "research/posts/3_compress.html#왜-이-프로젝트가-중요한가",
+    "href": "research/posts/3_compress.html#왜-이-프로젝트가-중요한가",
+    "title": "SSUpage /Hyesu",
+    "section": "왜 이 프로젝트가 중요한가?",
+    "text": "왜 이 프로젝트가 중요한가?"
+  },
+  {
+    "objectID": "research/posts/3_compress.html#핵심-기술은-무엇인가",
+    "href": "research/posts/3_compress.html#핵심-기술은-무엇인가",
+    "title": "SSUpage /Hyesu",
+    "section": "핵심 기술은 무엇인가?",
+    "text": "핵심 기술은 무엇인가?"
+  },
+  {
+    "objectID": "research/posts/3_compress.html#어떠한-시행착오를-겪었는가",
+    "href": "research/posts/3_compress.html#어떠한-시행착오를-겪었는가",
+    "title": "SSUpage /Hyesu",
+    "section": "어떠한 시행착오를 겪었는가?",
+    "text": "어떠한 시행착오를 겪었는가?"
+  },
+  {
+    "objectID": "research/posts/1_genco.html#어떠한-사고방식생각을-거쳤는가",
+    "href": "research/posts/1_genco.html#어떠한-사고방식생각을-거쳤는가",
+    "title": "VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목",
+    "section": "💡어떠한 사고방식/생각을 거쳤는가?",
+    "text": "💡어떠한 사고방식/생각을 거쳤는가?\n\n문제 발견\n\n사용자의 검색 의도가 충분히 반영되기 위해서는 어떠한 정보들이 필요할까?\n\n명사, 동사, 형용사, 부사 등의 모든 품사에 대한 정보 반영이 필요하다.\n\nVLM은 object dection이 기반이 되는 모델인데, 과연 object를 표현하는 명사 이외의 품사에 대해서는 의미 반영이 이루어지고 있을까?\n\n\n\n문제 증명\n\nVLM이 명사 이외의 동사, 형용사, 부사 품사에 대해 의미를 파악하지 못하고 있다는 것을 어떻게 증명할 수 있을까?\n모든 품사를 가지고 있는 고정된 하나의 Query를 셋팅한 후, 각각의 품사를 바꿨을 때의 Query Embedding의 변화량을 보자!\n실제로 각 품사별로 검색된 Image를 한 공간에 Mapping해서, 검색이 잘 되고 있는 지를 확인해보자!\n\n\n\n방법 접근\n\nVLM이 명사 이외의 품사의 의미를 파악하지 못하는 문제를, 역으로 생각해보자.\n그렇다면, VLM이 ’명사’는 잘 활용을 할 수 있는 모델이라는 의미이지 않을까?\nVLM이 다루기 어려워하는 품사들에 대해 ’명사’정보로 보완하여 도움을 줄 수 있지 않을까?"
+  },
+  {
+    "objectID": "research/posts/1_genco.html#부록",
+    "href": "research/posts/1_genco.html#부록",
+    "title": "VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목",
+    "section": "🧶부록",
+    "text": "🧶부록\n\n주요 문제 증명 실험\nHigh portion of nouns in the VL pre-training datasets leads to the lexical gap between POS in the knowledge of VLMs and LLMs\nVL 사전 학습 데이터셋의 높은 명사 비율은 VLM과 LLM의 품사 지식에 대한 lexcial gap을 야기한다.\n\nHigh sensitivity of embedding to noun variations leads to the high influence on the meaning of the query\n명사가 바뀌었을 때 embedding 값의 변동폭이 가장 크며, 이것은 query에 명사의 영향력이 가장 크다는 것을 뜻한다.\n \nLow cluster cohesion & separation in T2I retrieval results with other than nouns lead to a decline in T2I retrieval performance\nText로 Image를 검색해 온 결과들의 군집화했을 때 명사 이외의 품사들은 낮은 응집도를 보였으며, 이는 검색 결과의 낮은 안정성을 의미한다.\n \n\n\n파이프라인\n\n\n\n메인 실험 결과"
+  },
+  {
+    "objectID": "engineer/posts/2_wakebot.html#어떠한-사고방식생각을-거쳤는가",
+    "href": "engineer/posts/2_wakebot.html#어떠한-사고방식생각을-거쳤는가",
+    "title": "플랫폼 통합 웹툰 정보 검색봇",
+    "section": "💡어떠한 사고방식/생각을 거쳤는가?",
+    "text": "💡어떠한 사고방식/생각을 거쳤는가?\n\n문제 정의\n\n거짓 정보로 인해 답답했던 개인 경험에서 출발하여, 유사한 웹툰 정보 제공을 목표로 프로젝트를 기획했습니다.\n\n\n\n중요 정보 선정\n\n사람들이 주로 찾는 웹툰 정보의 요소(예: 제목, 작가, 평점, 장르, 연재 요일, 유/무료 여부 등)를 파악하고, 이를 중심으로 데이터를 크롤링하였습니다.\n\n\n\n네이밍 아이디어\n\n친숙하고 직관적인 네이밍을 고민하여, 웹툰 정보 + 정보를 서핑하는 느낌을 반영한 “Wakebot”으로 명명하였습니다.\n의미: Webtoon RetrievAl with Knowledge Engine chatbot"
+  },
+  {
+    "objectID": "engineer/posts/2_wakebot.html#부록",
+    "href": "engineer/posts/2_wakebot.html#부록",
+    "title": "플랫폼 통합 웹툰 정보 검색봇",
+    "section": "🧶부록",
+    "text": "🧶부록\ngithub\n\n파이프라인\n\n\n\n결과"
+  },
+  {
+    "objectID": "research/posts/3_kto.html",
+    "href": "research/posts/3_kto.html",
+    "title": "지자체간 유입인구 데이터 분석을 통한 네트워크망 구축",
+    "section": "",
+    "text": "기간: 2024.06 - 2024.10\n한 줄 소개: 지자체(시군구)별 유입인구의 방문횟수와 소비지출 데이터를 통해 POI를 분석하고 관계 네트워크망을 파악합니다."
+  },
+  {
+    "objectID": "research/posts/3_kto.html#프로젝트-소개",
+    "href": "research/posts/3_kto.html#프로젝트-소개",
+    "title": "지자체간 유입인구 데이터 분석을 통한 네트워크망 구축",
+    "section": "",
+    "text": "기간: 2024.06 - 2024.10\n한 줄 소개: 지자체(시군구)별 유입인구의 방문횟수와 소비지출 데이터를 통해 POI를 분석하고 관계 네트워크망을 파악합니다."
+  },
+  {
+    "objectID": "research/posts/3_kto.html#왜-이-프로젝트가-중요한가",
+    "href": "research/posts/3_kto.html#왜-이-프로젝트가-중요한가",
+    "title": "지자체간 유입인구 데이터 분석을 통한 네트워크망 구축",
+    "section": "왜 이 프로젝트가 중요한가?",
+    "text": "왜 이 프로젝트가 중요한가?"
+  },
+  {
+    "objectID": "research/posts/2_ambig.html#프로젝트-소개",
+    "href": "research/posts/2_ambig.html#프로젝트-소개",
+    "title": "SSUpage /Hyesu",
+    "section": "",
+    "text": "기간: 2024. 01 - 2024. 08\n프로젝트명: 특정 상황에 대한 RAG의 한계 분석 연구\n한 줄 소개: 잘못된 가정을 포함하고 있는 모호한 Query에 대한 RAG의 성능 문제를 발견하고, Query 분해를 통해 문제를 해결합니다."
+  },
+  {
+    "objectID": "research/posts/2_ambig.html#왜-이-프로젝트가-중요한가",
+    "href": "research/posts/2_ambig.html#왜-이-프로젝트가-중요한가",
+    "title": "SSUpage /Hyesu",
+    "section": "💎왜 이 프로젝트가 중요한가?",
+    "text": "💎왜 이 프로젝트가 중요한가?"
+  },
+  {
+    "objectID": "research/posts/2_ambig.html#핵심-기술은-무엇인가",
+    "href": "research/posts/2_ambig.html#핵심-기술은-무엇인가",
+    "title": "SSUpage /Hyesu",
+    "section": "🔎핵심 기술은 무엇인가?",
+    "text": "🔎핵심 기술은 무엇인가?\n\n사용 기술\n\nLlama-2-7b-chat-hf\nElasticSearch\nBM25"
+  },
+  {
+    "objectID": "research/posts/2_ambig.html#어떠한-시행착오를-겪었는가",
+    "href": "research/posts/2_ambig.html#어떠한-시행착오를-겪었는가",
+    "title": "SSUpage /Hyesu",
+    "section": "🌄어떠한 시행착오를 겪었는가?",
+    "text": "🌄어떠한 시행착오를 겪었는가?\n\n왜 중요한가? 문제 제기: 대규모 언어 모델(LLM)은 학습 데이터 바깥의 지식 접근이 어렵고, 사용자의 모호하거나 잘못된 전제를 포함한 질문에 의해 성능이 저하될 수 있습니다. RAG(Retrieval-Augmented Generation) 기법은 외부 지식을 검색해 이를 LLM에 제공하여 성능 향상을 목표로 하지만, 기존 연구들은 모호한 질문이 검색 단계에서 부정적인 영향을 미친다는 점을 충분히 다루지 않았습니다. 목표: RAG 환경에서 모호한 질문이 검색 단계에 미치는 악영향을 분석하고, 이를 개선하여 LLM의 성능을 높이는 방법론을 제안하는 것이 본 연구의 목표입니다.\n핵심 기술은 무엇인가? 질문 분해(Query Decomposition): 사용자의 모호한 질문을 여러 하위 질문으로 나누고, 각각의 하위 질문에 대해 외부 지식을 검색하는 방법입니다. 이로 인해 LLM이 보다 명확하고 관련성 높은 정보를 바탕으로 답변을 생성할 수 있게 됩니다. RAG 환경에서의 적용: 검색 기반 생성(RAG) 모델에서 기존의 단일 검색이 아닌, 하위 질문에 기반한 다중 검색을 수행하여 잡음을 줄이고 성능을 향상시키는 방법을 제시했습니다.\n어떠한 인사이트로부터 시작하였는가? 기존 RAG 모델의 한계: 초기 실험에서 RAG를 단순 적용할 경우, 오히려 성능이 낮아지는 현상이 관찰되었습니다. 이는 검색된 정보가 부정확하거나 불필요한 잡음을 포함해 LLM의 성능을 저하시킨다는 점을 발견하게 했습니다. 모호한 질문의 영향: 모호한 질문이 검색 단계에서 부적절한 정보를 검색하게 만드는 주요 원인이며, 이를 해결하기 위해 질문 자체를 명확히 하고 쪼개는 방법이 필요하다는 인사이트에서 시작했습니다.\n시행착오 및 결과 시행착오: 초기에는 RAG가 단순히 외부 지식을 제공하는 것만으로도 성능 향상을 가져올 것이라고 가정했습니다. 그러나, 단일 검색 결과를 적용했을 때 LLM 성능이 오히려 떨어지는 것을 확인하면서, 검색 단계에서의 잡음 문제를 해결하기 위해 다양한 질문 분해 방법을 실험했습니다. 결과: 질문 분해를 적용한 RAG 방식이 단순 RAG와 비-RAG 방식에 비해 F1 스코어 기준으로 QAQA와 HotpotQA 데이터셋에서 높은 성능을 보였습니다. 이는 제안된 방법이 모호한 질문의 문제를 효과적으로 해결할 수 있음을 입증했으며, 다중 단계 질문에서도 성능 개선이 가능하다는 점을 확인했습니다.\n\n두 가지 주요 단계로 나뉩니다.\n첫째, 질문 분해 단계에서 사용자의 입력 질문을 여러 하위 질문으로 나누며, 이를 위해 LLM에 적절한 프롬프트를 제공합니다. 둘째, 답변 생성 단계에서 하위 질문으로부터 검색된 추가적인 맥락 정보를 바탕으로 LLM이 최종 답변을 생성하도록 합니다.\n이 알고리즘은 RAG에서 이전에 다루지 않은 문제를 효과적으로 해결할 수 있는 간단한 접근법을 제시합니다."
+  },
+  {
+    "objectID": "engineer/posts/1_sese.html#부록",
+    "href": "engineer/posts/1_sese.html#부록",
+    "title": "관계기반형 질의를 통한 장면 검색",
+    "section": "🧶 부록",
+    "text": "🧶 부록\n\n사용 코드: github"
+  },
+  {
+    "objectID": "engineer/posts/3_holos.html#부록",
+    "href": "engineer/posts/3_holos.html#부록",
+    "title": "시각장애인을 위한 TTS 앱",
+    "section": "🧶 부록",
+    "text": "🧶 부록\n\n사용 코드: github\n\n\n\n\n\n\n\nNote\n\n\n\nThere is a difference between comparing grizzly bears to black bears and black bears to grizzly bears.\nComparing grizzly bears to black bears means, “How many grizzly bears were misclassified as black bears?”\nComparing black bears to grizzly bears means, “How many black bears were misclassified as grizzly bears?”"
+  }
+]
