@@ -5,7 +5,7 @@ description: "관계 정보가 포함된 질문을 통해 검색 의도에 맞�
 image: ../images/1_sese/thumbnail.png
 author: "Hyesu Hwang"
 date: "2023-11-01"
-categories: [Python, Text, Video, DB, Fine-tuning]
+categories: [Python, SQL, Text, Video, DB, Fine-tuning]
 open-graph:
   description: "Scene Retrieval Using Relate-based Queries"
   image: ../images/1_sese/thumbnail.png

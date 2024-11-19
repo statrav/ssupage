@@ -5,7 +5,7 @@ description: "VLM의 문제를 발견하고, 이를 해결하기 위해 LLM을 �
 image: ../images/1_genco/thumbnail.png
 author: "Hyesu Hwang"
 date: "2024-10-28"
-categories: [Pytorch, Text, Image, Captioning, Fine-tuning, Prompt-Engineering]
+categories: [Python, Pytorch, Text, Image, Captioning, Fine-tuning, Prompt-Engineering]
 open-graph:
   description: "Leveraging LLMs to Address Part-of-Speech Imbalances in VLMs"
   image: ../images/1_genco/thumbnail.png

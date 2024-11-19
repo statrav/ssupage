@@ -148,6 +148,7 @@
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
   <category>Pytorch</category>
   <category>Text</category>
   <category>Image</category>
@@ -275,10 +276,11 @@
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
   <category>Pytorch</category>
   <category>Text</category>
   <category>RAG</category>
-  <category>OpenSourceLM</category>
+  <category>OpenSource</category>
   <guid>https://statrav.github.io/ssupage/research/posts/2_ambig.html</guid>
   <pubDate>Wed, 14 Aug 2024 15:00:00 GMT</pubDate>
   <media:content url="https://statrav.github.io/ssupage/research/images/2_ambig/thumbnail.png" medium="image" type="image/png" height="124" width="144"/>
@@ -404,10 +406,8 @@
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Pytorch</category>
-  <category>Text</category>
-  <category>RAG</category>
-  <category>OpenSourceLM</category>
+  <category>Python</category>
+  <category>Analysis</category>
   <guid>https://statrav.github.io/ssupage/research/posts/3_kto.html</guid>
   <pubDate>Wed, 14 Aug 2024 15:00:00 GMT</pubDate>
   <media:content url="https://statrav.github.io/ssupage/research/images/3_kto/thumbnail.png" medium="image" type="image/png" height="69" width="144"/>

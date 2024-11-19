@@ -5,7 +5,7 @@ description: "모호한 질문을 처리할 때 발생하는 RAG의 문제를 �
 image: ../images/2_ambig/thumbnail.png
 author: "Hyesu Hwang"
 date: "2024-08-15"
-categories: [Pytorch, Text, RAG, OpenSourceLM]
+categories: [Python, Pytorch, Text, RAG, OpenSource]
 open-graph:
   description: "Handling Ambiguous Queries Through Query Decomposition in a RAG Setting"
   image: ../images/2_ambig/thumbnail.png

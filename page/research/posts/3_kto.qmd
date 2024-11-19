@@ -5,7 +5,7 @@ description: "지자체(시군구)별 유입인구에 대한 방문횟수와 소
 image: ../images/3_kto/thumbnail.png
 author: "Hyesu Hwang"
 date: "2024-08-15"
-categories: [Pytorch, Text, RAG, OpenSourceLM]
+categories: [Python, Analysis]
 open-graph:
   description: "Analyzing POI data across local governments to build the network"
   image: ../images/3_kto/thumbnail.png
