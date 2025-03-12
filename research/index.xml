@@ -15,7 +15,80 @@
 <link>https://statrav.github.io/ssupage/research/</link>
 </image>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Sun, 27 Oct 2024 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 17 Feb 2025 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>서울시 손목닥터9988 데이터 분석 컨설팅</title>
+  <dc:creator>Hyesu Hwang</dc:creator>
+  <link>https://statrav.github.io/ssupage/research/posts/4_9988.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="프로젝트-소개" class="level2">
+<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐ 프로젝트 소개</h2>
+<ul>
+<li>주관: 서울시</li>
+<li>기간: 2024.09 - 2025.07</li>
+<li>한 줄 소개: 서울시 손목닥터 9988 사업의 통계자료, 성과 지표 개발 및 건강 효과 분석을 수행합니다.</li>
+</ul>
+</section>
+<section id="어떠한-데이터를-활용하였는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-데이터를-활용하였는가">🔎 어떠한 데이터를 활용하였는가?</h2>
+<ul>
+<li>서울시 손목닥터 9988 데이터
+<ul>
+<li>1~4차 사업 데이터를 활용합니다.</li>
+</ul></li>
+<li>가명데이터
+<ul>
+<li>가명데이터를 결합하여 사업 전/후 및 사업 참여/미참여 대상자 비교 분석을 수행합니다.</li>
+</ul></li>
+</ul>
+</section>
+<section id="어떠한-분석을-시행하였는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-분석을-시행하였는가">💡 어떠한 분석을 시행하였는가?</h2>
+<p>… 분석 내용은 추후 공개 데이터로 전환 시 공개할 예정입니다 …</p>
+<section id="참여자-특성-및-통계" class="level4">
+<h4 class="anchored" data-anchor-id="참여자-특성-및-통계">참여자 특성 및 통계</h4>
+<ul>
+<li>서울시 손목닥터 9988의 참여자의 연령별, 성별 및 회차별 기초 통계를 파악합니다.</li>
+</ul>
+</section>
+<section id="참여자-활동-패턴" class="level4">
+<h4 class="anchored" data-anchor-id="참여자-활동-패턴">참여자 활동 패턴</h4>
+<ol type="1">
+<li><p>걸음 수 분포</p></li>
+<li><p>참여자 생존율</p></li>
+</ol>
+</section>
+<section id="이상치-탐지" class="level4">
+<h4 class="anchored" data-anchor-id="이상치-탐지">이상치 탐지</h4>
+<ul>
+<li>대규모 데이터에서 이상치 record 및 이상 user를 탐지합니다.</li>
+<li>이를 통해 신뢰성 있는 통계 데이터를 구축합니다.</li>
+</ul>
+</section>
+</section>
+<section id="어떠한-시행착오를-겪었는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-시행착오를-겪었는가">🌄 어떠한 시행착오를 겪었는가?</h2>
+<section id="이상치" class="level4">
+<h4 class="anchored" data-anchor-id="이상치">이상치</h4>
+</section>
+<section id="데이터-보안" class="level4">
+<h4 class="anchored" data-anchor-id="데이터-보안">데이터 보안</h4>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
+  <category>Analysis</category>
+  <guid>https://statrav.github.io/ssupage/research/posts/4_9988.html</guid>
+  <pubDate>Mon, 17 Feb 2025 15:00:00 GMT</pubDate>
+  <media:content url="https://statrav.github.io/ssupage/research/images/4_9988/main.png" medium="image" type="image/png" height="65" width="144"/>
+</item>
 <item>
   <title>VLM의 품사 불균형 문제를 해결하기 위한 LLM과의 접목</title>
   <dc:creator>Hyesu Hwang</dc:creator>
