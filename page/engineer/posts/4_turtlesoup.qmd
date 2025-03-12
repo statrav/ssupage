@@ -79,6 +79,6 @@ twitter-card:
 
 #### 시연
 
-[데모 영상](https://youtube.com/shorts/QMAcLYRxWgI?feature=share)
-
+[데모 영상 링크](https://youtube.com/shorts/QMAcLYRxWgI?feature=share)
+![](../images/4_turtlesoup/demo.png)
 

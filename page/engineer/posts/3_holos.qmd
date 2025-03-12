@@ -80,7 +80,7 @@ twitter-card:
 
 #### 시연
 
-[데모 영상](https://www.youtube.com/shorts/JHF1tnKubQU)
+[데모 영상 링크](https://www.youtube.com/shorts/JHF1tnKubQU)
 
 ![](../images/3_holos/demo.png)
 
