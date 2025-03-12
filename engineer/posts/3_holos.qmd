@@ -1,0 +1,86 @@
+---
+title: "시각장애인을 위한 TTS 앱"
+subtitle: "TTS Application for the Visually Impaired"
+description: "사진 속 문자를 인식하여 음성으로 제공하는 앱입니다."
+image: ../images/3_holos/main2.png
+author: "Hyesu Hwang"
+date: "2024-08-01"
+categories: [Python, OCR, sLM, OpenSource, TTS, Summarization]
+open-graph:
+  description: "TTS Application for the Visually Impaired"
+  image: ../images/3_holos/main2.png
+twitter-card:
+  description: "TTS Application for the Visually Impaired"
+  image: ../images/3_holos/main2.png
+---
+
+## ⭐ 프로젝트 소개
+
+- 주관: 스마일게이트 + 개인 프로젝트 (참여인원 6명)
+- 기간: 2024. 07 - 2024. 12
+- 한 줄 소개: 시각장애인을 위해 사진 속 문자 정보를 요약하여 음성으로 제공하고, 대화를 나눕니다.
+
+## 💎 왜 이 프로젝트가 중요한가?
+
+- 시력 저하 문제를 겪는 고령자나 시각장애인을 위한 TTS(Text-to-Speech) 서비스가 존재하지만, 대부분의 서비스는 온라인 환경에서만 작동하여 오프라인 환경에서는 사용이 불가능합니다.
+- 특히 긴 텍스트가 포함된 이미지를 확인할 때, 정보를 파악하는 데 어려움을 겪는 경우가 많습니다.
+- 이러한 문제를 해결하기 위해, 이미지 속 텍스트를 인식하고 핵심 정보를 요약하여 음성으로 제공하는 오프라인 어플리케이션이 필요합니다.
+
+## 🔎 핵심 기술은 무엇인가?
+
+#### 장애인의 정보 접근성 개선
+- AI 기술을 활용하여 이미지나 작게 표시된 텍스트를 요약하고 음성으로 변환함으로써, 시각장애인과 저시력자의 정보 접근성을 향상시킵니다.
+
+#### AI 기반 요약 및 음성 변환 기술
+- 이미지를 통해 추출된 텍스트를 요약하고, 이를 음성으로 변환하여 보다 쉽게 정보를 이해할 수 있도록 돕습니다.
+
+#### 사용 기술
+- OCR (Optical Character Recognition): `react-native-ml-kit/text-recognition`
+  - 이미지를 분석하여 텍스트를 추출하는 기술을 적용하였습니다.
+- Summarization (요약): T5 Finetuning 모델(`t5-small-korean-summarization`)
+  - 긴 텍스트를 핵심만 간추리는 요약 기술을 적용하였습니다.
+- TTS (Text-to-Speech): `react-native-tts`
+  - 텍스트를 음성으로 변환하여 사용자에게 제공합니다.
+- AWS EC2
+  - 애플리케이션의 서버 환경과 모델 호스팅에 활용하였습니다.
+
+## 💡 어떠한 사고방식/생각을 거쳤는가?
+
+#### 사용자 니즈 파악
+- 사용 대상자 인터뷰를 통해 핵심적인 요구 사항을 도출하였습니다.
+- 대상자: 시각장애인 관련 산업 종사자, 시각장애인 및 저시력자 총 6명.
+- 결과:
+  1. 작은 글씨를 읽기 어려워 다양한 보조도구(대필 도우미, 스마트폰 카메라, 확대기 등)를 사용 중.
+
+  2. 디지털 디스플레이의 해상도가 높아지면서 아이콘 및 글꼴 크기 축소로 불편함이 증가.
+
+  3. 이미지에 대한 OCR 설명이 단순해, 의미 있는 정보를 얻기 어려움.
+    
+    *→ 해당 기능을 추가하기 위해 검색 연계형 챗봇 서비스를 개발 중입니다.*
+
+  4. 긴 텍스트는 복기와 핵심 파악이 어려워 이를 요약하여 제공하는 것이 필요.
+
+## 🌄 어떠한 시행착오를 겪었는가?
+
+#### 모델 저장 및 호환성 문제
+- 프론트엔드 개발자와 협업 중, 모델 파일을 .pth 형식으로 저장하여 제공했으나, AWS 클라우드 업로드 시 용량 문제가 발생했습니다.
+
+#### 해결 방안
+- 모델 경량화: 양자화(Quantization)를 통해 모델 파라미터를 32비트에서 8비트로 줄여 모델 크기를 대폭 감소시켰습니다.
+- 파일 형식 변경: PyTorch 모델을 ONNX 형식으로 변환하여, 경량화된 모델을 `.onnx` 파일로 제공했습니다.
+
+## 🧶 부록
+
+- 사용 코드: [github]()
+
+#### 파이프라인
+
+![](../images/3_holos/FlowChart.png)
+![](../images/3_holos/ServiceArchitecture.png)
+
+#### 시연
+
+[데모 영상](https://www.youtube.com/shorts/JHF1tnKubQU)
+
+![](../images/3_holos/demo.png)
+

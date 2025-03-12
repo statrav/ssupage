@@ -1,0 +1,27 @@
+toc: true
+# TODO: Tweak ToC depth
+toc-depth: 4
+number-sections: false
+reference-location: margin
+date-format: "dddd, DD MMMM YYYY"
+reading-time: true
+# Page navigation doesn't work.
+page-navigation: true
+website:
+  reader-mode: true
+  # TODO: Not able to get per page footers.
+  page-footer: 
+    left: "[Personal Page](https://statrav.github.io/ssupage/index.html) © 2024 by [Hyesu Hwang](https://statrav.github.io/about.html) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1) | Site Version 1 | This site is powered by [Quarto](https://quarto.org)."
+    right:
+      - icon: github
+        href: https://github.com/statrav
+      - icon: linkedin
+        href: https://www.linkedin.com/in/statrav
+      - icon: envelope
+        href: mailto:agnas5865@gmail.com
+format:
+  html:
+    mermaid:
+      theme: neutral
+
+# TODO: Try a word cloud for categories listing.

@@ -1,0 +1,130 @@
+---
+title: "{{< animate fadeInUp 'Experiences' >}}"
+subtitle: "{{< animate fadeInUp 'et cetera experiences.' >}}"
+margin-header: "[ETC.](https://statrav.github.io/ssupage/aso) © 2024 by [Hyesu Hwang](https://statrav.github.io/ssupage/about.html) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1)"
+listing:
+  - id: etc
+    sort:
+      - "title asc"
+    categories: false
+    filter-ui: [title]
+    type: default
+    page-size: 1000
+    fields: [title, description]
+    image-align: left
+open-graph:
+  description: "etc."
+twitter-card:
+  description: "etc."
+---
+
+:::{.animate__animated .animate__fadeInUp}
+
+AI 연구/개발 이외의 경험들을 다룹니다.
+
+:::
+
+:::{.animate__animated .animate__fadeInUp .animate_duration-faster}
+
+:::{.panel-tabset}
+
+# SL
+
+*SL Corporation / 에스엘 주식회사 (글로벌 자동차 램프 및 전장 제조 회사)*
+
+**CIS 4.0** | Jan. 2021 - Jan. 2022
+
+1. 문제 발견
+
+* 발단: 사내 원가 시스템인 CIS 사용에 대해 동료가 "원가 계산에 불필요한 시간이 너무 많이 걸린다"는 의견을 들었습니다.
+  * *"너희 원가 시스템 쓸 때 쓸데없는 시간이 너무 오래 걸린다."*
+* 아이디어: 이 피드백을 바탕으로 CIS 개선을 기획 프로젝트로 제안했습니다.
+* 목표: CIS 사용자들이 원가 계산 시 소요되는 불필요한 시간을 줄이자!
+
+2. 문제 분석
+
+* 인터뷰 진행: 문제의 원인을 파악하기 위해 유관 부서의 인원을 인터뷰했습니다.
+* 인터뷰 대상: 공장 6곳(대구, 성산, 천안, 안산, 진량, 성서(전자)) 및 회계팀, 영업팀, 생산팀
+* 인사이트: 인터뷰를 통해 제품군별로 입력해야 하는 부품 종류와 개수가 대부분 정해져 있다는 점을 확인했습니다.
+
+3. 해결 방법
+
+* 템플릿 제작: 제품군별로 80% 이상 동일하게 분류되는 하위 카테고리를 집합화하여 템플릿을 제작했습니다.
+* 성과: 템플릿 적용 후 계산 소요 시간이 평균 2주일에서 1주일로 단축되었습니다.
+
+</br>
+
+**불량률 프로젝트** | Jul. 2019 - Dec. 2019
+
+1. 문제 발견 및 분석
+
+* 목표: 성산 공장의 불량률 급증 구간을 파악하기 위해 공정 프로세스를 세분화했습니다.
+* 데이터 축적: 작업 인원이 배치된 단위로 공정을 최소화하여 데이터를 세분화했고, 3주간 데이터를 수집하였습니다.
+* 원인 분석: 수집된 데이터를 분석한 결과, 램프 표면 에어 스프레이 공정실에서 불량률이 급증하는 것을 발견했습니다.
+
+2. 해결 방법
+
+* 작업 환경 개선: 에어 스프레이 공정실의 청결도를 높이기 위한 조치를 취했습니다.
+  * 작업 인원의 위생 기준을 강화하고, 작업장 바닥에 끈끈이 매트를 부착하여 먼지 및 이물질 유입을 최소화했습니다.
+* 성과: 환경 개선 후 2주간의 데이터를 분석한 결과, 불량률이 기존 대비 7% 하락했습니다.
+
+</br>
+
+**원가 및 원가 시스템 교육** | Jan. 2020 - Aug. 2022
+
+* 과정운영서, 수강 인원 및 이수 관리
+* 원가 및 원가 시스템 교육 교재 작성
+
+</br>
+
+**사내 표준 제/개정** | Jan. 2020 - Aug. 2022
+
+* 메인 개정: 대구공장(스마트 공장 라인) 경비율 표준 개정
+* 담당: 대구공장(정), 성산공장(부), 북경공장(부)
+* 표준: 임율, 경비율, 제경비율, 관리비율
+
+</br>
+
+**신차종흐름분석** | Jan. 2020 - Aug. 2022
+
+* 매월 대구공장 신차종흐름분석 수행
+* SAP(ERP)을 통해 설비라인 및 R&D, 본부비 산출
+* 보고장표 작성 (Excel, PPT)
+
+
+# UBAI
+
+*Urban Bigdata∙AI Institution / 서울시립대학교 도시과학빅데이터∙AI연구원*
+
+**UBAI User Guide Book** | Oct. 2024 - Nov. 2024
+
+* Quarto + Git 배포 작업 수행
+* SLURM 사용 설명법 작성
+  * Visual Studio Code 활용법 (Extension)
+  * 환경 설정 (Linux Module, Conda, Enroot, Docker)
+* Deep Learning 실습 예제 제작
+
+# DILAB
+
+*Data Intelligence Lab. / 서울시립대학교 통계대학원 자연어∙DB 연구실*
+
+**Lab Leader** | Dec. 2022 - Oct. 2024
+
+* Linux(Ubuntu OS) 연구 환경 셋팅
+* 연구실 전체 업무 팔로우 업 및 미팅 리딩
+
+</br>
+
+**RAG Research** | Mar. 2024 - Nov. 2024
+
+* RAG 핵심 논문 ~ 최신 논문 데이터베이스화 ([링크](https://ssu-page.notion.site/RAG-Survey-13eac2e59818807f8413fbed5dd87b78?pvs=4))
+* 연구 계획서 작성
+
+</br>
+
+**조교** | Sep. 2022 - Jun. 2024
+
+* 과목: 언어처리및학습, 데이터시각화, 데이터베이스
+* 수업 자료 제작
+
+:::
