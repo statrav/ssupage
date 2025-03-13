@@ -1,6 +1,6 @@
 ---
-title: "Web Service of Detective Game"
-subtitle: ""
+title: "바다거북스프 추리게임"
+subtitle: "Web Service of Detective Game"
 description: "AI와 함께 즐길 수 있는 웹 기반 추리게임 플랫폼입니다."
 image: ../images/4_turtlesoup/main.png
 author: "Hyesu Hwang"
@@ -75,10 +75,7 @@ twitter-card:
 
 ## 🧶 부록
 
-- 사용 코드: [github](https://github.com/statrav/turtlesoup)
+- 사용 코드: [GitHub Repository](https://github.com/statrav/turtlesoup)
+- 데모 영상: [YouTube Demo](https://youtube.com/shorts/QMAcLYRxWgI?feature=share)
 
-#### 시연
-
-[데모 영상 링크](https://youtube.com/shorts/QMAcLYRxWgI?feature=share)
 ![](../images/4_turtlesoup/demo.png)
-

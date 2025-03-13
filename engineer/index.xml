@@ -15,9 +15,178 @@
 <link>https://statrav.github.io/ssupage/engineer/</link>
 </image>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Tue, 11 Mar 2025 15:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 12 Mar 2025 15:00:00 GMT</lastBuildDate>
 <item>
-  <title>Web Service of Detective Game</title>
+  <title>펫로스 치유 채팅서비스 - NOVA</title>
+  <dc:creator>Hyesu Hwang</dc:creator>
+  <link>https://statrav.github.io/ssupage/engineer/posts/5_nova.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="프로젝트-소개" class="level2">
+<h2 class="anchored" data-anchor-id="프로젝트-소개">⭐ 프로젝트 소개</h2>
+<ul>
+<li>주관: 개인 프로젝트<br>
+</li>
+<li>기간: 2024. 12 - 2025. 03<br>
+</li>
+<li>한 줄 소개: 하늘에 있는 반려동물과의 채팅을 통해 펫로스 증후군을 위로하는 힐링 웹서비스를 개발하였습니다.</li>
+</ul>
+</section>
+<section id="왜-이-프로젝트가-중요한가" class="level2">
+<h2 class="anchored" data-anchor-id="왜-이-프로젝트가-중요한가">💎 왜 이 프로젝트가 중요한가?</h2>
+<ul>
+<li>펫로스(Pet Loss)는 많은 사람들에게 큰 정서적 상실감을 주지만, 이를 위로할 수 있는 디지털 플랫폼은 거의 없습니다.</li>
+<li>이 서비스는 AI를 통해 떠나간 반려동물이 세계 여행 중인 컨셉으로, 사용자와 따뜻한 대화를 나누는 경험을 제공합니다.</li>
+<li>맞춤 대화 설정(이름/호칭/반려동물 이름), 여행 시나리오, 감성 스토리텔링을 통해 정서적 연결감을 높이고자 했습니다.</li>
+</ul>
+</section>
+<section id="핵심-기술은-무엇인가" class="level2">
+<h2 class="anchored" data-anchor-id="핵심-기술은-무엇인가">🔎 핵심 기술은 무엇인가?</h2>
+<section id="감성-시나리오-기반-ai-챗봇-설계" class="level4">
+<h4 class="anchored" data-anchor-id="감성-시나리오-기반-ai-챗봇-설계">감성 시나리오 기반 AI 챗봇 설계</h4>
+<ul>
+<li>반려동물이 현재 지구별을 여행 중이라는 세계관 설정</li>
+<li>AI가 긍정적이고 따뜻한 감정 표현을 지속적으로 제공</li>
+</ul>
+</section>
+<section id="사용자별-대화-기록-관리" class="level4">
+<h4 class="anchored" data-anchor-id="사용자별-대화-기록-관리">사용자별 대화 기록 관리</h4>
+<ul>
+<li>초기에는 <code>chat_histories</code> 폴더에 JSON 파일로 저장</li>
+<li>이후 데이터 확장성과 관리 편의성을 고려하여 PostgreSQL 기반 DB로 마이그레이션</li>
+</ul>
+</section>
+<section id="사용-기술-스택" class="level4">
+<h4 class="anchored" data-anchor-id="사용-기술-스택">사용 기술 스택</h4>
+<ul>
+<li>Frontend: React.js</li>
+<li>Backend: Flask (Python)</li>
+<li>AI Model: OpenAI GPT API (gpt-3.5-turbo)</li>
+<li>Database: PostgreSQL</li>
+<li>Infra: Docker, Docker Compose, Flask-Migrate</li>
+</ul>
+</section>
+</section>
+<section id="어떠한-사고방식설계를-거쳤는가" class="level2">
+<h2 class="anchored" data-anchor-id="어떠한-사고방식설계를-거쳤는가">💡 어떠한 사고방식/설계를 거쳤는가?</h2>
+<ul>
+<li>단순 챗봇이 아니라 정서적 연결을 중심으로 하는 감성 UX 설계에 중점을 두었으며,</li>
+<li>단발성 대화가 아닌, 사용자별 지속적인 기억 저장 및 상호작용 이력 추적이 필요하다고 판단하여 <code>chat_history</code> 구조를 설계함.</li>
+<li>JSON 기반 저장 방식은 간단했지만 검색/관리/시각화의 한계가 분명하여 DB 기반 전환을 결정함.</li>
+<li>나아가 DB를 도입함으로써 향후 관리자 페이지 및 사용자 로그 분석 시스템 구축의 기반을 마련함.</li>
+</ul>
+</section>
+<section id="시행착오-및-해결과정" class="level2">
+<h2 class="anchored" data-anchor-id="시행착오-및-해결과정">🌄 시행착오 및 해결과정</h2>
+<section id="chat_history-설계-및-저장-방식-고민" class="level4">
+<h4 class="anchored" data-anchor-id="chat_history-설계-및-저장-방식-고민">chat_history 설계 및 저장 방식 고민</h4>
+<ul>
+<li>시행착오:
+<ul>
+<li>사용자별 대화 기록을 어떤 방식으로 저장할지 고민이 있었습니다.</li>
+<li>파일 기반(JSON) 방식은 간단하지만 확장성과 분석이 어려웠습니다.</li>
+</ul></li>
+<li>해결방안:
+<ul>
+<li>사용자별 JSON 저장 방식을 구현하였습니다. (<code>user_call_pet.json</code> 규칙으로 구성)</li>
+<li>이후 PostgreSQL로 데이터 마이그레이션하여 검색 및 분석의 편의성을 확보하고자 노력했습니다.</li>
+<li><code>User</code>, <code>ChatLog</code> 모델 설계 및 <code>Flask-Migrate</code>을 적용하였습니다.</li>
+</ul></li>
+</ul>
+</section>
+<section id="db-마이그레이션-초기-설정-오류" class="level4">
+<h4 class="anchored" data-anchor-id="db-마이그레이션-초기-설정-오류">DB 마이그레이션 초기 설정 오류</h4>
+<ul>
+<li>시행착오:
+<ul>
+<li><code>flask db migrate</code> 시 PostgreSQL 연결 오류가 발생하였습니다. (<code>could not translate host name "db"</code>)</li>
+<li>DB 컨테이너 실행 전 마이그레이션 시도를 했더니 name resolution 실패 오류가 발생하였습니다.</li>
+</ul></li>
+<li>해결방안:
+<ul>
+<li>서비스 기동 순서를 고려하여 <code>docker-compose up</code> 후 마이그레이션을 실행하였습니다.</li>
+</ul></li>
+</ul>
+</section>
+<section id="컨테이너-이슈" class="level4">
+<h4 class="anchored" data-anchor-id="컨테이너-이슈">컨테이너 이슈</h4>
+<ul>
+<li>시행착오:
+<ul>
+<li>Flask 컨테이너 기동 직후 컨테이너가 <code>Exited</code> 상태가 되는 문제가 발생하였습니다.
+<ul>
+<li>문제의 원인은 <code>requirements.txt</code> 내 패키지 누락이었습니다.</li>
+</ul></li>
+<li>React 컨테이너가 <code>npm start</code> 직후 종료되거나 Flask에 요청 실패하는 경우 또한 발생하였습니다.
+<ul>
+<li>문제의 원인을 확인하니, <code>volumes</code>로 인해 <code>node_modules</code>가 덮여 npm 실행 실패한 것이었습니다.</li>
+<li>또한 React에서 Flask로의 프록시 요청이 내부 네트워크 도메인(<code>flask</code>)을 못 찾아내고 있었습니다.</li>
+</ul></li>
+</ul></li>
+<li>해결방안:
+<ul>
+<li><code>requirements.txt</code> 의존성을 명시 및 최신화하였습니다.</li>
+<li>logs를 활용하여 debugging한 후 문제상황을 확인하고자 하였습니다.</li>
+<li><code>.dockerignore</code>에 <code>node_modules</code> 명시하였습니다.</li>
+<li><code>package.json</code>에 proxy 설정 유지할 수 있도록 수정하였습니다. (<code>"proxy": "http://flask:5000"</code>)</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="배운-점-요약" class="level2">
+<h2 class="anchored" data-anchor-id="배운-점-요약">📌 배운 점 요약</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>시행착오</th>
+<th>교훈</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>저장 방식 고민</td>
+<td>확장성과 분석을 고려해 DB 도입 필요</td>
+</tr>
+<tr class="even">
+<td>컨테이너 종료 이슈</td>
+<td>logs 분석이 핵심 (<code>docker logs</code>)</td>
+</tr>
+<tr class="odd">
+<td>React 종료</td>
+<td>Docker volumes와 의존성 캐시 처리 중요</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="부록" class="level2">
+<h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
+<ul>
+<li>사용 코드: <a href="https://github.com/statrav/nova.git">GitHub Repository</a></li>
+<li>데모 영상: <a href="https://youtube.com/shorts/3KN_LhI-nnM?feature=share">YouTube Demo</a></li>
+</ul>
+<p><img src="https://statrav.github.io/ssupage/engineer/images/5_nova/demo.png" class="img-fluid"></p>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Python</category>
+  <category>React</category>
+  <category>Docker</category>
+  <category>PostgreSQL</category>
+  <category>LLM</category>
+  <category>Flask</category>
+  <category>Chat</category>
+  <guid>https://statrav.github.io/ssupage/engineer/posts/5_nova.html</guid>
+  <pubDate>Wed, 12 Mar 2025 15:00:00 GMT</pubDate>
+  <media:content url="https://statrav.github.io/ssupage/engineer/images/5_nova/main.png" medium="image" type="image/png" height="119" width="144"/>
+</item>
+<item>
+  <title>바다거북스프 추리게임</title>
   <dc:creator>Hyesu Hwang</dc:creator>
   <link>https://statrav.github.io/ssupage/engineer/posts/4_turtlesoup.html</link>
   <description><![CDATA[ 
@@ -131,14 +300,12 @@
 <section id="부록" class="level2">
 <h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
 <ul>
-<li>사용 코드: <a href="https://github.com/statrav/turtlesoup">github</a></li>
+<li>사용 코드: <a href="https://github.com/statrav/turtlesoup">GitHub Repository</a></li>
+<li>데모 영상: <a href="https://youtube.com/shorts/QMAcLYRxWgI?feature=share">YouTube Demo</a></li>
 </ul>
-<section id="시연" class="level4">
-<h4 class="anchored" data-anchor-id="시연">시연</h4>
-<p><a href="https://youtube.com/shorts/QMAcLYRxWgI?feature=share">데모 영상 링크</a> <img src="https://statrav.github.io/ssupage/engineer/images/4_turtlesoup/demo.png" class="img-fluid"></p>
+<p><img src="https://statrav.github.io/ssupage/engineer/images/4_turtlesoup/demo.png" class="img-fluid"></p>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -253,16 +420,12 @@
 <section id="부록" class="level2">
 <h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
 <ul>
-<li>사용 코드: <a href="">github</a></li>
+<li>사용 코드: <a href="https://github.com/eyevoice/eyevoice.git">GitHub Repository</a></li>
+<li>데모 영상: <a href="https://www.youtube.com/shorts/JHF1tnKubQU">YouTube Demo</a> <img src="https://statrav.github.io/ssupage/engineer/images/3_holos/demo.png" class="img-fluid"></li>
 </ul>
 <section id="파이프라인" class="level4">
 <h4 class="anchored" data-anchor-id="파이프라인">파이프라인</h4>
 <p><img src="https://statrav.github.io/ssupage/engineer/images/3_holos/FlowChart.png" class="img-fluid"> <img src="https://statrav.github.io/ssupage/engineer/images/3_holos/ServiceArchitecture.png" class="img-fluid"></p>
-</section>
-<section id="시연" class="level4">
-<h4 class="anchored" data-anchor-id="시연">시연</h4>
-<p><a href="https://www.youtube.com/shorts/JHF1tnKubQU">데모 영상 링크</a></p>
-<p><img src="https://statrav.github.io/ssupage/engineer/images/3_holos/demo.png" class="img-fluid"></p>
 
 
 </section>
@@ -388,7 +551,7 @@
 <section id="부록" class="level2">
 <h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
 <ul>
-<li>사용 코드: <a href="https://github.com/statrav/WAKEbot_surfer">github</a></li>
+<li>사용 코드: <a href="https://github.com/statrav/WAKEbot_surfer">GitHub Repository</a></li>
 </ul>
 <section id="파이프라인" class="level4">
 <h4 class="anchored" data-anchor-id="파이프라인">파이프라인</h4>
@@ -512,7 +675,7 @@
 <section id="부록" class="level2">
 <h2 class="anchored" data-anchor-id="부록">🧶 부록</h2>
 <ul>
-<li>사용 코드: <a href="https://github.com/statrav/DILAB_SESE_ScEneSEarch.git">github</a></li>
+<li>사용 코드: <a href="https://github.com/statrav/DILAB_SESE_ScEneSEarch.git">GitHub Repository</a></li>
 </ul>
 <section id="파이프라인" class="level4">
 <h4 class="anchored" data-anchor-id="파이프라인">파이프라인</h4>

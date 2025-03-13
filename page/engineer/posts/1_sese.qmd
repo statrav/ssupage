@@ -76,7 +76,7 @@ twitter-card:
 
 ## 🧶 부록
 
-- 사용 코드: [github](https://github.com/statrav/DILAB_SESE_ScEneSEarch.git)
+- 사용 코드: [GitHub Repository](https://github.com/statrav/DILAB_SESE_ScEneSEarch.git)
 
 #### 파이프라인
 

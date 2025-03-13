@@ -9,12 +9,9 @@
     ]
   },
   {
-    "listing": "/aso/index.html",
-    "items": []
-  },
-  {
     "listing": "/engineer/index.html",
     "items": [
+      "/engineer/posts/5_nova.html",
       "/engineer/posts/4_turtlesoup.html",
       "/engineer/posts/3_holos.html",
       "/engineer/posts/2_wakebot.html",
@@ -23,8 +20,13 @@
     ]
   },
   {
+    "listing": "/aso/index.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/engineer/posts/5_nova.html",
       "/engineer/posts/4_turtlesoup.html",
       "/engineer/posts/3_holos.html",
       "/engineer/posts/2_wakebot.html",

@@ -73,7 +73,7 @@ twitter-card:
 
 ## 🧶 부록
 
-- 사용 코드: [github](https://github.com/statrav/WAKEbot_surfer)
+- 사용 코드: [GitHub Repository](https://github.com/statrav/WAKEbot_surfer)
 
 #### 파이프라인
 

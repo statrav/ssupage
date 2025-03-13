@@ -71,16 +71,11 @@ twitter-card:
 
 ## 🧶 부록
 
-- 사용 코드: [github]()
+- 사용 코드: [GitHub Repository](https://github.com/eyevoice/eyevoice.git)
+- 데모 영상: [YouTube Demo](https://www.youtube.com/shorts/JHF1tnKubQU)
+![](../images/3_holos/demo.png)
 
 #### 파이프라인
 
 ![](../images/3_holos/FlowChart.png)
 ![](../images/3_holos/ServiceArchitecture.png)
-
-#### 시연
-
-[데모 영상 링크](https://www.youtube.com/shorts/JHF1tnKubQU)
-
-![](../images/3_holos/demo.png)
-
